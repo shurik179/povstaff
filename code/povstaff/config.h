@@ -14,14 +14,14 @@
 //physical configuration of the staff
 //number of pixels in each strip
 #define NUM_PIXELS 72
-#define NUM_STRIPS 2
+#define NUM_STRIPS 4
 //battery info
 #define VOLTAGE_MAX 4200 //maximal and minimal battery voltage, in mV
 #define VOLTAGE_MIN 3300
 
 //buffer for storing image data in memory
 #define BUF_SIZE 64000
-//update speed, in degrees per line of the image
+//update speed, in degrees per line of the image. The larger this number, the more stretched your images will look.
 #define DEG_PER_LINE 1.0f
 
 //for reading filelist of images to load
