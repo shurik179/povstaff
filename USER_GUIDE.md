@@ -75,9 +75,8 @@ do a USB flash drive, and unplug the cable.
 To help you figure out correct rotation and orientation of images, the pictures
 below show the same image in BMP file and how it will look when using the POV staff.
 
-![Image in BMP file](https://github.com/shurik179/povstaff/blob/main/image_infile.png?raw=true)
-
-![image in POV staff show](https://github.com/shurik179/povstaff/blob/main/image_onstaff.png?raw=true)
+<img src="https://github.com/shurik179/povstaff/blob/main/image_infile.png?raw=true" height="200"/>
+<img src="https://github.com/shurik179/povstaff/blob/main/image_onstaff.png?raw=true" height="200"/>
 
 
 ## Using the staff
