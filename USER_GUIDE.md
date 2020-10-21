@@ -51,6 +51,10 @@ POV image patterns is [Visual  POI Zone](https://visualpoi.zone/patterns/).
 When downloading images from there, make sure to choose *Visual poi V4 mini (72px)*
 option. You will also need to rotate images 90 degrees.
 
+Please note that the same color (i.e. the same RGB values) can look quite
+different on the screen of your computer and on LED strip. Experiment with
+colors to get some feel for it.
+
 Once you have uploaded the images, you need to create a list showing in which
 order these images should be played during the show. Create the file
 `imagelist.txt` in the root directory of the POV staff (or open the file if
@@ -75,11 +79,14 @@ After that the staff will go blank  waiting for you to start the show.
 
 To start the show, just start rotating the staff. As soon as rotation speed is
 high enough, the staff will begin showing your first image, one line at a time,
-and will continue doing that as long as you are twirling the staff.  
+and will continue doing that as long as you are twirling the staff. It will
+adjust the interval between successive lines depending on the rotation speed,
+to keep the image ratio close to original regardless of how fast you are
+rotating the staff.  
 
 To pause the show or move to the next image in the list, stop the staff
 **in horizontal position**. It will go blank; as soon as you start twirling it
-again, it will resume the show, moving to the next image. If you were on the
+again, it will resume the show, moving to the next image. After reaching the
 last image in the list, it will loop over, starting again with the first image.
 
 After you are done, do not forget to **turn the staff OFF**, to avoid draining

@@ -16,7 +16,7 @@
 #define NUM_PIXELS 72
 #define NUM_STRIPS 2
 //battery info
-#define VOLTAGE_MAX 4300 //maximal and minimal battery voltage, in mV
+#define VOLTAGE_MAX 4200 //maximal and minimal battery voltage, in mV
 #define VOLTAGE_MIN 3300
 
 //buffer for storing image data in memory

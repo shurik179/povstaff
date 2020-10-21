@@ -14,25 +14,46 @@
 class POVstaff {
     public:
         void begin();
-        uint16_t batteryVoltage();
-        void showVoltage();
+        void setPixel(uint16_t i, uint32_t c);
         void clear();
         void show();
-        void showLine(byte * line, uint16_t size);
+
+        /* quickly blink each 8th LED red, for "I am alive" indication */ 
         void blink();
+
+        /* returns supply voltage (higher of battery or USB) in mV */
+        uint16_t batteryVoltage();
+
+        /* Is the staff connected to USB power?         */
+        bool USBconnected() { return (batteryVoltage()>VOLTAGE_MAX+100); }
+
+        /* Shows battery voltage by lighting the LEDs on staff for 2 seconds */
+        void showVoltage();
+        
+        /* Shows one line. line should be pointer to array which holds  pixel colors, in BGR order.
+         *  size shoudl be size of array (number of pixels, not number of bytes)
+         */
+        void showLine(byte * line, uint16_t size);
+        
+        /* Set active image. The image must have been loaded to memory */        
         void setImage(BMPimage * image);
+        
+        /* Show next line of active image */
         void showNextLine();
+        
         uint32_t timeSinceUpdate();
-        void setPixel(uint16_t i, uint32_t c);
+        
         float rotationSpeed(); //returns total rotation speed, in (deg/s)
+        
         bool atRest();
+        
         float getCurrent(BMPimage image); //returns average current in mA
 
     private:
         BMPimage * currentImage=NULL;
         int16_t currentLine=-1;
         uint32_t lastUpdate=0; //time in microseconds
-        //sesnor objects
+        //sensor objects
         Adafruit_Sensor *accel, *gyro;
 
 

@@ -1,6 +1,14 @@
+/*
+ * This file is part of POV Staff project by Alexander Kirillov <shurik179@gmail.com>
+ * See github.com/shurik179/povstaff for details
+ * Distributed under the terms of MIT license; see LICENSE file in the repository for details. 
+ * 
+ * For overview of code and API, see README file in github.com/shurik179/povstaff/code
+ * 
+ */
+
+
 #include "staff.h"
-
-
 
 uint32_t lastCheck=0; //time in ms since last check of "staff at rest"
 float speed=0; //current rotation speed
@@ -30,12 +38,10 @@ void setup() {
 
     pinMode(LED_BUILTIN, OUTPUT);
     staff.begin();
-    //use staff to show the voltage
- 
-    
+     
     //set up mode - depending on whether we are connected to USB 
-    if (staff.batteryVoltage()<4400) {
-        //voltage is less than 4.7 V - which means we are not connected to USB 
+    if (!staff.USBconnected()) {
+        // we are not connected to USB 
         // then we do not have a choice
         mode=MODE_SHOW; 
     } else {
@@ -57,7 +63,7 @@ void setup() {
         Serial.print("JEDEC ID: "); Serial.println(flash.getJEDECID(), HEX);
         Serial.print("Flash size: "); Serial.println(flash.size());
     } else {
-        //we are runnig the show or debug  
+        //we are running the show or debug  
         staff.showVoltage();
         if (mode==MODE_DEBUG) {
             Serial.begin(9600);
@@ -115,7 +121,7 @@ void loop(){
             staff.showNextLine();
         }
         //finally, let us check if  we have been paused longer than 30 seconds; if so, let's remind the user about it
-        if ((millis()-timePaused>30000) && paused && (staff.batteryVoltage()<4400)) {
+        if ((millis()-timePaused>30000) && paused && (!staff.USBconnected())) {
             staff.blink();
             //reset paused time
             timePaused=millis();
