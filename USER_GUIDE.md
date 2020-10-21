@@ -72,6 +72,14 @@ choice. The name of your image list must be `imagelist.txt`, all lower case.
 Once you have saved the image list,  eject the POV staff as you would normally
 do a USB flash drive, and unplug the cable.
 
+To help you figure out correct rotation and orientation of images, the pictures
+below show the same image in BMP file and how it will look when using the POV staff.
+
+![Image in BMP file]()
+
+![image in POV staff show]()
+
+
 ## Using the staff
 Now we are finally ready to use the staff. Turn the switch  ON; keep the
 staff (more or less) stationary and  wait until it shows the voltage indicator.
