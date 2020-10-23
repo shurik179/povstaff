@@ -2,8 +2,8 @@
 #define STAFF_CONFIG_H
 
 /*
- *  This file contains various configuration  parameters  and defines
- */
+    This file contains various configuration  parameters  and defines
+*/
 
 
 // define various pins
@@ -22,12 +22,12 @@
 //buffer for storing image data in memory
 #define BUF_SIZE 64000
 //update speed, in degrees per line of the image. The larger this number, the more stretched your images will look.
-#define DEG_PER_LINE 1.0f
+#define DEG_PER_LINE 0.5f
 
 //for reading filelist of images to load
-#define MAX_LINE_LENGTH 20
+#define MAX_LINE_LENGTH 32
 #define MAX_FILES 50
-#define MAX_FILENAME 20
+#define MAX_FILENAME 31
 //some colors
 #define RED 0xFF0000
 #define GREEN 0x00FF00

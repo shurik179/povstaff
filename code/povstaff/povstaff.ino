@@ -32,11 +32,11 @@ BMPimage * currentImg;
 //indicates that the show must be paused
 bool paused;
 uint32_t timePaused=0; //when did we pause the show?
-bool blink=true;
 
 void setup() {
 
     pinMode(LED_BUILTIN, OUTPUT);
+    digitalWrite(LED_BUILTIN, HIGH);
     staff.begin();
      
     //set up mode - depending on whether we are connected to USB 
@@ -94,24 +94,28 @@ void loop(){
         delay(10);
     } else {
         if (millis()-lastCheck>250){
-            //first, blink the built-in led
-            digitalWrite(LED_BUILTIN, blink);
-            blink=!blink;
+            lastCheck=millis();
             //more than 0.25 sec since last check - let's update speed, using low-pass filter.
-            speed=0.7*speed+0.3*staff.rotationSpeed();
-            if ((speed<30) &&(staff.atRest()) && !paused)  {
+            speed=0.6*speed+0.4*staff.rotationSpeed();
+            if ((speed<50) &&(staff.atRest()) && !paused)  {
                 //staff is at rest - let's pause
                 staff.clear();
                 paused=true;
                 timePaused=millis();
                 //and pre-load next image from the list
-                currentImg->unload();
-                currentImg=imageList.next();
-                currentImg->load();
+                currentImg->unload();        //unload  from RAM 
+                currentImg=imageList.next(); //move to next image in list
+                currentImg->load();          //load to RAM
             } else if (paused && (speed>200)) {
                 //restart the show with new image
                 staff.setImage(currentImg);
                 paused=false;                
+            }
+            //finally, let us check if  we have been paused longer than 30 seconds; if so, let's remind the user about it
+            if ((millis()-timePaused>30000) && paused && (!staff.USBconnected())) {
+                staff.blink();
+                //reset paused time
+                timePaused=millis();
             }
         }
         //check if it is time to show new line
@@ -120,11 +124,6 @@ void loop(){
             if (mode==MODE_DEBUG) {delay(50);}
             staff.showNextLine();
         }
-        //finally, let us check if  we have been paused longer than 30 seconds; if so, let's remind the user about it
-        if ((millis()-timePaused>30000) && paused && (!staff.USBconnected())) {
-            staff.blink();
-            //reset paused time
-            timePaused=millis();
-        }
+
     }
 }
