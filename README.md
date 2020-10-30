@@ -1,6 +1,6 @@
 # POV staff
 This repository contains all files related to Persistence of Vision (POV) staff
-project. A detailed write-up of this project is available on Instructables at
+project. A detailed write-up of this project is available on  Instructables at
 [https://www.instructables.com/Persistence-of-Vision-LED-Staff/](https://www.instructables.com/Persistence-of-Vision-LED-Staff/);
 you can also find there photos  of the staff in action.
 
