@@ -18,12 +18,13 @@ void POVstaff::begin(){
         Serial.println("Error: filesystem doesn't not exist. Please try SdFat_format example to make one.");
         while(1) yield();
     }
+    //initialize the IMU, using I2C address 0x69 
     if (!_mpu.begin(0x69)) {
         Serial.begin(9600);
         Serial.println("Failed to find MPU6050 chip");
     }
-    //initialize IMU
     
+    //configure  IMU    
     _mpu.setAccelerometerRange(MPU6050_RANGE_4_G);
     _mpu.setGyroRange(MPU6050_RANGE_2000_DEG);
     _mpu.setFilterBandwidth(MPU6050_BAND_21_HZ);
