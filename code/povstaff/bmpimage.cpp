@@ -62,18 +62,22 @@ bool BMPimage::setFilename(char * fn) {
     _rowSize = (_width * 3 + 3) & ~3;
     //check image size - if it is too large, it will be unusable
     if (_rowSize*_height>BUF_SIZE) {
-            Serial.println(F("BMPimage load: file too lrage")); 
+            Serial.println(F("BMPimage load: file too lrage"));
         _valid=false;
         bmpFile.close();
         return false;
     }
-    
+
     //Serial.print("Row size: ");Serial.println(_rowSize);
     bmpFile.close();
     strcpy(filename,fn);
     return true;
 }
 
+
+void BMPimage::getFilename(char * fn){
+    strcpy(fn, filename);
+}
 
 bool BMPimage::load(){
     //now is the time to read actual data into buffer.
@@ -112,21 +116,6 @@ bool BMPimage::load(){
     return true;
 }
 
-bool BMPimage::loadPattern(){
-    int i, lineStart;
-    _height=NUM_PIXELS;
-    _width=NUM_PIXELS;
-    _rowSize=(_width * 3 + 3) & ~3;
-    for (i=0; i<BUF_SIZE; i++) {
-        _buffer[i]=0;
-    }
-    for (i = 0; i < _height; i++) {
-        lineStart=i*_rowSize;
-        _buffer[lineStart+3*i]=0xFF; // make  i-th pixel in i-th line blue
-        _buffer[lineStart+3*(_width-1-i)+1]=0xFF; //green for  (_width +1-i)th pixel
-    }
-    _loaded=true;
-}
 
 byte* BMPimage::line(uint16_t n){
     if (_loaded) {
@@ -164,6 +153,10 @@ BMPimage * BMPimageList::current(){
     if (_numImages==0) { return NULL; }
     return (&images[_currentIndex]);
 }
+uint16_t BMPimageList::currentDuration(){
+    if (_numImages==0) { return 0; }
+    return (durations[_currentIndex]);
+}
 BMPimage * BMPimageList::next(){
     if (_numImages==0) { return NULL; }
     _currentIndex++;
@@ -176,11 +169,12 @@ BMPimage * BMPimageList::first(){
     return (&images[_currentIndex]);
 }
 
-BMPimage * BMPimageList::addImage(char * filename){
+BMPimage * BMPimageList::addImage(char * filename, uint16_t duration){
     if (_numImages==MAX_FILES) {return NULL;}
     //otherwise, let's take the next image and init it
     if (images[_numImages].setFilename(filename)) {
         //successfully added image
+        durations[_numImages] = duration;
         _currentIndex=_numImages;
         _numImages++;
         return (&images[_currentIndex]);
@@ -194,9 +188,13 @@ int BMPimageList::addFromFile(char * fn){
     File f;
     //for storing filename
     char filenames[MAX_FILES][MAX_FILENAME];
+    uint16_t dur[MAX_FILES];
     int numRead=0;
     int numAdded=0;
-    char fname[MAX_FILENAME];
+    char line[MAX_LINE_LENGTH+1];
+    char * fname;
+    char * duration_ptr;
+    int16_t duration;
     int i;
     if ((f = fatfs.open(fn)) == NULL) {
         //failed to open file
@@ -205,15 +203,27 @@ int BMPimageList::addFromFile(char * fn){
     }
     //file fn successufully opened
     //let's read its contents in array filenames
-    while ( (numRead<MAX_FILES)&& (readLine(f, fname)) ) {
-        //Serial.print("Read line "); Serial.println(fname);
-        strcpy(filenames[numRead], fname);
-        numRead++;
+    while ( (numRead<MAX_FILES) && (readLine(f, line)) ) {
+        //Serial.print("Read line "); Serial.println(line);
+        //line read; now let us split it into tokens
+        fname = strtok(line," \r\t");
+        duration_ptr = strtok(NULL, " \r\t");
+        if (fname!=NULL) {
+            strcpy(filenames[numRead], fname);
+            if (duration_ptr == NULL) {
+                duration=0;
+            } else {
+                duration = atoi(duration_ptr);
+            }
+            //Serial.println(duration);
+            dur[numRead]=duration;
+            numRead++;
+        }
     }
     f.close();
     //now that we got array of filenames, let us create bmpfile for each of them
     for (i=0; i<numRead; i++){
-        if (addImage(filenames[i]) != NULL) {
+        if (addImage(filenames[i], dur[i]) != NULL) {
             numAdded++;
         };
     }
@@ -225,6 +235,7 @@ void BMPimageList::print(){
     Serial.println(_numImages);
     for (int i=0; i<_numImages; i++){
         Serial.print(images[i].filename); Serial.print(": ");
-        Serial.print(images[i]._width); Serial.print("x"); Serial.println(images[i]._height);
+        Serial.print(images[i]._width); Serial.print("x"); Serial.print(images[i]._height);
+        Serial.print(";  duration: "); Serial.println(durations[i]);
     }
 }

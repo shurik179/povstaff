@@ -36,6 +36,7 @@ class BMPimage {
         byte * line(uint16_t n);
         uint32_t pixelColor(uint16_t x,uint16_t  y);
         bool setFilename(char* fn);
+        void getFilename(char* fn);
     private:
         char filename[MAX_FILENAME]="";
         int _width=0;
@@ -53,12 +54,14 @@ class BMPimageList {
         uint16_t count()     {return _numImages;}
         /* pointer to current image in list. If list is empty, returns NULL */
         BMPimage * current();
+        /* duration for current image, in seconds */
+         uint16_t currentDuration();
         /* moves pointer to next image in the list and returns the pointer.
            If list is empty, returns NULL
            If we are at last image, goes back to  the first one
         */
         BMPimage * next();
-        /* sets poitner to the first image in list and returns it.
+        /* sets pointer to the first image in list and returns it.
            If list is empty, returns NULL */
         BMPimage * first();
         /* adds another image to the end of the list and ititialzes it; sets pointer to it
@@ -66,7 +69,7 @@ class BMPimageList {
          * If addition failed for any reason (exceed max length of list, wrong filename,
          * wrong file format), returns NULL
          */
-        BMPimage *  addImage(char * filename);
+        BMPimage *  addImage(char * filename, uint16_t duration=0);
         /*
          * Reads filenames from a text file fn and adds them to the list.
          * The file must have one filename per line
@@ -75,13 +78,13 @@ class BMPimageList {
          */
         int addFromFile(char * fn);
         /*
-         * For debugging purposes, prints
-         *
+         * For debugging purposes, prints info
          */
          void print();
 
     private:
         BMPimage images[MAX_FILES];
+        uint16_t durations[MAX_FILES];
         uint16_t _currentIndex=0;
         uint16_t _numImages=0;
 };
