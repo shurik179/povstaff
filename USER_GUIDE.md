@@ -43,10 +43,10 @@ Technical requirements for images:
 * Maximal image size is 72x288 pixels. It is recommended to use images with
   width of 72 pixels - to match the number of LEDs on the staff
 
-* Image names must be at most 30 symbols long and can only contain letters,
+* Image filenames must be at most 30 symbols long and can only contain letters,
   numbers, dashes and underscores. No spaces or special symbols!
 
-You can create your own images or search for existing ones. A good source for
+You can create your own images or search for existing ones.  A good source for
 POV image patterns is [Visual  POI Zone](https://visualpoi.zone/patterns/).
 When downloading images from there, make sure to choose *Visual poi V4 mini (72px)*
 option. You will also need to rotate images 90 degrees.
@@ -59,11 +59,13 @@ Once you have uploaded the images, you need to create a list showing in which
 order these images should be played during the show. Create the file
 `imagelist.txt` in the root directory of the POV staff (or open the file if
 it already exists) and put there the list of image files in the order you want
-to use them in your show, one filename per line, e.g.
+to use them in your show, one filename per line, including `.bmp` extension.
+Optionally, you can also add how long the image should be shown, in seconds
+(whole numbers only!), separated from  filename by whitespace
 ```
-image1.bmp
-image2.bmp
-image5.bmp
+image1.bmp 20
+image2.bmp 41
+image5.bmp 10
 image1.bmp
 ```
 You can include some image file more than once, or not at all - it is your
@@ -78,6 +80,11 @@ below show the same image in BMP file and how it will look when using the POV st
 <img src="https://github.com/shurik179/povstaff/blob/main/image_infile.png?raw=true" height="200"/><img src="https://github.com/shurik179/povstaff/blob/main/image_onstaff.png?raw=true" height="200"/>
 
 
+Directory `images` in the (github repository)[https://github.com/shurik179/povstaff]
+contains some sample images and `imagelist.txt` file; to get started, you can
+just copy the contents  of that directory to root directory of your staff. 
+
+
 ## Using the staff
 Now we are finally ready to use the staff. Turn the switch  ON; keep the
 staff (more or less) stationary and  wait until it shows the voltage indicator.
@@ -89,6 +96,11 @@ and will continue doing that as long as you are twirling the staff. It will
 adjust the interval between successive lines depending on the rotation speed,
 to keep the image ratio close to original regardless of how fast you are
 rotating the staff.  
+
+The staff will continue showing the image for the duration given in
+`imagelist.txt` file or until you pause the staff as described below, whatever
+comes first. If duration for a given image was not provided, the staff will
+continue showing this image until you pause.
 
 To pause the show or move to the next image in the list, stop the staff
 **in horizontal position**. It will go blank; as soon as you start twirling it

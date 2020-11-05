@@ -13,6 +13,7 @@ This repository is organized as follows:
 * `code`: this directory contains the software for the staff
 * `hardware`: this directory contains design files for the custom PCBs used in
   the project, as well as STEP files for the 3d printed components.
+* `images`: sample image(s) and  `imagelist.txt` file 
 
 ## Authors and license
 This project was created by Alexander Kirillov <shurik179@gmail.com>; it is
