@@ -18,13 +18,13 @@ void POVstaff::begin(){
         Serial.println("Error: filesystem doesn't not exist. Please try SdFat_format example to make one.");
         while(1) yield();
     }
-    //initialize the IMU, using I2C address 0x69 
+    //initialize the IMU, using I2C address 0x69
     if (!_mpu.begin(0x69)) {
         Serial.begin(9600);
         Serial.println("Failed to find MPU6050 chip");
     }
-    
-    //configure  IMU    
+
+    //configure  IMU
     _mpu.setAccelerometerRange(MPU6050_RANGE_4_G);
     _mpu.setGyroRange(MPU6050_RANGE_2000_DEG);
     _mpu.setFilterBandwidth(MPU6050_BAND_21_HZ);
@@ -35,9 +35,9 @@ void POVstaff::begin(){
 }
 
 uint16_t POVstaff::batteryVoltage(){
-    //because of voltage divider, 3.6v=3600mV corresponds to read value of  1023/2=512
+    //because of voltage divider, VREF corresponds to read value of  1023/2=512
     //since battery is connected to VHI through a diode, we need to add back 100mV lost on the diode.
-    return ((analogRead(PIN_VSENSE)*3600L)/512  + 100) ;
+    return ((analogRead(PIN_VSENSE)*VREF)/512  + 100) ;
 }
 
 void POVstaff::showVoltage(){

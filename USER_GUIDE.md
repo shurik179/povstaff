@@ -61,7 +61,7 @@ order these images should be played during the show. Create the file
 it already exists) and put there the list of image files in the order you want
 to use them in your show, one filename per line, including `.bmp` extension.
 Optionally, you can also add how long the image should be shown, in seconds
-(whole numbers only!), separated from  filename by whitespace
+(whole numbers only!), separated from  filename by one or more spaces 
 ```
 image1.bmp 20
 image2.bmp 41
@@ -82,7 +82,7 @@ below show the same image in BMP file and how it will look when using the POV st
 
 Directory `images` in the (github repository)[https://github.com/shurik179/povstaff]
 contains some sample images and `imagelist.txt` file; to get started, you can
-just copy the contents  of that directory to root directory of your staff. 
+just copy the contents  of that directory to root directory of your staff.
 
 
 ## Using the staff

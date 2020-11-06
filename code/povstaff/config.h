@@ -19,6 +19,16 @@
 #define VOLTAGE_MAX 4200 //maximal and minimal battery voltage, in mV
 #define VOLTAGE_MIN 3300
 
+//reference voltage for ADC, in mV
+//nRF52840 ItsyBitsy uses internal reference voltage of 0.6*6=3.6 v
+//ItsyBitsy M4 uses 3.3v
+#ifdef ARDUINO_NRF52_ITSYBITSY
+#define VREF 3600L
+#else
+#define VREF 3300L
+#endif
+
+
 //buffer for storing image data in memory
 #define BUF_SIZE 64000
 //update speed, in degrees per line of the image. The larger this number, the more stretched your images will look.

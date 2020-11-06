@@ -10,10 +10,12 @@ in this directory; see file USER_GUIDE.md and USER_GUIDE.pdf for PDF version.
 ## Structure of this repository  
 This repository is organized as follows:
 
-* `code`: this directory contains the software for the staff
-* `hardware`: this directory contains design files for the custom PCBs used in
+* `code`: this directory contains the source code for the staff software
+* `binaries`: pre-complied binaries
+* `hardware`:  design files for the custom PCBs used in
   the project, as well as STEP files for the 3d printed components.
 * `images`: sample image(s) and  `imagelist.txt` file
+
 
 ## Authors and license
 This project was created by Alexander Kirillov <shurik179@gmail.com>; it is
