@@ -1,7 +1,9 @@
 # POV Staff User Guide
+## by Alexander Kirillov
 This document describes the use of the POV staff. It assumes you have already
-fully assembled it and uploaded the software to it as described in the
-instructables guide.
+fully assembled it and uploaded the software. For more information, please
+check the description of the project on instructables.com:
+https://www.instructables.com/Persistence-of-Vision-LED-Staff/
 
 ## Turning on/off
 To turn the staff on and off, use the switch at one end of the staff. As soon
@@ -61,7 +63,7 @@ order these images should be played during the show. Create the file
 it already exists) and put there the list of image files in the order you want
 to use them in your show, one filename per line, including `.bmp` extension.
 Optionally, you can also add how long the image should be shown, in seconds
-(whole numbers only!), separated from  filename by one or more spaces 
+(whole numbers only!), separated from  filename by one or more spaces
 ```
 image1.bmp 20
 image2.bmp 41
