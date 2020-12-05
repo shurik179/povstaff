@@ -1,5 +1,7 @@
 # POV Staff User Guide
 ## by Alexander Kirillov
+
+<img src="https://github.com/shurik179/povstaff/blob/main_photo.jpg?raw=true" height="300" style="float:right;"/>
 This document describes the use of the POV staff. It assumes you have already
 fully assembled it and uploaded the software. For more information, please
 check the description of the project on instructables.com:
