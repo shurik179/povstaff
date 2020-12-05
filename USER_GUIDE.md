@@ -7,6 +7,9 @@ fully assembled it and uploaded the software. For more information, please
 check the description of the project on instructables.com:
 https://www.instructables.com/Persistence-of-Vision-LED-Staff/
 
+The latest version of this document can always be found on the project github page:
+https://github.com/shurik179/povstaff
+
 ## Turning on/off
 To turn the staff on and off, use the switch at one end of the staff. As soon
 as you have turned it on, it will show the battery voltage, by lighting part
