@@ -5,6 +5,13 @@
     This file contains various configuration  parameters  and defines
 */
 
+// control the dotstar on the board
+// There is only one pixel on the board
+#define BOARD_PIXEL 1 
+
+//Use these pin definitions for the ItsyBitsy M4
+#define BOARD_PIN_DATA    8
+#define BOARD_PIN_CLOCK   6
 
 // define various pins
 #define PIN_VSENSE A1

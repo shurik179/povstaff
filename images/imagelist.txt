@@ -1,2 +1,4 @@
-rg-lines.bmp 15
-
+fire-flames-blue.bmp 15
+fire-flames-blue-plazma.bmp 15
+fire-flames-real.bmp 15
+fire-real.bmp 15
