@@ -58,6 +58,8 @@ void setup() {
         Serial.print("Flash size: "); Serial.println(flash.size());
     } else {
         //we are running the show or debug
+        digitalWrite(LED_BUILTIN, LOW);
+        staff.boardLED();
         staff.showVoltage();
         if (mode==MODE_DEBUG) {
             Serial.begin(9600);

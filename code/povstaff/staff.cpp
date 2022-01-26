@@ -34,6 +34,13 @@ void POVstaff::begin(){
     //Serial.println("POVstaff initilaized");
 }
 
+void POVstaff::boardLED(){
+    //turn the board led off
+    board_pixel.begin(); // Initialize pins for output
+    board_pixel.setBrightness(0);
+    board_pixel.show();
+}
+
 uint16_t POVstaff::batteryVoltage(){
     //because of voltage divider, VREF corresponds to read value of  1023/2=512
     //since battery is connected to VHI through a diode, we need to add back 100mV lost on the diode.
@@ -191,5 +198,9 @@ Adafruit_DotStar _pixels=Adafruit_DotStar(NUM_PIXELS, PIN_DATA, PIN_CLOCK,DOTSTA
 #else
 Adafruit_DotStar _pixels=Adafruit_DotStar(NUM_PIXELS, DOTSTAR_BGR);
 #endif
+
+//define the board pixel
+Adafruit_DotStar board_pixel=Adafruit_DotStar(BOARD_PIXEL, BOARD_PIN_DATA, BOARD_PIN_CLOCK, DOTSTAR_BRG);
+
 POVstaff staff;
 Adafruit_MPU6050 _mpu;

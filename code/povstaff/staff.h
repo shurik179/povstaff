@@ -18,6 +18,9 @@ class POVstaff {
         void clear();
         void show();
 
+        /* disables to dotstar on the board */
+        void boardLED();
+
         /* quickly blink each 8th LED red, for "I am alive" indication */ 
         void blink();
 
@@ -59,6 +62,7 @@ class POVstaff {
 
 };
 extern Adafruit_DotStar _pixels;
+extern Adafruit_DotStar board_pixel;
 extern POVstaff staff;
 extern Adafruit_MPU6050 _mpu;
 
