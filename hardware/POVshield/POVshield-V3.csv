@@ -1,0 +1,15 @@
+Component,Designator,Part Name,Description,Manufacturer,Part Number,Comment,Footprint,Quantity,LCSC
+1,"C1, C7, ",C_Small,"Capacitor, 10uF, 0805",,,10uF,805,2,C15850
+2,"C2, ",C_Polarized_Small_US,"Polarized capacitor, 100uF",,,100uF,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,1,C43804
+3,"C3, ",C_Small,"Capacitor, 10nF, 0603",,,10nF,603,1,C57112
+4,"C4, C5, ",C_Small,"Capacitor, 100nF, 0603",,,100nF,603,2,C14663
+5,"C6, ",C_Small,"Capacitor, 2.2nF, 0603",,,2.2nF,603,1,C1604
+6,"D1, ",LED,"LED, 0603",,,LED,603,1,C72038
+7,"J1, J2, ",Conn_01x14,"Female header, 2.54mm pitch, 14 pos",,,Conn_01x14,Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical,2,
+8,"J3, ",Conn_01x05,"JST XH connector, 5 pos",,,Conn_01x05,Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical,1,
+9,"R1, ",R_Small,"Resistor, 1.2k, 0603",,,1.2k,603,1,C22765
+10,"R3, ",R_Small,"Resistor, 2k, 0603",,,2k,603,1,C22975
+11,"R4, R5, ",R_Small,"Resistor, 3.3k, 0603",,,3.3k,603,2,C22978
+12,"R6, R7, ",R_Small,"Resistor, 10k, 0603",,,10k,603,2,C25804
+13,"U1, ",TP4056,"1A, Single-Input, SingleCell Li-Ion and Li-Pol BatteryCharger, SO-8",,,TP4056,Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias,1,C16581
+14,"U2, ",MPU-6050,"InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C",TDK Invensense,,MPU-6050,Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm,1,C24112
