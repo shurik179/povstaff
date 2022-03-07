@@ -7,9 +7,14 @@ you can also find there photos  of the staff in action.
 A guide for using the assembled staff and uploading images to it is available
 in this directory; see file USER_GUIDE.md and USER_GUIDE.pdf for PDF version.
 
+**Warning**: if you are building the staff as described in the instructables guide,
+please use  [Release 1.0](https://github.com/shurik179/povstaff/releases/tag/v1.0).
+Do not use latest  - this is work in progress and is not yet ready for public use.
+
 ## Structure of this repository  
 This repository is organized as follows:
 
+* `docs`: documentation 
 * `code`: this directory contains the source code for the staff software
 * `binaries`: pre-complied binaries
 * `hardware`:  design files for the custom PCBs used in
