@@ -9,6 +9,7 @@ Please follow the steps below to build your staff.
 .. toctree::
     :caption: Table of Contents
     :maxdepth: 1
+    
     build-materials
     build-overview
     build-controller
@@ -17,4 +18,4 @@ Please follow the steps below to build your staff.
     build-dowel
     build-leds
     build-switch
-    build-programming 
+    build-programming
