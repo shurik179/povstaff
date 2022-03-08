@@ -1,4 +1,4 @@
-LED assemblies
+Step 6: LED assemblies
 ==============
 
 Materials and tools:
@@ -11,13 +11,15 @@ Materials and tools:
 
 * Soldering iron
 
+Steps:
+
 1. Get the LED strip(s). If they are inside waterproof sheaving, remove and
-    discard the sheaving. If they have any wires soldered, de-solder them; remove
-    excess solder using a braid wick. If you ordered 1m or 2m strips, cut them into
-    50 cm pieces, making sure to leave as large as possible soldering pads in the
-    beginning of each strip (this should be easy, as usually longer strips are
-    created by soldering together 50cm ones, so you will be just undoing someone
-    else's work).
+   discard the sheaving. If they have any wires soldered, de-solder them; remove
+   excess solder using a braid wick. If you ordered 1m or 2m strips, cut them into
+   50 cm pieces, making sure to leave as large as possible soldering pads in the
+   beginning of each strip (this should be easy, as usually longer strips are
+   created by soldering together 50cm ones, so you will be just undoing someone
+   else's work).
 
 2. Tin the pads in the beginning of each LED strip.
 
@@ -51,4 +53,4 @@ Materials and tools:
 
 
 **Note**: the adhesive on LED strips is not very strong, so your strips might
-start peeling off. It is OK; we will make a more permanent attachment later.       
+start peeling off. It is OK; we will make a more permanent attachment later.
