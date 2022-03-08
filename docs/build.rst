@@ -17,5 +17,4 @@ Please follow the steps below to build your staff.
     build-dowel
     build-leds
     build-switch
-    build-
-    usage
+    build-programming 
