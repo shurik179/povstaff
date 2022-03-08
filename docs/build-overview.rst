@@ -1,5 +1,5 @@
-Overview
-=========
+Build overview
+==============
 The staff consists of the following subassemblies:
 
 * battery assembly, containing two batteries, wiring, and spacers. This
@@ -18,4 +18,4 @@ The staff consists of the following subassemblies:
 
 All of the above are inserted into the polycarbonate tube and protected by PVC
 caps from both ends. The middle of the tube is wrapped in tennis racket  grip tape to
-provide secure grip.   
+provide secure grip.
