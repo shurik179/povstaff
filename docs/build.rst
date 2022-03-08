@@ -3,13 +3,13 @@
 Build guide
 **************************
 
-
+Please follow the steps below to build your staff.
 
 
 .. toctree::
     :caption: Table of Contents
     :maxdepth: 1
-    build-materials 
+    build-materials
     build-overview
     build-controller
     build-battery1
