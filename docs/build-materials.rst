@@ -13,18 +13,18 @@ You will need the following materials:
    Adafruit strips come with waterproof sheathing which you can just remove and
    discard.
 
-*  Two 18650 Li-Ion batteries. Look for high-capacity (at least 3000mAh),
-   protected batteries from a reputable manufacturer such as Panasonic, Samsung,
+*  Two **18650 Li-Ion batteries**. Look for high-capacity (at least 3000mAh),
+   **protected** batteries from a reputable manufacturer such as Panasonic, Samsung,
    or Sanyo. Do not try to save money by buying no-name battery on eBay or Amazon;
    instead, use a specialized  store such as 18650batterystore.com
 
 *  `Polycarbonate tube, 11F(55in/141cm) <https://flowtoys.com/long-tubes-5f-to-13f>`__,
    1 inch outer diameter, from flowtoys.com
 
-*  1/2 inch (or 12 mm) square wood dowel, from HomeDepot or any other hardware
+*  1/2 inch (or 12 mm) square **wood dowel**, from HomeDepot or any other hardware
    store. You need two  pieces, each at least 52 cm (about 21")
 
-*  Adafruit `ItsyBitsy M4<>`__ or ItsyBitsy `nRF52840 <>`__ microcontroller.
+*  Adafruit `ItsyBitsy M4<https://www.adafruit.com/product/3800>`__ or ItsyBitsy `nRF52840 <https://www.adafruit.com/product/4481>`__ microcontroller.
    The nRF52840 is slightly more expensive, but it comes with Bluetooth, which
    opens many additional possibilities. However, current version of my code
    doesn't use Bluetooth - this is planned for future upgrades. Do not use
