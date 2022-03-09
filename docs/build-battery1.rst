@@ -1,4 +1,4 @@
-Step 1: Battery assembly 1
+Step 1: Battery assembly
 ==========================
 **Warning**: In this step, you will be soldering leads to Li-Ion batteries.
 This could be dangerous if not done right! Please read all instructions

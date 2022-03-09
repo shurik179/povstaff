@@ -1,9 +1,9 @@
-Step 6: LED assemblies
+Step 3: LED assemblies
 ==============
 
 Materials and tools:
 
-* Wood dowels (from step 5)
+* Wood dowels (from step 2)
 
 * LED strips
 
@@ -48,8 +48,16 @@ Steps:
     attach the strip to the wood dowel, aligning it so that the
     end of the strip is exactly 1 cm away from the power distribution board.
 
-5. Solder the wires to the power distribution board. Trim them using flash cutters.
+5. Solder the wires to the power distribution board. Trim them using flush cutters.
    Repeat the previous steps for all 4 LED strips.
+
+.. figure:: images/led-3.jpg
+  :alt: Soldering wire to LED strip
+  :width: 80%
+
+  .. figure:: images/led-4.jpg
+    :alt: Soldering wire to LED strip
+    :width: 80%
 
 
 **Note**: the adhesive on LED strips is not very strong, so your strips might
