@@ -1,4 +1,4 @@
-Step 2: Dowels
+Step 5: Dowels
 ==============
 
 1. Take the two  1/2" square wood dowels. Cut each of them to 52cm length; try to

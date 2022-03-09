@@ -24,7 +24,7 @@ You will need the following materials:
 *  1/2 inch (or 12 mm) square **wood dowel**, from HomeDepot or any other hardware
    store. You need two  pieces, each at least 52 cm (about 21")
 
-*  Adafruit `ItsyBitsy M4<https://www.adafruit.com/product/3800>`__ or ItsyBitsy `nRF52840 <https://www.adafruit.com/product/4481>`__ microcontroller.
+*  Adafruit `ItsyBitsy M4 <https://www.adafruit.com/product/3800>`__ or ItsyBitsy `nRF52840 <https://www.adafruit.com/product/4481>`__ microcontroller.
    The nRF52840 is slightly more expensive, but it comes with Bluetooth, which
    opens many additional possibilities. However, current version of my code
    doesn't use Bluetooth - this is planned for future upgrades. Do not use
@@ -32,10 +32,24 @@ You will need the following materials:
 
 Tools
 -----
-You will need the usual tools and supplies: wire strippers, flush cutters,
-scissors, decent soldering iron,  electric tape, heat gun for
-shrinking the shrink wrap, sharp model knife or utility knife. Needless to say,
-you will also need a computer to program the microcontroller and a USB charger
+You will need the usual tools and supplies:
+
+* wire strippers
+
+* flush cutters,
+
+* scissors
+
+* decent soldering iron, solder, and flux
+
+* electric tape,
+
+* heat gun (for shrinking the shrink wrap)
+
+* sharp model knife or utility knife.
+
+
+Needless to say, you will also need a computer to program the microcontroller and a USB charger
 (with microUSB cable) to charge the batteries.
 
 In addition, you will need black spray paint for painting the wood dowels and

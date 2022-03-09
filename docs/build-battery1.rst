@@ -26,12 +26,38 @@ Materials and tools used:
    :alt: Battery
    :width: 80%
 
+.. figure:: images/battery-2.jpg
+   :alt: Battery
+   :width: 80%
+
 2. Turn the batteries over, with the positive terminal up. Use voltmeter to
    check the voltage difference between the positive terminals of the two batteries.
    If it is more than 0.1V, find a low ommage resistor (1 Ohm or about);  press and hold
    it against the two positive terminals, to equalize the voltage.
 
+3. Take the red wire harness from the kit of parts and solder the two red leads
+   to positive terminals of the batteries. Make sure the direction they are
+   pointing is same as direction the black leads on the negative terminal.
 
-.. figure:: images/battery-2.jpg
+.. figure:: images/battery-3.jpg
+   :alt: Battery
+   :width: 80%
+
+4. Arrange the two batteries in line, placing the spacer between. (Use the
+   spacer with partly covered top and bottom). Carefully straighten the wires
+   along the surface of the batteries, making sure they do not cross. Use electric
+   tape to hold them. Make sure that the bullet point connectors reach  at least
+   3.5cm beyond the end of the battery on each side.
+
+.. figure:: images/battery-5.jpg
+   :alt: Battery
+   :width: 80%
+
+5. Take the piece of the large diameter shrink wrap and put it over the middle
+   section of battery assembly. Push the batteries and spacer tightly together,
+   being careful not to pinch any wires. Use the heat gun at low temperature
+   setting  to shrink the wrap.
+
+.. figure:: images/battery-6.jpg
    :alt: Battery
    :width: 80%
