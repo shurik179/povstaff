@@ -27,3 +27,22 @@ Materials:
 .. figure:: images/switch-2.jpg
    :alt: Switch
    :width: 80%
+
+3. Use zipties  to fasten the LED strips and the wiring to the dowel.
+   The zipties should fit in the spaces between LEDs. The head of the
+   zipties should be in the middle of the empty side of the dowel (without LEDs
+   or wiring) - not at the corner! Place zipties every 7-8 cm or so.
+   Tighten them (but not too tight, to prevent them from breaking) and trim.
+
+
+.. figure:: images/switch-3.jpg
+   :alt: Switch
+   :width: 80%
+
+.. figure:: images/zipties-1.jpg
+   :alt: Switch
+   :width: 80%
+
+.. figure:: images/zipties-2.jpg
+   :alt: Switch
+   :width: 80%
