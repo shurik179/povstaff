@@ -30,44 +30,54 @@ Materials and tools used:
 2.  Solder the wires from the opposite side. Use flush cutters to trim
     protruding wires, **leaving about 2mm**.
 
-
    .. figure:: images/battery2.jpg
       :alt: Soldering PDB
       :width: 70%
 
 
+3. Repeat steps 1, 2 with the opposite end of the wire harness and the second PDB.
 
-1. Solder the two wire leads from the black battery wire harness to negative (-)
+
+
+4. Solder the two wire leads from the  wire harness to negative (-)
    terminal of each battery. Follow instructions on `this page <https://oscarliang.com/solder-li-ion-battery-18650/>`__
    for soldering. Tip: an easy way to keep the battery vertical while soldering
    is by using the clamp as shown in the photo below.
 
-.. figure:: images/battery-1.jpg
-   :alt: Battery
-   :width: 80%
+   .. figure:: images/battery3.jpg
+      :alt: Battery
+      :width: 70%
 
-.. figure:: images/battery-2.jpg
-   :alt: Battery
-   :width: 80%
+   .. figure:: images/battery4.jpg
+      :alt: Battery
+      :width: 70%
 
-2. Turn the batteries over, with the positive terminal up. Use voltmeter to
+5. Find the second battery wire harness with switch leads (it uses red wire).
+   Insert it through both pieces of shrink wrap.
+
+
+6. Turn the batteries over, with the positive terminal up. Use voltmeter to
    check the voltage difference between the positive terminals of the two batteries.
    If it is more than 0.1V, find a low ommage resistor (1 Ohm or about);  press and hold
    it against the two positive terminals, to equalize the voltage.
 
-3. Take the red wire harness from the kit of parts and solder the two red leads
+7. Solder the two red leads
    to positive terminals of the batteries. Make sure the direction they are
-   pointing is same as direction the black leads on the negative terminal.
+   pointing is same as the direction of the black leads on the negative terminal.
 
 .. figure:: images/battery-3.jpg
    :alt: Battery
    :width: 80%
 
-4. Arrange the two batteries in line, placing the spacer between. (Use the
-   spacer with partly covered top and bottom). Carefully straighten the wires
+8. Arrange the two batteries in line, placing the spacer between them. (Use the
+   spacer with partly covered top and bottom). If you used unprotected batteries,
+   cut out an 18mm diameter circle form the EVA foam included in kit of parts,
+   and insert it between one of the batteries and the spacer to compensate for
+   difference in length between unprotected and protected batteries.
+   Carefully straighten the wires
    along the surface of the batteries, making sure they do not cross. Use electric
-   tape to hold them. Make sure that the bullet point connectors reach  at least
-   3.5cm beyond the end of the battery on each side.
+   tape to hold them. Make sure that the distance between each PDB and the
+   battery allows you to insert the remaining spacers.
 
 .. figure:: images/battery-5.jpg
    :alt: Battery
