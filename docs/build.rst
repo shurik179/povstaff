@@ -11,6 +11,7 @@ Please follow the steps below to build your staff.
     :maxdepth: 1
 
     build-materials
+    build-kit 
     build-overview
     build-battery1
     build-dowel
