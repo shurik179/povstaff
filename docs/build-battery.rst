@@ -65,9 +65,9 @@ Materials and tools used:
    to positive terminals of the batteries. Make sure the direction they are
    pointing is same as the direction of the black leads on the negative terminal.
 
-.. figure:: images/battery-3.jpg
-   :alt: Battery
-   :width: 80%
+   .. figure:: images/battery-3.jpg
+      :alt: Battery
+      :width: 60%
 
 8. Arrange the two batteries in line, placing the spacer between them. (Use the
    spacer with partly covered top and bottom). If you used unprotected batteries,
@@ -79,15 +79,15 @@ Materials and tools used:
    tape to hold them. Make sure that the distance between each PDB and the
    battery allows you to insert the remaining spacers.
 
-.. figure:: images/battery-5.jpg
-   :alt: Battery
-   :width: 80%
+   .. figure:: images/battery-5.jpg
+      :alt: Battery
+      :width: 80%
 
-5. Take the piece of the large diameter shrink wrap and put it over the middle
+9. Take the piece of the large diameter shrink wrap and put it over the middle
    section of battery assembly. Push the batteries and spacer tightly together,
    being careful not to pinch any wires. Use the heat gun at low temperature
    setting  to shrink the wrap.
 
-.. figure:: images/battery-6.jpg
-   :alt: Battery
-   :width: 80%
+   .. figure:: images/battery-6.jpg
+      :alt: Battery
+      :width: 80%
