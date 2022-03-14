@@ -8,13 +8,33 @@ Materials and tools used:
 
 * Two 18650 Li-Ion batteries
 
-* Battery  wire harnesses (from kit of parts)
+* Two battery  wire harnesses
 
 * Spacers
 
-* Large diameter shrink wrap
+* Shrink wrap (from kit of parts)
 
 * Soldering Iron, solder, flux
+
+1. Find the first battery wire harness (28cm, 4 wire). Put one piece of the
+   8mm diameter shrink wrap on one end of the harness (note: **do not** shrink
+   it). Now, insert the 4 tinned ends of the wire harness into the holes of the
+   PDB as shown  below. You must be inserting from the side with label **PDB-A**
+   (or **PDB-B**). The wire with white stripe should go into the hole next to +
+   sign as shown in the photo below.
+
+   .. figure:: images/battery1.jpg
+      :alt: Soldering PDB
+      :width: 70%
+
+    Solder the wires from the opposite side. Use flush cutters to trim
+    protruding wires, **leaving about 2mm**.
+
+
+   .. figure:: images/battery2.jpg
+      :alt: Soldering PDB
+      :width: 70%
+
 
 
 1. Solder the two wire leads from the black battery wire harness to negative (-)

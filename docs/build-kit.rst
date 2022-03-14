@@ -23,20 +23,20 @@ Below is listing of parts included in kit of parts:
 
 
     .. figure:: images/kit-harness1.jpg
-    :alt: Battery wire harness
-    :width: 80%
+       :alt: Battery wire harness
+       :width: 60%
 
     * Another wire harness for the battery and switch (long, with red wire)
 
-.. figure:: images/kit-harness2.jpg
-   :alt: Battery wire harness
-   :width: 80%
+    .. figure:: images/kit-harness2.jpg
+       :alt: Battery wire harness
+       :width: 60%
 
     * Controller wire harness (5 wire, 55cm, black, with JST XH connector at one end)
 
-.. figure:: images/kit-harness3.jpg
-   :alt: Controller wire harness
-   :width: 80%
+    .. figure:: images/kit-harness3.jpg
+       :alt: Controller wire harness
+       :width: 60%
 
 
 5. A rocker switch
@@ -79,3 +79,21 @@ Below is listing of parts included in kit of parts:
    :width: 70%
 
 12. (Optional) Itsy Bitsy M4
+
+
+Power Distribution Board variants
+----------------------------------
+As mentioned above, there are two versions of the kit which contain different
+Power Distribution Boards: PDB-A and PDB-B. The correct option for you depends on
+the order of signals on your LED strips; unfortunately, there is no standard order.
+
+Place the strip horizontally so that the signal travels from left to right.
+
+* If the top signal is Ground (usually labeled G) and bottom signal is 5V, then
+  you need **varaint A**.
+
+  .. figure:: images/led-2.jpg
+     :alt: Signal order for variant A
+     :width: 70%
+
+* If the top signal is 5V and bottom signal is Ground, you need **variant B**.
