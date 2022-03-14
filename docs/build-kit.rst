@@ -90,7 +90,7 @@ the order of signals on your LED strips; unfortunately, there is no standard ord
 Place the strip horizontally so that the signal travels from left to right.
 
 * If the top signal is Ground (usually labeled G) and bottom signal is 5V, then
-  you need **varaint A**.
+  you need **variant A**.
 
   .. figure:: images/led-2.jpg
      :alt: Signal order for variant A

@@ -20,14 +20,14 @@ Materials and tools used:
    8mm diameter shrink wrap on one end of the harness (note: **do not** shrink
    it). Now, insert the 4 tinned ends of the wire harness into the holes of the
    PDB as shown  below. You must be inserting from the side with label **PDB-A**
-   (or **PDB-B**). The wire with white stripe should go into the hole next to +
+   (or **PDB-B**). The wire with white stripe should go into the hole under the  +
    sign as shown in the photo below.
 
    .. figure:: images/battery1.jpg
       :alt: Soldering PDB
       :width: 70%
 
-    Solder the wires from the opposite side. Use flush cutters to trim
+2.  Solder the wires from the opposite side. Use flush cutters to trim
     protruding wires, **leaving about 2mm**.
 
 
