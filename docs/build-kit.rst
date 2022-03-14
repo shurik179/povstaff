@@ -50,5 +50,32 @@ Below is listing of parts included in kit of parts:
 
 
 .. figure:: images/kit-shrink.jpg
-   :alt: Shrink tubing 
+   :alt: Shrink tubing
    :width: 70%
+
+7. Two PVC endcaps
+
+.. figure:: images/kit-caps.jpg
+   :alt: PVC endcaps
+   :width: 40%
+
+
+8. Tennis grip tape
+
+9. EVA foam (6mm thick)
+
+
+.. figure:: images/kit-grip.jpg
+   :alt: Shrink tubing
+   :width: 70%
+
+10. Zipties (2mm wide)
+
+11. (Optional) Set of 3d printed spacers
+
+
+.. figure:: images/kit-spacers.jpg
+   :alt: Shrink tubing
+   :width: 70%
+
+12. (Optional) Itsy Bitsy M4
