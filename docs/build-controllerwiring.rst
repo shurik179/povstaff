@@ -4,7 +4,6 @@ Materials:
 
 * Controller  wire harness (55cm, black, 5-wire)
 
-* The remaining  LED assembly (without the switch)
 
 Before starting assembly, you need to match the wires of the wire harness to the
 contacts of the power distribution board. The wire harness contains 5 wires:
@@ -34,7 +33,7 @@ board as follows:
 * GND - to hole labeled -
 
 The  correspondence between Data/Clock and X/Y depends on the signal order on
-your LED strip (unfortunately, there is no standard). Place the strip  so that 
+your LED strip (unfortunately, there is no standard). Place the strip  so that
 the signal travels from left to right. X is the **second from the top** signal,
 and Y is the **third**. For example, for the strip below, the order of signals is
 (from the top) GND, C (clock), D (data), 5V; thus, in this case we should
