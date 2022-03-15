@@ -10,6 +10,8 @@ Materials and tools used:
 
 * Two battery  wire harnesses
 
+* Two Power Distribution Boards (PDB)
+
 * Spacers
 
 * Shrink wrap (from kit of parts)
@@ -71,7 +73,7 @@ Materials and tools used:
 
 8. Arrange the two batteries in line, placing the spacer between them. (Use the
    spacer with partly covered top and bottom). If you used unprotected batteries,
-   cut out an 18mm diameter circle form the EVA foam included in kit of parts,
+   cut out an 18mm diameter circle from the EVA foam included in kit of parts,
    and insert it between one of the batteries and the spacer to compensate for
    difference in length between unprotected and protected batteries.
    Carefully straighten the wires
