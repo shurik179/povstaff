@@ -17,9 +17,9 @@ the code any way you like. Please visit |github| for instructions.
    `CURRENT.UF2`, `INDEX.HTM`, and `UF2_INFO.TXT`.
 
 3. First, you need to format the flash storage on ItsyBitsy board as FAT filesystem;
-  you only need to do that once. To do that, inside extracted  directory `code/binaries/ItsyBitsyM4`, find the file
+   you only need to do that once. To do that, inside extracted  directory `code/binaries/ItsyBitsyM4`, find the file
    `formatter.UF2` and drag and drop it to `ITSYM4BOOT`.  If you get a question
-   "do you want to copy this file without its properties, click "Yes".
+   "do you want to copy this file without its properties", click "Yes".
    After that, the ItsyBitsy will reboot, `ITSYM4BOOT` will disappear from your
    computer, and the formatter script will run; you won't see any visible output.
 
@@ -28,7 +28,7 @@ the code any way you like. Please visit |github| for instructions.
    Again, the ItsyBitsy will reboot. The microcontroller now contains
    the povstaff software.
 
-5. Press `Reset ` button (or disconnect and reconnect the USB cable) to restart
+5. Press `Reset` button once (or disconnect and reconnect the USB cable) to restart
    the ItsyBitsy. It should now appear as an external drive with the name
    `povstaff` in your computer, which should be empty.  Find in the extracted
    archive folder `images` and drag and drop files `rg-lines.bmp` and

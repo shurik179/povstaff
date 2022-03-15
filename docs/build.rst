@@ -20,4 +20,5 @@ Please follow the steps below to build your staff.
     build-controllerwiring
     build-controller
     build-programming
+    build-testing
     build-final

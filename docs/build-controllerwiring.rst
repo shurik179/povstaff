@@ -48,13 +48,16 @@ connect X=Clock, Y=Data
 1. Solder the VCC, Data, Clock, and GND wires from the wire harness to power
    distribution board using the wire order described above. Trim the wires.
 
-.. figure:: images/controller-wire1.jpg
-   :alt: Wiring the controller
-   :width: 80%
+   .. figure:: images/controller-wire1.jpg
+      :alt: Wiring the controller
+      :width: 80%
 
-.. figure:: images/controller-wire2.jpg
-   :alt: wiring the controller
-   :width: 80%
+   .. figure:: images/controller-wire2.jpg
+      :alt: wiring the controller
+      :width: 80%
 
 2. Feed the BAT wire through the cutout. Use zipties to fasten the wiring and
    LED strips to the dowel, similar to what you did with the other dowel.
+
+3. Connect the bullet point connector at the end of BAT  wire with the one coming
+   from the battery assembly.
