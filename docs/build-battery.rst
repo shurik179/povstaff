@@ -91,9 +91,13 @@ Materials and tools used:
    section of battery assembly. Push the batteries and spacer tightly together,
    being careful not to pinch any wires. If necessary, pull out  the smaller
    shrink wrap (it must cover the wires where they rest against the end of the battery).
-    Use the heat gun at low temperature
-   setting  to shrink the large shrink  wrap; do not shrink the smaller ones.
+   Use the heat gun at low temperature setting  to shrink the large shrink
+   wrap; do not shrink the smaller ones.
 
    .. figure:: images/battery8.jpg
       :alt: Battery
       :width: 80%
+
+10. This completes the battery assembly. The side with long 2-wire leads is
+    the **switch** side; the opposite side (with the bullet connector) is the
+    **controller** side.

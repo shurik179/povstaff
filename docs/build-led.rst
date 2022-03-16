@@ -34,28 +34,24 @@ Steps:
 
    * Cut the wire
 
-   .. figure:: images/led-1.jpg
+    .. figure:: images/led-1.jpg
+       :alt: Soldering wire to LED strip
+       :width: 80%
+
+   .. figure:: images/led-2.jpg
       :alt: Soldering wire to LED strip
       :width: 80%
 
-  .. figure:: images/led-2.jpg
-     :alt: Soldering wire to LED strip
-     :width: 80%
-
 4.  Insert the soldered wires into the holes of the power distribution board you
-    had previously attached to the wood dowels.
+    had previously attached to the wood dowels (use the sides without cutouts).
     Remove the backing paper from the adhesive strip on the back of the LED and
     attach the strip to the wood dowel, aligning it so that the
-    end of the strip is exactly 1 cm away from the power distribution board.
+    end of the strip is about 5mm away from the power distribution board.
 
-5. Solder the wires to the power distribution board. Trim them using flush cutters.
-   Repeat the previous steps for all 4 LED strips.
+5.  Solder the wires to the power distribution board. Trim them using flush cutters.
+    Repeat the previous steps for all 4 LED strips.
 
 .. figure:: images/led-3.jpg
-   :alt: Soldering wire to LED strip
-   :width: 80%
-
-.. figure:: images/led-4.jpg
    :alt: Soldering wire to LED strip
    :width: 80%
 

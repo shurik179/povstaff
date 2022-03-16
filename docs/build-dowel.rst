@@ -8,7 +8,7 @@ Step 2: Dowels
    while the dowels are drying).
 
 3. Take the battery assembly created previously. Press the  Power Distribution
-   board (PDB) fully into the dowel. Use the
+   board (PDB) fully into the end of the dowel. Use the
    square drawing on the back for alignment with the dowel. You will need to use
    some force to push the protruding wire ends into the wood;  if necessary,
    use the spacer to make it easier to push. Repeat the same with the other dowel
@@ -18,17 +18,13 @@ Step 2: Dowels
    :alt: Dowel with PDB
    :width: 80%
 
-.. figure:: images/dowel-2.jpg
-  :alt: Dowel with PDB
-  :width: 80%
-
 
 4. Remove the PDB from the dowel. Mix some epoxy glue, apply it to the end of
    the dowel and replace the PDB seating it fully. Repeat with the second PDB
-   and dowel.
+   and dowel. Be careful that no epoxy gets on the holes for wires.
 
 5. Cut a 12x12mm square from the EVA foam. Use epoxy to glue it  to the end
-   of **one** of the dowels, the one on the controller side of the battery assembly.
+   of **one** of the dowels, the one on the **controller** side of the battery assembly.
    Leave for couple of hours to let the epoxy harden.
 
 .. figure:: images/dowel-3.jpg
