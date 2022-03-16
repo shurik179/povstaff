@@ -1,4 +1,4 @@
-Step 8: Final assembly
+Step 8: Testing
 ===============================
 Before continuing, remove the USB cable from the controller. Make sure the
 switch is in middle ("off") position.
@@ -24,4 +24,4 @@ switch is in middle ("off") position.
    fingers back and forth. You should see green and red lights travelling the
    length of the staff --  the faster you move the controller, the quicker the
    lights should move.  If this works, your staff is working as intended and
-   you can move to the final assembly. 
+   you can move to the final assembly.

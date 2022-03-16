@@ -1,4 +1,4 @@
-Step 8: Final assembly
+Step 9: Final assembly
 ===============================
 
 Warning: inserting the whole assembly in the tube takes some time, and getting
@@ -29,4 +29,25 @@ going further!
    15mm) in it. Insert the switch spacer into the cap, with the angled side facing out.
    Use this assembly to cover the switch end of the tube. (The spacer prevent
    the switch from turning off  if you drop the staff.)
-         
+
+
+   .. figure:: images/cap-1.jpg
+      :alt: Soldering wire to LED strip
+      :width: 80%
+
+   .. figure:: images/cap-2.jpg
+      :alt: Soldering wire to LED strip
+      :width: 80%
+
+
+   .. figure:: images/cap-3.jpg
+      :alt: Soldering wire to LED strip
+      :width: 80%
+
+7. Apply the tennis overgrip tape over the middle part of the tube,
+   containing the battery assembly and spacers -everything between the
+   Power Distribution Boards. You can watch this video to see the proper 
+   way of applying the overgrip tape:
+   https://www.youtube.com/watch?v=HNc34XlUBww. Make sure to keep the overlaps
+   between tape turns small - if you make them too large, your tape will run out
+   before you reach the end of battery assembly.
