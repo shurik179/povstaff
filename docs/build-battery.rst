@@ -58,6 +58,10 @@ Materials and tools used:
    Insert it through both pieces of shrink wrap.
 
 
+   .. figure:: images/battery5.jpg
+      :alt: Battery
+      :width: 70%
+
 6. Turn the batteries over, with the positive terminal up. Use voltmeter to
    check the voltage difference between the positive terminals of the two batteries.
    If it is more than 0.1V, find a low ommage resistor (1 Ohm or about);  press and hold
@@ -67,29 +71,29 @@ Materials and tools used:
    to positive terminals of the batteries. Make sure the direction they are
    pointing is same as the direction of the black leads on the negative terminal.
 
-   .. figure:: images/battery-3.jpg
+   .. figure:: images/battery6.jpg
       :alt: Battery
       :width: 60%
 
 8. Arrange the two batteries in line, placing the spacer between them. (Use the
-   spacer with partly covered top and bottom). If you used unprotected batteries,
-   cut out an 18mm diameter circle from the EVA foam included in kit of parts,
-   and insert it between one of the batteries and the spacer to compensate for
-   difference in length between unprotected and protected batteries.
-   Carefully straighten the wires
-   along the surface of the batteries, making sure they do not cross. Use electric
-   tape to hold them. Make sure that the distance between each PDB and the
+   spacer with partly covered top and bottom).
+   Carefully straighten the wires  along the surface of the batteries,
+   making sure they do not cross. Slide the shrink wrap as far out as possible.
+   Use electric tape to temporarily attach the wires to the batteries.
+   Make sure that the distance between each PDB and the
    battery allows you to insert the remaining spacers.
 
-   .. figure:: images/battery-5.jpg
+   .. figure:: images/battery7.jpg
       :alt: Battery
       :width: 80%
 
 9. Take the piece of the large diameter shrink wrap and put it over the middle
    section of battery assembly. Push the batteries and spacer tightly together,
-   being careful not to pinch any wires. Use the heat gun at low temperature
-   setting  to shrink the wrap.
+   being careful not to pinch any wires. If necessary, pull out  the smaller
+   shrink wrap (it must cover the wires where they rest against the end of the battery).
+    Use the heat gun at low temperature
+   setting  to shrink the large shrink  wrap; do not shrink the smaller ones.
 
-   .. figure:: images/battery-6.jpg
+   .. figure:: images/battery8.jpg
       :alt: Battery
       :width: 80%
