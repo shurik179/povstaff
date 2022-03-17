@@ -51,9 +51,13 @@ Steps:
 5.  Solder the wires to the power distribution board. Trim them using flush cutters.
     Repeat the previous steps for all 4 LED strips.
 
-.. figure:: images/led-3.jpg
-   :alt: Soldering wire to LED strip
-   :width: 80%
+   .. figure:: images/led-3.jpg
+      :alt: Soldering wire to LED strip
+      :width: 80%
+
+   .. figure:: images/led-4.jpg
+      :alt: Soldering wire to LED strip
+      :width: 80%
 
 
 **Note**: the adhesive on LED strips is not very strong, so your strips might
