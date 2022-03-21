@@ -39,9 +39,9 @@ Steps:
        :alt: Soldering wire to LED strip
        :width: 80%
 
-   .. figure:: images/led-2.jpg
-      :alt: Soldering wire to LED strip
-      :width: 80%
+    .. figure:: images/led-2.jpg
+       :alt: Soldering wire to LED strip
+       :width: 80%
 
 4.  Insert the soldered wires into the holes of the power distribution board you
     had previously attached to the wood dowels (use the sides without cutouts).

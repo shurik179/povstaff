@@ -45,8 +45,9 @@ connect X=Clock, Y=Data
    :width: 80%
 
 
-1. Solder the VCC, Data, Clock, and GND wires from the wire harness to power
-   distribution board using the wire order described above. Trim the wires.
+1. Solder the VCC, Data, Clock, and GND wires from the wire harness to the  power
+   distribution board on the controller side (next to the bullet connector).
+   Use the wire order described above. Trim the wires.
 
    .. figure:: images/controller-9.jpg
       :alt: Wiring the controller

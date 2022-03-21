@@ -9,7 +9,7 @@ Below is listing of parts included in kit of parts:
 1. Custom-made POV controller  for ItsyBitsy, containing Inertial Motion Unit, battery
    charge circuit, and more.
 
-2. Two Power Dsitribution Boards (PDB). Note: PDB exist in two variants,
+2. Two Power Distribution Boards (PDB). Note: the PDB exists in two variants,
    PDB-A and PDB-B. Choose the variant that matches the order of signals on your
    LED strip (see below)
 

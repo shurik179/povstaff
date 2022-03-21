@@ -25,8 +25,8 @@ You will need the following materials:
    store. You need two  pieces, each at least 51 cm (slightly over 20")
 
 *  3d-printed spacers. You can order them with the kit of parts as an
-   option or you can use your own 3d printer. The 3d models (in STEP and STL)
-   formats are in `hardware/3d_printed` folder in github repository. You will
+   option or you can use your own 3d printer. The 3d models (in STEP and STL
+   formats) are in `hardware/3d_printed` folder in github repository. You will
    need 2 copies of `spacer.stl` and one copy each of `controller cap`, `midspacer`,
    `switch_protector` and `switch_spacer`. I suggest printing at 0.2mm resolution
    for speed.
