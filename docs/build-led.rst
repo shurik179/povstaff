@@ -32,7 +32,8 @@ Steps:
      You will be soldering very close to the first LED, so please watch your
      iron carefully - do not touch the LED!
 
-   * Cut the wire
+   * Cut the wire. To make the next steps easier, trim the wires so that they
+     are of different lengths (length of each should be at least 1 cm)
 
     .. figure:: images/led-1.jpg
        :alt: Soldering wire to LED strip
@@ -49,7 +50,9 @@ Steps:
     end of the strip is about 5mm away from the power distribution board.
 
 5.  Solder the wires to the power distribution board. Trim them using flush cutters.
-    Repeat the previous steps for all 4 LED strips.
+    Repeat the previous steps for all 4 LED strips. Try to position the two LED
+    strips on the same dowel so that they are aligned; this will be needed for
+    the next step when you use zipties.
 
    .. figure:: images/led-3.jpg
       :alt: Soldering wire to LED strip

@@ -4,8 +4,8 @@ Tools and materials
 You will need the following materials:
 
 * `Kit of parts <https://www.tindie.com/products/irobotics/pov-shield/>`__ from
-  my Tindie store. Make sure  to choose the option matching the order of signals
-  on your LED strip (see details on product page in Tindie)
+  my Tindie store. Make sure  to choose the variant matching the order of signals
+  on your LED strip (see details in the next section)
 
 *  **APA102 (DotStar) LED strip, 144 LED/meter, black PCB**, from Adafruit or
    Aliexpress. You need 4 strips of 50cm (72 LEDs); you can also buy longer
@@ -22,7 +22,14 @@ You will need the following materials:
    1 inch outer diameter, from flowtoys.com
 
 *  1/2 inch (or 12 mm) square **wood dowel**, from HomeDepot or any other hardware
-   store. You need two  pieces, each at least 52 cm (about 21")
+   store. You need two  pieces, each at least 51 cm (slightly over 20")
+
+*  3d-printed spacers. You can order them with the kit of parts as an
+   option or you can use your own 3d printer. The 3d models (in STEP and STL)
+   formats are in `hardware/3d_printed` folder in github repository. You will
+   need 2 copies of `spacer.stl` and one copy each of `controller cap`, `midspacer`,
+   `switch_protector` and `switch_spacer`. I suggest printing at 0.2mm resolution
+   for speed.
 
 *  Adafruit `ItsyBitsy M4 <https://www.adafruit.com/product/3800>`__ or ItsyBitsy `nRF52840 <https://www.adafruit.com/product/4481>`__ microcontroller.
    The nRF52840 is slightly more expensive, but it comes with Bluetooth, which

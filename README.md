@@ -6,7 +6,7 @@ Instructables at
 you can also find there photos  of the staff in action.
 
 The latest version (as of March 2022) is 3.0. It is documented at
-https://povstaff.readtedocs.io
+https://povstaff.readthedocs.io
 
 
 A guide for using the assembled staff and uploading images to it is available

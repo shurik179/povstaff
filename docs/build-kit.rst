@@ -38,40 +38,41 @@ Below is listing of parts included in kit of parts:
        :alt: Controller wire harness
        :width: 60%
 
+5. A length of solid core 22 AWG wire, to use as LED leads.
 
-5. A rocker switch
+6. A rocker switch
 
 
 .. figure:: images/kit-switch.jpg
    :alt: Controller wire harness
    :width: 40%
 
-6. Shrink tubing: 15 cm of 25mm diameter tubing and two 5cm pieces of 8mm flat tubing.
+7. Shrink tubing: 15 cm of 25mm diameter tubing and two 5cm pieces of 8mm flat tubing.
 
 
 .. figure:: images/kit-shrink.jpg
    :alt: Shrink tubing
    :width: 70%
 
-7. Two PVC endcaps
+8. Two PVC endcaps
 
 .. figure:: images/kit-caps.jpg
    :alt: PVC endcaps
    :width: 40%
 
 
-8. Tennis grip tape
+9. Tennis grip tape
 
-9. EVA foam (6mm thick)
+10. EVA foam (6mm thick)
 
 
 .. figure:: images/kit-grip.jpg
    :alt: Shrink tubing
    :width: 70%
 
-10. Zipties (2mm wide)
+11. Zipties (2mm wide)
 
-11. (Optional) Set of 3d printed spacers
+12. (Optional) Set of 3d printed spacers
 
 
 .. figure:: images/kit-spacers.jpg
@@ -83,7 +84,7 @@ Below is listing of parts included in kit of parts:
 
 Power Distribution Board variants
 ----------------------------------
-As mentioned above, there are two versions of the kit which contain different
+As mentioned above, there are two variants of the kit which contain different
 Power Distribution Boards: PDB-A and PDB-B. The correct option for you depends on
 the order of signals on your LED strips; unfortunately, there is no standard order.
 

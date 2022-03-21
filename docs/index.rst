@@ -1,18 +1,21 @@
 ###############################
 Persistence of Vision LED staff
 ###############################
-.. figure:: images/main.jpg
+.. figure:: images/main-1.jpg
     :alt: POV staff in action
-    :width: 80%
+    :width: 90%
 
 This guide contains documentation for Persistence of Vision (POV) LED staff project,
-created by Alexander Kirillov <shurik179@gmail.com>. An earlier version of this
+created by Alexander Kirillov <irobotics.store@gmail.com>. An earlier version of this
 project was documented on `Instructables web site <https://www.instructables.com/Persistence-of-Vision-LED-Staff/>`__.
-Version described here contain several improvements compared to the earlier one, see below.
+The version described here contains several improvements compared to the earlier
+one, see below.
 
 For those wishing to reproduce this project, we are offering a kit of parts for
-sale through our Tindie store. However, all design files, software, BOM and more
-are published under open source license, so anyone can build their own version from scratch.
+sale through our `Tindie store <https://www.tindie.com/stores/irobotics/>`__.
+However, all design files, software, BOM and more are published under open
+source license, so anyone can build their own version from scratch. You can
+find these files in the project GitHub repository: https://github.com/shurik179/povstaff
 
 Overview
 ********
@@ -62,15 +65,26 @@ Key Features
 * The software is based on Arduino IDE. It is available under an open source
   license and is easy to modify to suit your needs.
 
-Differences from previous version
-*********************************
+Differences from the previous version
+**************************************
 
+* New switch for increased reliability
 
+* Many changes to wiring, making it easier to build and removing fragile
+  connections prone to breaking
+
+* Charging is now possible with the staff in OFF position so that the LEDs are
+  disconnected from the batteries. This significantly improves charging time
+  (LEDs consume significant current even when they are not lighted; the only way
+  to avoid it is to disconnect them from the battery via a switch).
+
+* Updated software: most code moved to a separate library.
 
 
 .. toctree::
     :caption: Table of Contents
-    :maxdepth: 1
+    :maxdepth: 2
 
     build
     usage
+    license
