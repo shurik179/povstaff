@@ -16,7 +16,7 @@ you to turn it off, the staff will be blinking  red LEDs once every 30 seconds
 while it is on and not being used.
 
 
-To start the show,  turn the staff ON and start rotating it.
+To start the show,  turn the staff ON and start spinning it.
 As soon as rotation speed is high enough, the staff will begin showing your first image, one line at a time,
 and will continue doing that as long as you are twirling the staff. It will
 adjust the interval between successive lines depending on the rotation speed,
@@ -25,8 +25,8 @@ rotating the staff.
 
 You can find a number of staff spinning tutorials on YouTube - just search for
 "staff spinning tutorials for beginners". I learned a lot from these two:
-https://www.youtube.com/watch?v=L0madJzk3Wc
-https://www.youtube.com/watch?v=gm5D8TS3mNY
+https://www.youtube.com/watch?v=L0madJzk3Wc and
+https://www.youtube.com/watch?v=gm5D8TS3mNY.
 
 
 
@@ -36,7 +36,7 @@ comes first. If duration for a given image was not provided, the staff will
 continue showing this image until you pause.
 
 To pause the show or move to the next image in the list, stop the staff
-**in horizontal position**. It will go blank; as soon as you start twirling it
+**in horizontal position**. It will go blank; as soon as you start spinning it
 again, it will resume the show, moving to the next image. After reaching the
 last image in the list, it will loop over, starting again with the first image.
 
