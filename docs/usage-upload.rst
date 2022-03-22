@@ -21,7 +21,7 @@ Technical requirements for images:
   numbers, dashes and underscores. No spaces or special symbols!
 
 You can create your own images or search for existing ones.  A good source for
-POV image patterns is `Visual  POI Zone <https://visualpoi.zone/patterns/`__.
+POV image patterns is `Visual  POI Zone <https://visualpoi.zone/patterns/>`__.
 When downloading images from there, make sure to choose `Visual poi V4 mini (72px)`
 option. You will also need to rotate images 90 degrees.
 
