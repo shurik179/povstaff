@@ -47,6 +47,8 @@
 #define VREF 3300L
 #endif
 
+#define MAXTIME 0xffffffff  //maximal possible uint32 value
+
 // frame rate. Instead of using constant frame rate per second, we will adjust
 // depending on rotation speed
 
@@ -123,7 +125,11 @@ void loop(){
             //move to new image in the list
             staff.nextImage();
             //determine when we will need to change the image
-            nextImageChange = now + staff.currentDuration()*1000;
+            if (staff.currentDuration()==0){
+                nextImageChange = MAXTIME;
+            } else {
+                nextImageChange = now + staff.currentDuration()*1000;
+            }
             lastPause = now;
         } else if (!staff.paused && (now - lastPause>1000) && atRest){
             //stopping
@@ -147,7 +153,11 @@ void loop(){
             //time to switch to next image
             staff.nextImage();
             //determine when we will need to change the image
-            nextImageChange=millis()+staff.currentDuration()*1000;
+            if (staff.currentDuration()==0){
+                nextImageChange = MAXTIME;
+            } else {
+                nextImageChange = millis() + staff.currentDuration()*1000;
+            }
         }
     }
 }

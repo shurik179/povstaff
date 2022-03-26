@@ -1,8 +1,10 @@
 Step 7: Uploading firmware
 ===============================
-Here, we describe the easiest way to program the controller, using pre-built
-binaries. You can also build software from source, which allows you to modify
-the code any way you like. Please visit |github| for instructions.
+
+Using precomplied binaries (M4 only)
+------------------------------------
+The easiest way to program the controller is by   using pre-built
+binaries (for Itsy Bitsy M4 only).
 
 1. Download the latest release of the project from |github|.
    Extract the downloaded archive to some place on your computer, and navigate to
@@ -34,3 +36,38 @@ the code any way you like. Please visit |github| for instructions.
    archive folder `images` and drag and drop files `rg-lines.bmp` and
    `imagelist.txt` to `povstaff`. Eject the `povstaff` drive and disconnect
    the USB cable; it is now ready for use.
+
+Building from source
+---------------------
+An alternative way to program the controller is by building the software from
+source. You will need Arduino IDE 1.8 or later to do that. It is assumed that
+you have some experience with Arduino, e.g. know how to install libraries using
+library manager.
+
+1. Start Arduino IDE and install the board support files for your Itsy Bitsy (see instructions for
+   `M4 <https://learn.adafruit.com/introducing-adafruit-itsybitsy-m4/setup>`__,
+   `nRF52840 <https://learn.adafruit.com/adafruit-itsybitsy-nrf52840-express/arduino-support-setup>`__).
+
+2. Make sure that you have the following libraries installed. All of them can
+   be installed using library manager:
+
+   *  FastLED
+   *  Adafruit_TinyUSB
+   *  Adafruit_SPIFlash
+   *  Sd_Fat (adafruit fork)
+   *  Adafruit_Sensor
+   *  Adafruit_MPU6050
+   *  POV-library
+
+3. Download the latest release of POV staff project from |github| if you
+   haven't done so already. Extract the archive file and find there folder
+   `code/povstaff`. Copy the `povstaff` folder to your Arduino sketch directory.
+
+4. Connect the ItsyBitsy MCU to the computer using a microUSB cable.
+   Open the sketch file `povstaff.ino` inside `povstaff` folder in Arduino IDE.
+   In `Tools` menu, select the correct board and port. Also, select `Tools->USB stack->TinyUSB`.
+
+5. Click `Upload` to compile and upload the code. It can take  a while (mostly
+   due to use of FastLED, which is a massive library). Once you get the message
+   `Done uploading`, the programming is complete, and you can disconnect the
+   ItsyBitsy from the computer.
