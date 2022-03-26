@@ -32,16 +32,16 @@ going further!
 
 
    .. figure:: images/cap-1.jpg
-      :alt: Soldering wire to LED strip
+      :alt: Switch cap and spacer
       :width: 40%
 
    .. figure:: images/cap-2.jpg
-      :alt: Soldering wire to LED strip
+      :alt: Switch cap and spacer
       :width: 40%
 
 
    .. figure:: images/cap-3.jpg
-      :alt: Soldering wire to LED strip
+      :alt: Switch cap and spacer
       :width: 40%
 
 7. Apply the tennis overgrip tape over the middle part of the tube,
@@ -51,3 +51,18 @@ going further!
    https://www.youtube.com/watch?v=HNc34XlUBww. Make sure to keep the overlaps
    between tape turns small - if you make them too large, your tape will run out
    before you reach the end of battery assembly.
+
+
+   .. figure:: images/griptape.jpg
+      :alt: Grip tape
+      :width: 60%
+
+
+This completes your staff assembly - congratulations!!
+
+Please check the User Guide for instructions on using your staff.
+
+
+.. figure:: images/complete_staff.jpg
+   :alt: Complete staff
+   :width: 50%
