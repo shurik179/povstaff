@@ -59,15 +59,30 @@ library manager.
    *  Adafruit_MPU6050
    *  POV-library
 
-3. Download the latest release of POV staff project from |github| if you
+3. Connect the ItsyBitsy MCU to the computer using a microUSB cable.
+   In `Tools` menu of Arduino IDE, select the correct board and port.
+   Also, select `Tools->USB stack->TinyUSB`.
+
+4. First, you
+   need to format the QSPI flash storage included on the board. To do so, find
+   in the menu `File->Examples->Adafruit SPIFlash->SdFat_format`. Edit the line
+
+   .. code-block:: C
+
+      #define DISK_LABEL    "EXT FLASH"
+
+   replacing `EXT FLASH` by a label of your choice, up to 11 symbols (e.g. "POVSTAFF").
+   Upload the sketch to your board and start the serial monitor at 115200 baud.
+   You should see a message asking you to confirm reformatting; respond "OK" to
+   confirm and you should see message "Formatted flash".
+
+5. Now, you are ready to upload the POV firmware.
+   Download the latest release of POV staff project from |github| if you
    haven't done so already. Extract the archive file and find there folder
    `code/povstaff`. Copy the `povstaff` folder to your Arduino sketch directory.
-
-4. Connect the ItsyBitsy MCU to the computer using a microUSB cable.
    Open the sketch file `povstaff.ino` inside `povstaff` folder in Arduino IDE.
-   In `Tools` menu, select the correct board and port. Also, select `Tools->USB stack->TinyUSB`.
 
-5. Click `Upload` to compile and upload the code. It can take  a while (mostly
+6. Click `Upload` to compile and upload the code. It can take  a while (mostly
    due to use of FastLED, which is a massive library). Once you get the message
    `Done uploading`, the programming is complete, and you can disconnect the
    ItsyBitsy from the computer.
