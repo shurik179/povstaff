@@ -20,7 +20,7 @@ bool IMUbegin(uint8_t address){
 float IMUrotationSpeed(){
     sensors_event_t g;
     gyro->getEvent(&g);
-    return (RAD_TO_DEG*sqrtf(g.gyro.x*g.gyro.x +g.gyro.y*g.gyro.y+g.gyro.z*g.gyro.z));
+    return (RAD_TO_DEGREE*sqrtf(g.gyro.x*g.gyro.x +g.gyro.y*g.gyro.y+g.gyro.z*g.gyro.z));
 }
 
 bool IMUatRest(){

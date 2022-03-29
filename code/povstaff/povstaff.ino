@@ -10,9 +10,9 @@
  *  Sd_Fat (adafruit fork)
  *  Adafruit_Sensor
  *  Adafruit_MPU6050
- *  POV (from github.com/shurik179/pov-library)
+ *  POV library (from github.com/shurik179/pov-library)
  *
- *  For M4 and RP2040 based boards, make sure that in your Arduino IDE you have selected
+ *  For ItsyBitsy M4, make sure that in your Arduino IDE you have selected
  *  Tools->USB stack: TinyUSB
  *  Finally it is assumed that you have already created the FAT filesystem on your
  *  flash memory, using SdFat_format example sketch from Sd_Fat library (Adafruit fork)
@@ -55,7 +55,6 @@
 // how many degrees of staff turn between successive lines?
 #define DEG_PER_LINE 1.0f
 
-#define IMAGELIST "imagelist.txt"
 
 
 
@@ -71,7 +70,14 @@ float speed=0.0;           //staff rotation speed, in deg/s
 
 
 void setup(){
+    #ifdef ARDUINO_NRF52_ITSYBITSY
+    // For ItsyBitsy nRF52840, SPI Clock pin is #25, and SPI Data out (MOSI) is #24
+    FastLED.addLeds<LED_TYPE, 24, 25, COLOR_ORDER>(leds, NUM_PIXELS);
+    #else
     FastLED.addLeds<LED_TYPE, COLOR_ORDER>(leds, NUM_PIXELS);
+    #endif
+
+
     pinMode(PIN_VSENSE, INPUT);
     //get supply voltage (battery or USB)
     //because of voltage divider, VREF corresponds to read value of  1023/2=512
@@ -97,7 +103,7 @@ void setup(){
         staff.showValue((float)(voltage-VOLTAGE_MIN)/(VOLTAGE_MAX-VOLTAGE_MIN));
         delay(2000);
         //read the image list
-        staff.addImageList(IMAGELIST);
+        staff.addImageList("imagelist.txt");
         //determine when we will need to change the image
         nextImageChange=millis()+staff.currentDuration()*1000;
         if ( IMUbegin(IMU_ADDRESS) ) {
