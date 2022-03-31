@@ -38,48 +38,50 @@ Below is listing of parts included in kit of parts:
        :alt: Controller wire harness
        :width: 60%
 
-5. A length of solid core 22 AWG wire, to use as LED leads.
+5. Strip of male headers
 
-6. A rocker switch
+6. A length of solid core 22 AWG wire, to use as LED leads.
+
+7. A rocker switch
 
 
 .. figure:: images/kit-switch.jpg
    :alt: Controller wire harness
    :width: 40%
 
-7. Shrink tubing: 15 cm of 25mm diameter tubing and two 5cm pieces of 8mm flat tubing.
+8. Shrink tubing: 12 cm of 25mm diameter tubing
 
 
 .. figure:: images/kit-shrink.jpg
    :alt: Shrink tubing
    :width: 70%
 
-8. Two PVC endcaps
+9. Two PVC endcaps
 
 .. figure:: images/kit-caps.jpg
    :alt: PVC endcaps
    :width: 40%
 
 
-9. Tennis grip tape
+10. Tennis grip tape
 
-10. EVA foam (6mm thick)
+11. EVA foam (6mm thick)
 
 
 .. figure:: images/kit-grip.jpg
    :alt: Shrink tubing
    :width: 70%
 
-11. Zipties (2mm wide)
+12. Zipties (2mm wide)
 
-12. (Optional) Set of 3d printed spacers
+13. (Optional) Set of 3d printed spacers
 
 
 .. figure:: images/kit-spacers.jpg
    :alt: Shrink tubing
    :width: 70%
 
-12. (Optional) Itsy Bitsy M4
+14. (Optional) Itsy Bitsy M4
 
 
 Power Distribution Board variants

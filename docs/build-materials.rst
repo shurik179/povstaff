@@ -36,7 +36,7 @@ You will need the following materials:
 *  Adafruit `ItsyBitsy M4 <https://www.adafruit.com/product/3800>`__ microcontroller.
    Advanced users can also try  using
    ItsyBitsy `nRF52840 <https://www.adafruit.com/product/4481>`__;
-   is is slightly more expensive, but it comes with Bluetooth, which
+   it is slightly more expensive, but it comes with Bluetooth, which
    opens many additional possibilities. However, current version of code
    doesn't use Bluetooth - this is planned for future upgrades. You will need
    to compile firmware from source if you plan on using nRF52840.
@@ -50,7 +50,7 @@ You will need the usual tools and supplies:
 
 * wire strippers
 
-* pliers 
+* pliers
 
 * flush cutters
 
