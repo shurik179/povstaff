@@ -72,6 +72,7 @@ float speed=0.0;           //staff rotation speed, in deg/s
 void setup(){
     #ifdef ARDUINO_NRF52_ITSYBITSY
     // For ItsyBitsy nRF52840, SPI Clock pin is #25, and SPI Data out (MOSI) is #24
+    // as per https://github.com/adafruit/Adafruit_nRF52_Arduino/blob/master/variants/itsybitsy_nrf52840_express/variant.cpp
     FastLED.addLeds<LED_TYPE, 24, 25, COLOR_ORDER>(leds, NUM_PIXELS);
     #else
     FastLED.addLeds<LED_TYPE, COLOR_ORDER>(leds, NUM_PIXELS);
