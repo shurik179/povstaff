@@ -27,12 +27,12 @@ Materials and tools used:
 
    .. figure:: images/battery-1.jpg
       :alt: Soldering headers to  PDB
-      :width: 70%
+      :width: 40%
 
 
    .. figure:: images/battery-2.jpg
       :alt: Soldering headers to  PDB
-      :width: 70%
+      :width: 40%
 
 2. Use pliers to remove the plastic spacers from the headers. Use flush cutters
    to trim the headers to 5-6mm length (you need not be precise; slightly longer
@@ -41,12 +41,12 @@ Materials and tools used:
 
    .. figure:: images/battery-3.jpg
       :alt: Cutting the headers
-      :width: 70%
+      :width: 40%
 
 
    .. figure:: images/battery-4.jpg
       :alt: Cutting the headers
-      :width: 70%
+      :width: 40%
 
 
 
