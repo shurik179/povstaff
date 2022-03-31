@@ -17,7 +17,7 @@ Step 2: Dowels
 
    .. figure:: images/dowel-2.jpg
       :alt: Dowel with PDB
-      :width: 80%
+      :width: 50%
 
 
 
@@ -31,4 +31,4 @@ Step 2: Dowels
 
    .. figure:: images/dowel-3.jpg
      :alt: Dowel with EVA foam square
-     :width: 80%
+     :width: 50%
