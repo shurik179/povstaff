@@ -33,11 +33,15 @@ You will need the following materials:
    `switch_protector` and `switch_spacer`. I suggest printing at 0.2mm resolution
    for speed.
 
-*  Adafruit `ItsyBitsy M4 <https://www.adafruit.com/product/3800>`__ or
-   ItsyBitsy `nRF52840 <https://www.adafruit.com/product/4481>`__ microcontroller.
-   The nRF52840 is slightly more expensive, but it comes with Bluetooth, which
-   opens many additional possibilities. However, current version of my code
-   doesn't use Bluetooth - this is planned for future upgrades. Do not use
+*  Adafruit `ItsyBitsy M4 <https://www.adafruit.com/product/3800>`__ microcontroller.
+   Advanced users can also try  using
+   ItsyBitsy `nRF52840 <https://www.adafruit.com/product/4481>`__;
+   is is slightly more expensive, but it comes with Bluetooth, which
+   opens many additional possibilities. However, current version of code
+   doesn't use Bluetooth - this is planned for future upgrades. You will need
+   to compile firmware from source if you plan on using nRF52840.
+
+   Do not use
    32u4 or M0 ItsyBitsy - they do not have enough RAM for our purposes.
 
 Tools
@@ -46,13 +50,15 @@ You will need the usual tools and supplies:
 
 * wire strippers
 
+* pliers 
+
 * flush cutters
 
 * scissors
 
 * decent soldering iron, solder, and flux
 
-* electric tape,
+* electric tape
 
 * heat gun (for shrinking the shrink wrap)
 

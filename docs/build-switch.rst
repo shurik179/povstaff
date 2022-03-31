@@ -9,7 +9,7 @@ Materials:
 * Zipties
 
 Before starting, make sure that your switch is in middle position; this will
-guarantee that the power is off. 
+guarantee that the power is off.
 
 1. Locate the switch leads (two black wires, about 55 cm length) leading from
    the battery assembly. Lay them along the dowel, running the wire through the

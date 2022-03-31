@@ -5,16 +5,29 @@ Warning: inserting the whole assembly in the tube takes some time, and getting
 it out is even more time-consuming, so make sure you test the staff before
 going further!
 
-1. Turn the staff off.
+1. Turn the staff off. Lay out the whole assembly (controller, LED assembly, battery assembly,
+   second LED assembly, switch) in line.
 
-2. Lay out the whole assembly (controller, LED assembly, battery assembly,
-   second LED assembly, switch) in line. Insert the spacers on both sides of
-   the battery assembly fitting the wires inside. Make sure no wires are
-   pinched.  Insert the spacer between the switch and the battery assembly.
+2. Insert the spacers on both sides of the battery assembly fitting the wires
+   inside; the spacers should fit over the battery.  Make sure no wires are
+   pinched.  Use electric tape to attach the spacers to the batteries.
+
+
+   .. figure:: images/final-spacer.jpg
+      :alt: Battery spacer
+      :width: 40%
+
+
+   Also, insert the switch spacer between the dowel and switch:
+
+   .. figure:: images/switch-3.jpg
+      :alt: Switch cap and spacer
+      :width: 40%
+
 
 
 3. Start inserting the whole assembly into the tube, controller end first. (The
-   spacers may fall out; reinsert them just before the corresponding part goes
+   switch spacer may fall out; reinsert it  just before the switch  goes
    into the tube, paying attention to the wires).
 
 4. Continue until the  assembly is fully in. Push to fully insert the switch.
