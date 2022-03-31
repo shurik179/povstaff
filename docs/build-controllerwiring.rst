@@ -18,36 +18,44 @@ contacts of the power distribution board. The wire harness contains 5 wires:
 
 * BAT (with bullet connector)
 
-VCC should be connected  to 5V contacts of the LED strips and  (through the switch) to
-the positive terminal of the batteries; GND connects to GND contacts of the
-LED strip and negative terminal of the batteries. BAT directly connects to
-the positive terminal of the  batteries (it is used for charging the batteries).
 
-Four of these wires will need to be soldered to holes in the power distribution
-board as follows:
+The first four wires will need to be soldered to the holes in PDB on the
+controller side of battery assembly.  However, the match between the wires
+and the holes depends on the signal order on
+your LED strip (unfortunately, there is no standard).
 
-* VCC - to hole labeled +
+* If the second from the top signal of your LED strip is Data (usually
+  abbreviated D) and the third is Clock (C), connect the wires as shown in the
+  photo below: VCC (white stripe) to the hole labeled +,
+  and the other 3 wires into the next 3 holes in order.
 
-* Data, Clock - to holes labeled X, Y (see below)
+   .. figure:: images/controller-wire-1.jpg
+      :alt: Soldering controller wires
+      :width: 80%
 
-* GND - to hole labeled -
+   (The yellow piece of paper in inserted between the wires and dowel to make
+   it easier to see the wires in the photo. You do not need it for your build. )
 
-The  correspondence between Data/Clock and X/Y depends on the signal order on
-your LED strip (unfortunately, there is no standard). Place the strip  so that
-the signal travels from left to right. X is the **second from the top** signal,
-and Y is the **third**. For example, for the strip below, the order of signals is
-(from the top) GND, C (clock), D (data), 5V; thus, in this case we should
-connect X=Clock, Y=Data
-
-
-.. figure:: images/led-2.jpg
-   :alt: Soldering wire to LED strip
-   :width: 80%
+* If the second from the top is Clock and third is Data, as shown in the photo below
 
 
-1. Solder the VCC, Data, Clock, and GND wires from the wire harness to the  power
-   distribution board on the controller side (next to the bullet connector).
-   Use the wire order described above. Trim the wires.
+   .. figure:: images/led-2.jpg
+      :alt: Soldering wire to LED strip
+      :width: 80%
+
+   then connect the wires  as shown in the photo below, crossing 2nd and 3rd wires
+   (Clock and Data)
+
+
+   .. figure:: images/controller-wire-2.jpg
+      :alt: Soldering controller wires
+      :width: 80%
+
+
+
+
+1. After inserting the wires into the holes of the PDB as described above,
+   solder them. Trim the wires.
 
    .. figure:: images/controller-9.jpg
       :alt: Wiring the controller
