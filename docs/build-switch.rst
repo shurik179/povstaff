@@ -25,7 +25,7 @@ guarantee that the power is off.
 2. Use the flush cutters to cut open the two retention plastic tabs on the
    sides of the switch, as shown in the photo below.
 
-3. Run the wires along the length of the dowel. Solder the opposite ends of
+3. Run the wires along the length of the dowel. Solder the tinned ends of
    the wires to the switch; as before, trim the soldered wires using flush cutters.
    Note: one of the wires must be soldered to the **middle** contact, and the other,
    to one of the other contacts (doesn't matter which one). It doesn't matter

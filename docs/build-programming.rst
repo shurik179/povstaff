@@ -61,7 +61,7 @@ library manager.
 
 3. Connect the ItsyBitsy MCU to the computer using a microUSB cable.
    In `Tools` menu of Arduino IDE, select the correct board and port.
-   Also, select `Tools->USB stack->TinyUSB`.
+   Also, if using  Itsy Bitsy M4, select `Tools->USB stack->TinyUSB`.
 
 4. First, you
    need to format the QSPI flash storage included on the board. To do so, find
@@ -79,7 +79,7 @@ library manager.
 5. Now, you are ready to upload the POV firmware.
    Download the latest release of POV staff project from |github| if you
    haven't done so already. Extract the archive file and find there folder
-   `code/povstaff`. Copy the `povstaff` folder to your Arduino sketch directory.
+   `code/povstaff`. Copy the `povstaff` folder to your Arduino sketch folder.
    Open the sketch file `povstaff.ino` inside `povstaff` folder in Arduino IDE.
 
 6. Click `Upload` to compile and upload the code. It can take  a while (mostly
