@@ -51,6 +51,13 @@ Materials and tools used:
 
 
 3. Find the first battery wire harness (28cm, 4 wire).
+
+
+   .. figure:: images/kit-harness1.jpg
+      :alt: Battery wire harness
+      :width: 60%
+
+
    Insert the 4 tinned ends of the wire harness into the holes of the
    PDB as shown  below. You must be inserting from the side with label **PDB-A**
    (or **PDB-B**). The wire with white stripe should go into the hole under the  +
@@ -60,8 +67,8 @@ Materials and tools used:
       :alt: Soldering PDB
       :width: 70%
 
-4.  Solder the wires from the opposite side. Use flush cutters to trim
-    protruding wires flush with the PCB.  Repeat the same with the second PDB.
+4. Solder the wires from the opposite side. Use flush cutters to trim
+   protruding wires flush with the PCB.  Repeat the same with the second PDB.
 
    .. figure:: images/battery-6.jpg
       :alt: Soldering PDB
@@ -85,6 +92,12 @@ Materials and tools used:
    it against the two positive terminals, to equalize the voltage.
 
 7. Find the second battery wire harness with switch leads (uses red wire).
+
+
+   .. figure:: images/kit-harness2.jpg
+      :alt: Battery wire harness
+      :width: 60%
+
    Solder the two red leads to positive terminals of the batteries.  Make sure the direction they are
    pointing is same as the direction of the black leads on the negative terminal.
 

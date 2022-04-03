@@ -13,11 +13,14 @@ Below is listing of parts included in kit of parts:
    PDB-A and PDB-B. Choose the variant that matches the order of signals on your
    LED strip (see below)
 
+
+3. Strip of male headers
+
 .. figure:: images/kit-2.jpg
    :alt: POV shield and PDB
    :width: 80%
 
-3. Three wire harnesses:
+4. Three wire harnesses:
 
     * 4-wire, 28 cm battery wire harness (black)
 
@@ -26,7 +29,7 @@ Below is listing of parts included in kit of parts:
        :alt: Battery wire harness
        :width: 60%
 
-    * Another wire harness for the battery and switch (long, with red wire)
+    * Battery and switch wire harness (long, with red wire)
 
     .. figure:: images/kit-harness2.jpg
        :alt: Battery wire harness
@@ -38,50 +41,49 @@ Below is listing of parts included in kit of parts:
        :alt: Controller wire harness
        :width: 60%
 
-5. Strip of male headers
 
-6. A length of solid core 22 AWG wire, to use as LED leads.
+5. A length of solid core 22 AWG wire, to use as LED leads.
 
-7. A rocker switch
+6. A rocker switch
 
 
 .. figure:: images/kit-switch.jpg
    :alt: Controller wire harness
    :width: 40%
 
-8. Shrink tubing: 12 cm of 25mm diameter tubing
+7. Shrink tubing: 12 cm of 25mm diameter tubing
 
 
-.. figure:: images/kit-shrink.jpg
-   :alt: Shrink tubing
-   :width: 70%
+   .. figure:: images/kit-shrink.jpg
+      :alt: Shrink tubing
+      :width: 70%
 
-9. Two PVC endcaps
+8. Two PVC endcaps
 
-.. figure:: images/kit-caps.jpg
-   :alt: PVC endcaps
-   :width: 40%
-
-
-10. Tennis grip tape
-
-11. EVA foam (6mm thick)
+   .. figure:: images/kit-caps.jpg
+      :alt: PVC endcaps
+      :width: 40%
 
 
-.. figure:: images/kit-grip.jpg
-   :alt: Shrink tubing
-   :width: 70%
+9. Tennis grip tape
 
-12. Zipties (2mm wide)
-
-13. (Optional) Set of 3d printed spacers
+10. EVA foam (6mm thick)
 
 
-.. figure:: images/kit-spacers.jpg
-   :alt: Shrink tubing
-   :width: 70%
+    .. figure:: images/kit-grip.jpg
+       :alt: Shrink tubing
+       :width: 70%
 
-14. (Optional) Itsy Bitsy M4
+11. Zipties (2mm wide)
+
+12. (Optional) Set of 3d printed spacers
+
+
+    .. figure:: images/kit-spacers.jpg
+       :alt: Shrink tubing
+       :width: 70%
+
+13. (Optional) Itsy Bitsy M4
 
 
 Power Distribution Board variants
