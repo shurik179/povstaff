@@ -5,6 +5,11 @@ Materials:
 * Controller  wire harness (55cm, black, 5-wire)
 
 
+.. figure:: images/kit-harness3.jpg
+   :alt: Controller wire harness
+   :width: 60%
+
+
 Before starting assembly, you need to match the wires of the wire harness to the
 contacts of the power distribution board. The wire harness contains 5 wires:
 
@@ -29,7 +34,7 @@ your LED strip (unfortunately, there is no standard).
   photo below: VCC (white stripe) to the hole labeled +,
   and the other 3 wires into the next 3 holes in order.
 
-   .. figure:: images/controller-wire-1.jpg
+   .. figure:: images/controller-wire-1a.jpg
       :alt: Soldering controller wires
       :width: 80%
 
