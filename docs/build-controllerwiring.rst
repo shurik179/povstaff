@@ -52,7 +52,7 @@ your LED strip (unfortunately, there is no standard).
    (Clock and Data)
 
 
-   .. figure:: images/controller-wire-2.jpg
+   .. figure:: images/controller-wire-2a.jpg
       :alt: Soldering controller wires
       :width: 80%
 
