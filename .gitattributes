@@ -23,3 +23,4 @@
 docs/* export-ignore
 *fp-info-cache  export-ignore
 *-backups/*  export-ignore
+OLD_VERSIONS/* export-ignore
