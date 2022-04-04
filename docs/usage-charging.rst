@@ -6,5 +6,5 @@ Inside you will see a microcontroller with a micro-USB connector. Plug in a
 USB charger; for best results, use a charger that can provide at least 1A
 charging current.
 
-
+You should see an orange LED indicating that the batteries are charging.
 Full charge should take about 5 hrs.
