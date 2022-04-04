@@ -4,7 +4,7 @@ project. A detailed write-up of Version 1 of this project is available on
 Instructables at
 [https://www.instructables.com/Persistence-of-Vision-LED-Staff/](https://www.instructables.com/Persistence-of-Vision-LED-Staff/); you can also find there photos  of the staff in action.
 
-The latest version (as of March 2022) is 3.0. It is documented at
+The latest version (as of April 4, 2022) is 3.1. It is documented at
 https://povstaff.readthedocs.io
 
 
