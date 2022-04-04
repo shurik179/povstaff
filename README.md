@@ -1,17 +1,17 @@
 # POV staff
 This repository contains all files related to Persistence of Vision (POV) staff
 project. A detailed write-up of Version 1 of this project is available on  
-Instructables at
-[https://www.instructables.com/Persistence-of-Vision-LED-Staff/](https://www.instructables.com/Persistence-of-Vision-LED-Staff/); you can also find there photos  of the staff in action.
+Instructables at [https://www.instructables.com/Persistence-of-Vision-LED-Staff/](https://www.instructables.com/Persistence-of-Vision-LED-Staff/); you can also find there photos  of the staff in action.
 
-The latest version (as of April 4, 2022) is 3.1. It is documented at
+The latest version (as of April 4, 2022) is 3.1.1. It is documented at
 https://povstaff.readthedocs.io
 
 
 
 **Warning**: if you are building the staff as described in the instructables guide,
 please use  [Release 1.0](https://github.com/shurik179/povstaff/releases/tag/v1.0).
-Do not use latest  - this is work in progress and is not yet ready for public use.
+
+
 
 ## Structure of this repository  
 This repository is organized as follows:
@@ -25,7 +25,7 @@ This repository is organized as follows:
 
 
 ## Authors and license
-This project was created by Alexander Kirillov <shurik179@gmail.com>; it is
+This project was created by Alexander Kirillov <irobotics.store@gmail.com>; it is
 based on [earlier work](https://learn.adafruit.com/pov-dotstar-double-staff) of
 Phillip Burgess and Erin St Blaine from Adafruit. The project is available under
 MIT license; see LICENSE file for details.
