@@ -34,3 +34,10 @@
 # Copyrighted images
 images/copyrighted
 images/full
+
+# OS-specific files
+*.DS_Store
+
+# Kicad backups and caches
+*fp-info-cache
+*-backups/*
