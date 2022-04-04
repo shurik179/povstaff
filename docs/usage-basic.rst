@@ -1,6 +1,6 @@
 Basic usage
 ===========
-To turn the staff on and off, use the switch at one end of the staff. It is a
+To **turn the staff on and off**, use the switch at one end of the staff. It is a
 3-position switch;  middle position is always OFF; one of the two other
 positions is ON.
 
@@ -16,7 +16,7 @@ you to turn it off, the staff will be blinking  red LEDs once every 30 seconds
 while it is on and not being used.
 
 
-To start the show,  turn the staff ON and start spinning it.
+To **start the show**,  turn the staff ON and start spinning it.
 As soon as rotation speed is high enough, the staff will begin showing your first image, one line at a time,
 and will continue doing that as long as you are twirling the staff. It will
 adjust the interval between successive lines depending on the rotation speed,
@@ -35,7 +35,7 @@ The staff will continue showing the image for the duration given in
 comes first. If duration for a given image was not provided, the staff will
 continue showing this image until you pause.
 
-To pause the show or move to the next image in the list, stop the staff
+To **pause** the show or move to the next image in the list, stop the staff
 **in horizontal position**. It will go blank; as soon as you start spinning it
 again, it will resume the show, moving to the next image. After reaching the
 last image in the list, it will loop over, starting again with the first image.

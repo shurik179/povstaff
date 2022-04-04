@@ -15,14 +15,14 @@ going further!
 
    .. figure:: images/final-spacer.jpg
       :alt: Battery spacer
-      :width: 40%
+      :width: 60%
 
 
    Also, insert the switch spacer between the dowel and switch:
 
    .. figure:: images/switch-3.jpg
       :alt: Switch cap and spacer
-      :width: 40%
+      :width: 60%
 
 
 
