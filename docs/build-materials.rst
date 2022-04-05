@@ -23,8 +23,8 @@ You will need the following materials:
    1 inch outer diameter, from flowtoys.com. Note: while the tube is listed as 55",
    the actual length is 54.5".
 
-*  1/2 inch (or 12 mm) square **wood dowel**, from HomeDepot or any other hardware
-   store. You need two  pieces, each at least 51 cm (slightly over 20")
+*  1/2 inch (or 12 mm) square **wood dowel**, from `HomeDepot <https://www.homedepot.com/p/Waddell-1-2-in-x-36-in-American-Basswood-Square-Dowel-8308U/100547367>`__`
+   or any other hardware store. You need two  pieces, each at least 51 cm (slightly over 20").
 
 *  3d-printed spacers. You can order them with the kit of parts as an
    option or you can use your own 3d printer. The 3d models (in STEP and STL

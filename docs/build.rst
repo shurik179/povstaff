@@ -1,6 +1,6 @@
 .. _build:
 **************************
-Build guide
+Build Guide
 **************************
 
 Please follow the steps below to build your staff.

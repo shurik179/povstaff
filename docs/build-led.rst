@@ -50,7 +50,8 @@ Steps:
     end of the strip is about 5mm away from the power distribution board.
 
 5.  Solder the wires to the power distribution board. Trim them using flush cutters.
-    Repeat the previous steps for all 4 LED strips. Try to position the two LED
+    Repeat the previous steps for all 4 LED strips, placing two LED strips on
+    each dowel, on opposite sides of the dowel. Try to position the two LED
     strips on the same dowel so that they are aligned; this will be needed for
     the next step when you use zipties.
 

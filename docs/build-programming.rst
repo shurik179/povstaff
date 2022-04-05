@@ -32,9 +32,9 @@ binaries (for Itsy Bitsy M4 only).
 
 5. Press `Reset` button once (or disconnect and reconnect the USB cable) to restart
    the ItsyBitsy. It should now appear as an external drive with the name
-   `povstaff` in your computer, which should be empty.  Find in the extracted
+   `POVSTAFF` in your computer, which should be empty.  Find in the extracted
    archive folder `images` and drag and drop files `rg-lines.bmp` and
-   `imagelist.txt` to `povstaff`. Eject the `povstaff` drive and disconnect
+   `imagelist.txt` to `POVSTAFF`. Eject the `POVSTAFF` drive and disconnect
    the USB cable; it is now ready for use.
 
 Building from source
@@ -84,5 +84,13 @@ library manager.
 
 6. Click `Upload` to compile and upload the code. It can take  a while (mostly
    due to use of FastLED, which is a massive library). Once you get the message
-   `Done uploading`, the programming is complete, and you can disconnect the
-   ItsyBitsy from the computer.
+   `Done uploading`, the programming is complete.
+
+
+7. Press `Reset` button once (or disconnect and reconnect the USB cable) to restart
+   the ItsyBitsy. It should now appear as an external drive with the name
+   `POVSTAFF` (or whatever name you have chosen in step 4) in your computer,
+   which should be empty.  Find in the extracted
+   archive folder `images` and drag and drop files `rg-lines.bmp` and
+   `imagelist.txt` to `POVSTAFF`. Eject the `POVSTAFF` drive and disconnect
+   the USB cable; it is now ready for use.

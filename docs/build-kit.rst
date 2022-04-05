@@ -1,6 +1,6 @@
 Kit of parts
 ============
-Below is listing of parts included in kit of parts:
+Below is listing of parts included in the kit sold on Tindie.
 
 .. figure:: images/kit-1.jpg
     :alt: Kit of parts
@@ -102,3 +102,27 @@ Place the strip horizontally so that the signal travels from left to right.
      :width: 70%
 
 * If the top signal is 5V and bottom signal is Ground, you need **variant B**.
+
+
+Original vendor links
+----------------------
+For those who want to buy the parts on your own instead of using the kit, here
+are the links to original vendors. Most users do not need this information.
+
+* 4 wire, 22 AWG silicone insulated  flat cable (used by battery harness): `Aliexpress <https://www.aliexpress.com/item/4000274210211.html?spm=a2g0o.order_list.0.0.21ef18023D5zoy>`__
+
+* 5 wire, 24 AWG silicone insulated  flat cable (used by controller harness): `Aliexpress <https://www.aliexpress.com/item/4000274210211.html?spm=a2g0o.order_list.0.0.21ef18023D5zoy>`__
+
+* 2 wire, 20 AWG silicone insulated  flat cable (used by switch  harness): `Aliexpress <https://www.aliexpress.com/item/4000274210211.html?spm=a2g0o.order_list.0.0.21ef18023D5zoy>`__
+
+* 20 AWG silicone insulated wire (red) (for battery harness for positive terminals)
+
+* 20mm diameter shrink wrap: `Amazon <https://www.amazon.com/gp/product/B07FVJNKTS>`__
+
+* 2mm wide zipties: `Amazon <https://www.amazon.com/gp/product/B019GIEWWS>`__
+
+* Switch: RRA1534400 from `Mouser <https://www.mouser.com/ProductDetail/612-RRA1534400>`__
+
+* 3.5 mm bullet connectors: `Amazon <https://www.amazon.com/gp/product/B013QKSB3S>`__
+
+* EVA foam (6mm thick, black): `Amazon <https://www.amazon.com/gp/product/B08M5J184C>`__   
