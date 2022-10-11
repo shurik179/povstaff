@@ -1,6 +1,10 @@
 Step 7: Uploading firmware
 ===============================
 
+If you are using a kit from our Tindie store which included ItsyBitsy M4 MCU, you can skip
+this step - the MCU comes already pre-programmed.
+
+
 Using precomplied binaries (M4 only)
 ------------------------------------
 The easiest way to program the controller is by   using pre-built

@@ -8,7 +8,7 @@ Persistence of Vision LED staff
 This guide contains documentation for Persistence of Vision (POV) LED staff project,
 created by Alexander Kirillov <irobotics.store@gmail.com>.
 
-This document describes version 3.1, which was released on April 4, 2022.  An
+This document describes version 3.2, which was released on October 10, 2022.  An
 earlier version of this project was documented on
 `Instructables web site <https://www.instructables.com/Persistence-of-Vision-LED-Staff/>`__.
 The version described here contains several improvements compared to the earlier

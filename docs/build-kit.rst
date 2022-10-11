@@ -6,15 +6,16 @@ Below is listing of parts included in the kit sold on Tindie.
     :alt: Kit of parts
     :width: 80%
 
-1. Custom-made POV controller  for ItsyBitsy, containing Inertial Motion Unit, battery
+1. Itsy Bitsy M4 microcontroller, pre-programmed
+
+2. Custom-made POV controller  for ItsyBitsy, containing Inertial Motion Unit, battery
    charge circuit, and more.
 
-2. Two Power Distribution Boards (PDB). Note: the PDB exists in two variants,
+3. Two Power Distribution Boards (PDB). Note: the PDB exists in two variants,
    PDB-A and PDB-B. Choose the variant that matches the order of signals on your
    LED strip (see below)
 
 
-3. Strip of male headers
 
 .. figure:: images/kit-2.jpg
    :alt: POV shield and PDB
@@ -83,7 +84,7 @@ Below is listing of parts included in the kit sold on Tindie.
        :alt: Shrink tubing
        :width: 70%
 
-13. (Optional) Itsy Bitsy M4
+
 
 
 Power Distribution Board variants
@@ -125,4 +126,4 @@ are the links to original vendors. Most users do not need this information.
 
 * 3.5 mm bullet connectors: `Amazon <https://www.amazon.com/gp/product/B013QKSB3S>`__
 
-* EVA foam (6mm thick, black): `Amazon <https://www.amazon.com/gp/product/B08M5J184C>`__   
+* EVA foam (6mm thick, black): `Amazon <https://www.amazon.com/gp/product/B08M5J184C>`__
