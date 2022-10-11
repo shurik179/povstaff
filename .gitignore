@@ -40,4 +40,5 @@ images/full
 
 # Kicad backups and caches
 *fp-info-cache
-*-backups/*
+*backups/*
+*backups/*.*
