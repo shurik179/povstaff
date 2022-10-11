@@ -6,7 +6,7 @@ Below is listing of parts included in the kit sold on Tindie.
     :alt: Kit of parts
     :width: 80%
 
-1. Itsy Bitsy M4 microcontroller, pre-programmed
+1. Itsy Bitsy M4 microcontroller, pre-programmed (not shown).
 
 2. Custom-made POV controller  for ItsyBitsy, containing Inertial Motion Unit, battery
    charge circuit, and more.
@@ -52,7 +52,7 @@ Below is listing of parts included in the kit sold on Tindie.
    :alt: Controller wire harness
    :width: 40%
 
-7. Shrink tubing: 12 cm of 25mm diameter tubing
+7. Shrink tubing: 12 cm of 20mm diameter tubing
 
 
    .. figure:: images/kit-shrink.jpg
@@ -77,7 +77,7 @@ Below is listing of parts included in the kit sold on Tindie.
 
 11. Zipties (2mm wide)
 
-12. (Optional) Set of 3d printed spacers
+12. (Optional) Set of 3d printed spacers (colors may vary)
 
 
     .. figure:: images/kit-spacers.jpg
