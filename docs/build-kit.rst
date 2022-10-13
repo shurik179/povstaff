@@ -118,6 +118,8 @@ are the links to original vendors. Most users do not need this information.
 
 * 20 AWG silicone insulated wire (red) (for battery harness for positive terminals)
 
+* 1 inch wide PVC caps: `Amazon <https://www.amazon.com/dp/B07Q3ZM54M>`__
+
 * 20mm diameter shrink wrap: `Amazon <https://www.amazon.com/gp/product/B07FVJNKTS>`__
 
 * 2mm wide zipties: `Amazon <https://www.amazon.com/gp/product/B019GIEWWS>`__
