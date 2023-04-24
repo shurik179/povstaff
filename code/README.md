@@ -1,15 +1,19 @@
 # POV Staff Software
 
-This folder contains software for POV Staff project.  It should be uploaded
-to the ItsyBitsy (M4 or nRF52840 only) using one of the methods below:
+This folder contains software for POV Staff project, V4.  It is intended to be complied
+and uploaded to the QT Py ESP32-S2 (or QT Py ESP32-S3) using Arduino IDE  version
+1.8 or later.   You will need the following libraries:
 
-* You can use a pre-compiled binary (in `binaries` folder). This is described in
-  detail in the user guide: http://povstaff.readthedocs.io
+  * POV-ESP32 library from  https://github.com/shurik179/pov-esp32
 
-* Alternatively, you can compile the code yourself, using Arduino IDE version
-  1.8 or later.   You will need to install POV library from  
-  https://github.com/shurik179/pov-library (you can install it using Arduino
-  Library manager).
+  * Adafruit DotStar
 
-  Copy `povstaff` folder into your Arduino sketch directory and open in Arduino IDE.
-  Remember to select `TinyUSB` in `Tools->USB stack` menu of Arduino IDE.  
+  * Adafruit NeoPixel
+
+  * ESPxWebFlMgr from   https://github.com/holgerlembke/ESPxWebFlMgr
+
+You will need the arduino core for ESP32, see https://learn.adafruit.com/adafruit-qt-py-esp32-s2/arduino-ide-setup
+for installation instructions.
+
+Make sure that you choose the following options in the Arduino IDE tools menu
+(for ESP32-S2):
