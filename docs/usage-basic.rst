@@ -17,7 +17,7 @@ while it is on and not being used.
 
 
 To **start the show**,  turn the staff ON and start spinning it.
-As soon as rotation speed is high enough, the staff will begin showing your first image, one line at a time,
+The staff will begin showing your first image, one line at a time,
 and will continue doing that as long as you are twirling the staff. It will
 adjust the interval between successive lines depending on the rotation speed,
 to keep the image ratio close to original regardless of how fast you are
@@ -36,7 +36,7 @@ comes first. If duration for a given image was not provided, the staff will
 continue showing this image until you pause.
 
 To **pause** the show or move to the next image in the list, stop the staff
-**in horizontal position**. It will go blank; as soon as you start spinning it
+**in vertical position**. It will go blank; as soon as you start spinning it
 again, it will resume the show, moving to the next image. After reaching the
 last image in the list, it will loop over, starting again with the first image.
 

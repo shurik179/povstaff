@@ -8,7 +8,7 @@ Persistence of Vision LED staff
 This guide contains documentation for Persistence of Vision (POV) LED staff project,
 created by Alexander Kirillov <irobotics.store@gmail.com>.
 
-This document describes version 3.2, which was released on October 10, 2022.  An
+This document describes version 4.1, which was released on May 10, 2023.  An
 earlier version of this project was documented on
 `Instructables web site <https://www.instructables.com/Persistence-of-Vision-LED-Staff/>`__.
 The version described here contains several improvements compared to the earlier
@@ -52,8 +52,7 @@ Key Features
   images. The batteries can be recharged via micro-USB connector; full charge
   time is about 5 hrs.
 
-* Images (in bitmap format) can be easily uploaded to the staff by connecting
-  the staff to a computer, where it appears as a USB storage device. It has
+* Images (in bitmap format) can be easily uploaded to the staff over WiFi. It has
   enough memory for about 50 images. The order in which images are shown is
   described in a separate plain text file, where you can put a list of
   images and durations. An image can be listed there several times, or none at all.
@@ -68,20 +67,19 @@ Key Features
 * The software is based on Arduino IDE. It is available under an open source
   license and is easy to modify to suit your needs.
 
-Differences from the previous version
-**************************************
+Differences from  version 3
+****************************
 
-* New switch for increased reliability
+* New MCU (ESP32-S2 QT Py)
 
-* Many changes to wiring, making it easier to build and removing fragile
-  connections prone to breaking
+* Wireless uploading of images
 
-* Charging is now possible with the staff in OFF position so that the LEDs are
-  disconnected from the batteries. This significantly improves charging time
-  (LEDs consume significant current even when they are not lighted; the only way
-  to avoid it is to disconnect them from the battery via a switch).
+* Many changes to wiring
 
-* Updated software: most code moved to a separate library.
+* New 3d printed spacers and other components, mostly printed in Nylon for impact resistance
+
+* Foam protectors at the ends of the staff, to protect the staff when dropped
+
 
 
 .. toctree::

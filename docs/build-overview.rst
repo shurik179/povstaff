@@ -2,7 +2,7 @@ Build overview
 ==============
 The staff consists of the following subassemblies:
 
-* **battery assembly**, containing two batteries, wiring, and spacers. This
+* **battery assembly**, containing two batteries, controller board,  wiring, and spacers. This
   assembly is placed in the center of the staff
 
 * two **LED assemblies**, one on each side of the battery assembly. Each LED
@@ -12,10 +12,7 @@ The staff consists of the following subassemblies:
 
 * A **power switch** at the outer end of one LED assembly
 
-* a **controller**, consisting of the ItsyBitsy MCU soldered to the custom
-  add-on PCB (containing IMU, charging circuit, and more), placed at the outer
+* a **charging connector**, with 5.5 mm OD/2.1mm ID barrel connector, placed at the outer
   end of the other LED assembly
 
-All of the above are inserted into the **polycarbonate tube** and protected by PVC
-caps from both ends. The middle of the tube is wrapped in tennis racket  **grip tape** to
-provide secure grip.
+All of the above are inserted into the **polycarbonate tube** and protected by nylon spacers wrapped in soft foam at both ends. The middle of the tube is wrapped in tennis racket  **grip tape** to provide secure grip.

@@ -13,12 +13,10 @@ Please follow the steps below to build your staff.
     build-materials
     build-kit
     build-overview
-    build-battery
     build-dowel
     build-led
+    build-battery
     build-switch
-    build-controllerwiring
     build-controller
-    build-programming
     build-testing
     build-final
