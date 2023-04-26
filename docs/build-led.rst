@@ -47,19 +47,13 @@ Steps:
     had previously attached to the wood dowels.
     Remove the backing paper from the adhesive strip on the back of the LED and
     attach the strip to the wood dowel, aligning it so that the
-    end of the strip is about 5mm away from the power distribution board. 
+    end of the strip is about 5mm away from the power distribution board.
 
 5.  Solder the wires to the power distribution board. Trim them using flush cutters.
     Repeat the previous steps for all 4 LED strips, placing two LED strips on
-    each dowel, on opposite sides of the dowel. Try to position the two LED
-    strips on the same dowel so that they are aligned; this will be needed for
-    the next step when you use zipties.
+    each dowel, on opposite sides of the dowel.
 
    .. figure:: images/led-3.jpg
-      :alt: Soldering wire to LED strip
-      :width: 80%
-
-   .. figure:: images/led-4.jpg
       :alt: Soldering wire to LED strip
       :width: 80%
 

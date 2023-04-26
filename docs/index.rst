@@ -49,8 +49,8 @@ Key Features
 
 * Staff is powered by two 18650 Li-Ion batteries, which should be enough for at
   least 1 hr show, possibly as much as 2 hours, depending on intensity of your
-  images. The batteries can be recharged via micro-USB connector; full charge
-  time is about 5 hrs.
+  images. The batteries can be recharged via 5.5mm/2.1 barrel connector (or USB
+  C cable, using included adapter); full charge time is about 5 hrs.
 
 * Images (in bitmap format) can be easily uploaded to the staff over WiFi. It has
   enough memory for about 50 images. The order in which images are shown is

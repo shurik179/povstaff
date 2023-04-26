@@ -1,35 +1,50 @@
 Step 4: Switch connector
 ========================
-Materials:
+Materials and tools:
 
-* Switch
+* Bag C from the kit
 
-* Switch spacer
+* flush cutters, soldering iron
 
-* Zipties
+Steps:
 
-Before starting, make sure that your switch is in middle position; this will
-guarantee that the power is off.
+1. Get the switch from bag C. Use the flush cutters to cut open the two
+   retention plastic tabs on the sides of the switch, as shown in the photo below.
 
-1. Locate the switch leads (two black wires, about 55 cm length) leading from
-   the battery assembly. Lay them along the dowel, running the wire through the
-   rectangular cutout in the PDB. Solder the tinned end of one of the leads to
-   the PDB  as shown in the photo below. Use the flush cutters to trim  the
-   soldered wire. Make sure that there is enough wire length to insert a
-   spacer between the battery and PDB.
 
-   .. figure:: images/switch-1.jpg
-      :alt: Switch
-      :width: 60%
+2. Take the two-pin wire from bag C. Insert the ends of the wire into holes
+   in the switch terminals  as shown below and solder .Note: one of the wires
+   must be soldered to the **middle** terminal, and the other,
+   to one of the other terminals (doesn't matter which one). It doesn't matter
+   which of the two wires is soldered to the middle terminal.
 
-2. Use the flush cutters to cut open the two retention plastic tabs on the
-   sides of the switch, as shown in the photo below.
+   .. figure:: images/kit-1.jpg
+       :alt: Kit of parts
+       :width: 80%
+
+3. Use flush cutters to trim the soldered wires.
+
+4. Insert the switch in the 3d printed spacer as shown below.
+
+5. Take the remaining ("SWITCH") LED assembly, with black PDB.
+   Put the 3d printed spacer with the switch  onto the
+   other end of the dowel, making sure that the opening in the spacer is on the
+   same side of the dowel as the two holes in the PDB.
+
+6. Run the wire along the wood dowel; straighten it to remove twists. Insert the
+   tinned ends of the wire into the holes in the PDB. It doesn't matter which
+   wire goes into which hole. Use flush cutters to trim the wire ends protruding
+   from  on the opposite side of the PDB. 
+
+
+
+
+
+
 
 3. Run the wires along the length of the dowel. Solder the tinned ends of
    the wires to the switch; as before, trim the soldered wires using flush cutters.
-   Note: one of the wires must be soldered to the **middle** contact, and the other,
-   to one of the other contacts (doesn't matter which one). It doesn't matter
-   which of the two wires is soldered to the middle contact.
+
 
    .. figure:: images/switch-4.jpg
       :alt: Switch
