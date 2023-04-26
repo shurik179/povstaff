@@ -15,8 +15,10 @@ Please follow the steps below to build your staff.
     build-overview
     build-dowel
     build-led
-    build-battery
+    build-charge
     build-switch
-    build-controller
+    build-battery
+    build-controller1
+    build-controller2
     build-testing
     build-final

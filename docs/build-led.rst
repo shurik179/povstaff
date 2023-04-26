@@ -3,11 +3,11 @@ Step 3: LED assemblies
 
 Materials and tools:
 
-* Wood dowels (from step 2)
+* Wood dowels (from step 1)
 
 * LED strips
 
-* 22AWG solid core wire (from kit of parts)
+* 22AWG solid core wire (from bag A in kit of parts)
 
 * Soldering iron
 
@@ -44,10 +44,10 @@ Steps:
        :width: 80%
 
 4.  Insert the soldered wires into the holes of the power distribution board you
-    had previously attached to the wood dowels (use the sides without cutouts).
+    had previously attached to the wood dowels.
     Remove the backing paper from the adhesive strip on the back of the LED and
     attach the strip to the wood dowel, aligning it so that the
-    end of the strip is about 5mm away from the power distribution board.
+    end of the strip is about 5mm away from the power distribution board. 
 
 5.  Solder the wires to the power distribution board. Trim them using flush cutters.
     Repeat the previous steps for all 4 LED strips, placing two LED strips on

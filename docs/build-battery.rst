@@ -1,4 +1,4 @@
-Step 1: Battery assembly
+Step 5: Battery assembly
 ==========================
 **Warning**: In this step, you will be soldering leads to Li-Ion batteries.
 This could be dangerous if not done right! Please read all instructions
@@ -6,77 +6,19 @@ carefully and wear eye protection. You are working at your own risk!
 
 Materials and tools used:
 
+* Bag D from the kit
+
 * Two 18650 Li-Ion batteries
 
-* Two battery  wire harnesses
-
-* Two Power Distribution Boards (PDB)
-
-* Spacers
-
-* Male headers
-
-* Shrink wrap (from kit of parts)
+* wire strippers
 
 * Soldering Iron, solder, flux
 
-1. Use flush cutters to break off two  2-pin segments from the strip of  male
-   headers. Solder them to the PDBs as shown in the photos below. **Please make
-   sure you to use correct holes and put the headers on the correct side of the
-   PDB - consult the photos below!!**
 
-   .. figure:: images/battery-1.jpg
-      :alt: Soldering headers to  PDB
-      :width: 40%
+1. Find the two 2-pin wires with XH connectors. In each of them, cut the **red** wire to the
+   length of 3.5 cm (not including the connector). Strip about 5mm of the red wire and tin.
 
-
-   .. figure:: images/battery-2.jpg
-      :alt: Soldering headers to  PDB
-      :width: 40%
-
-2. Use pliers to remove the plastic spacers from the headers. Use flush cutters
-   to trim the headers to 5-6mm length (you need not be precise; slightly longer
-   or shorter is fine), making cuts at 45 degree angle to create sharp points -
-   they will be useful later for pressing the PDBs into the wood dowels.
-
-   .. figure:: images/battery-3.jpg
-      :alt: Cutting the headers
-      :width: 40%
-
-
-   .. figure:: images/battery-4.jpg
-      :alt: Cutting the headers
-      :width: 40%
-
-
-
-3. Find the first battery wire harness (28cm, 4 wire).
-
-
-   .. figure:: images/kit-harness1.jpg
-      :alt: Battery wire harness
-      :width: 60%
-
-
-   Insert the 4 tinned ends of the wire harness into the holes of the
-   PDB as shown  below. You must be inserting from the side with label **PDB-A**
-   (or **PDB-B**). The wire with white stripe should go into the hole under the  +
-   sign as shown in the photo below.
-
-   .. figure:: images/battery-5.jpg
-      :alt: Soldering PDB
-      :width: 70%
-
-4. Solder the wires from the opposite side. Use flush cutters to trim
-   protruding wires flush with the PCB.  Repeat the same with the second PDB.
-
-   .. figure:: images/battery-6.jpg
-      :alt: Soldering PDB
-      :width: 70%
-
-
-
-5. Solder the two wire leads from the  wire harness to negative (-)
+2. Solder the red lead of the 2-pin wire connector to positive  (+)
    terminal of each battery. Follow instructions on `this page <https://oscarliang.com/solder-li-ion-battery-18650/>`__
    for soldering. Tip: an easy way to keep the battery vertical while soldering
    is by using the clamp as shown in the photo below.
@@ -86,7 +28,10 @@ Materials and tools used:
       :width: 70%
 
 
-6. Turn the batteries over, with the positive terminal up. Use voltmeter to
+3. Turn the batteries over, with the negative  terminal up. Solder the black lead to negative
+   terminal. 
+
+Use voltmeter to
    check the voltage difference between the positive terminals of the two batteries.
    If it is more than 0.1V, find a low ommage resistor (1 Ohm or about);  press and hold
    it against the two positive terminals, to equalize the voltage.

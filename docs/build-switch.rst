@@ -1,5 +1,5 @@
-Step 4: Switch
-==============
+Step 4: Switch connector
+========================
 Materials:
 
 * Switch

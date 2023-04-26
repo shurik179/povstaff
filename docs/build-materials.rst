@@ -29,7 +29,8 @@ You will need the following materials:
    1 inch outer diameter, from flowtoys.com. Note: while the tube is listed as 55",
    the actual length is 54.5".
 
-*  1/2 inch (or 12 mm) square **wood dowel**, from `HomeDepot <https://www.homedepot.com/p/Waddell-1-2-in-x-36-in-American-Basswood-Square-Dowel-8308U/100547367>`__
+*  1/2 inch (or 12 mm) square **wood dowel**, from
+   `HomeDepot <https://www.homedepot.com/p/Waddell-1-2-in-x-36-in-American-Basswood-Square-Dowel-8308U/100547367>`__
    or any other hardware store. You need two  pieces, each at least 52 cm (slightly over 20").
 
 
@@ -48,7 +49,9 @@ You will need the usual tools and supplies:
 
 * decent soldering iron, solder, and flux
 
-* sharp model knife or utility knife.
+* heat gun
+
+* hack saw
 
 * fast-setting epoxy (I use `JB Weld Clearweld 5 minute epoxy <https://www.amazon.com/J-B-Weld-ClearWeld-Syringe-25mL/dp/B009EU5ZM0>`__)
 
