@@ -17,6 +17,7 @@ Please follow the steps below to build your staff.
     build-led
     build-charge
     build-switch
+    build-led-finish
     build-battery
     build-controller1
     build-controller2

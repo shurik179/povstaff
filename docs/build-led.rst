@@ -1,5 +1,5 @@
-Step 3: LED assemblies
-==============
+Step 2: LED assemblies
+======================
 
 Materials and tools:
 
@@ -13,8 +13,7 @@ Materials and tools:
 
 Steps:
 
-1. Get the LED strip(s). If they are inside waterproof sheaving, remove and
-   discard the sheaving. If they have any wires soldered, de-solder them; remove
+1. Get the LED strip(s). If they have any wires soldered, de-solder them; remove
    excess solder using a braid wick. If you ordered 1m or 2m strips, cut them into
    50 cm pieces, making sure to leave as large as possible soldering pads in the
    beginning of each strip (this should be easy, as usually longer strips are
@@ -43,11 +42,11 @@ Steps:
        :alt: Soldering wire to LED strip
        :width: 80%
 
-4.  Insert the soldered wires into the holes of the power distribution board you
-    had previously attached to the wood dowels.
-    Remove the backing paper from the adhesive strip on the back of the LED and
+4.  Remove  the  backing paper from the adhesive strip on the back
+    of the LED. Insert the soldered wires into the holes of the power distribution board you
+    had previously attached to the wood dowels and
     attach the strip to the wood dowel, aligning it so that the
-    end of the strip is about 5mm away from the power distribution board.
+    beginning of the strip is about 5mm away from the power distribution board.
 
 5.  Solder the wires to the power distribution board. Trim them using flush cutters.
     Repeat the previous steps for all 4 LED strips, placing two LED strips on

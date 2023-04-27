@@ -11,7 +11,7 @@ Materials:
 * Spray paint, epoxy resin.
 
 
-1. Take the two  1/2" square wood dowels. Cut each of them to 52 cm length; try to
+1. Take the two  1/2" square wood dowels. Use hacksaw to cut each of them to 52 cm length; try to
    keep the cuts square.
 
 2. Spray paint each of them black. Let dry (you can work on the other steps
@@ -42,8 +42,7 @@ Materials:
    square drawing on the back for alignment with the dowel. The easiest way to
    do it is using the green press tool:
 
-    Repeat the same with the other dowel
-   and power distribution board.
+   Repeat the same with the other dowel and power distribution board.
 
 
    .. figure:: images/PDB-5.jpg

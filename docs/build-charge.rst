@@ -2,7 +2,7 @@ Step 3: Charge connector
 ========================
 Materials and tools:
 
-* Bag B from the Kit
+* Bag B from the kit
 
 * flush cutters, soldering iron
 
@@ -13,20 +13,32 @@ Steps:
    **Important**: the wire with white stripe should be soldered to the shorter
    pin (this goes to the center pin, which is the positive contact).
 
-   .. figure:: images/kit-1.jpg
+   .. figure:: images/charge-1.jpg
        :alt: Kit of parts
-       :width: 80%
+       :width: 60%
 
 2. Use flush cutters to trim the soldered wires.
 
+   .. figure:: images/charge-2.jpg
+        :alt: Kit of parts
+        :width: 60%
+
 3. Insert the charge connector in the 3d printed spacer as shown below. Push
    against  a flat surface (e.g. the table) to make sure it is all the way in.
+
+   .. figure:: images/charge-3.jpg
+        :alt: Kit of parts
+        :width: 60%
 
 4. Take the LED assemblies created previously. Select the one with PDB labeled
    "CHARGE" (blue PDB).**Important**: make sure you got the correct assembly!
    Put the 3d printed spacer with charge connector onto the
    other end of the dowel, making sure that the opening in the spacer is on the
    same side of the dowel as the two holes in the PDB.
+
+   .. figure:: images/charge-4.jpg
+        :alt: Kit of parts
+        :width: 60%
 
 5. Run the wire along the wood dowel; straighten it to remove twists. Insert the
    tinned ends of the wire into the holes in the PDB. **The wire with white stripe
