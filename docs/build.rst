@@ -20,6 +20,5 @@ Please follow the steps below to build your staff.
     build-led-finish
     build-battery
     build-controller1
-    build-controller2
     build-testing
     build-final

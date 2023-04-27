@@ -33,7 +33,17 @@ Below is listing of parts included in the kit sold on Tindie.
 
    * 2-pin wire (55cm, 22 AWG)
 
-4. **Bag D**: electronics
+4. **Bag D**: battery assembly components
+
+   * 3d printed spacers
+
+   * two 2-pin wires, with JST XH connector
+
+   * 4-pin wire (22cm, 22AWG)
+
+   * black wire, 5 cm, 22 AWG
+
+5. **Bag E**: electronics
 
    * QT Py ESP32-S2 MCU, preprogrammed
 
@@ -42,18 +52,10 @@ Below is listing of parts included in the kit sold on Tindie.
 
    * additional connector board
 
-   * headers
+   * two 7-pin  headers
 
 
-5. **Bag D**: battery assembly components
-
-   * 3d printed spacers
-
-   * two 2-pin wires, with JST XH connector
-
-   * 4-pin wire (??cm, 22AWG)
-
-6. **Bag E**:
+6. **Bag F**:
 
    * two 3d printed end protectors
 

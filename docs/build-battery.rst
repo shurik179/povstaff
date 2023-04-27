@@ -23,51 +23,25 @@ Materials and tools used:
    for soldering. Tip: an easy way to keep the battery vertical while soldering
    is by using the clamp as shown in the photo below.
 
-   .. figure:: images/battery-7.jpg
+   .. figure:: images/battery-1.jpg
       :alt: Battery
       :width: 70%
 
 
 3. Turn the batteries over, with the negative  terminal up. Solder the black lead to negative
-   terminal. 
+   terminal.
 
-Use voltmeter to
-   check the voltage difference between the positive terminals of the two batteries.
-   If it is more than 0.1V, find a low ommage resistor (1 Ohm or about);  press and hold
-   it against the two positive terminals, to equalize the voltage.
+4. Repeat the previous steps with the second battery.
 
-7. Find the second battery wire harness with switch leads (uses red wire).
+5. Take the short black wire and solder  it to negative terminals of both
+   batteries as shown below
 
-
-   .. figure:: images/kit-harness2.jpg
-      :alt: Battery wire harness
-      :width: 60%
-
-   Solder the two red leads to positive terminals of the batteries.  Make sure the direction they are
-   pointing is same as the direction of the black leads on the negative terminal.
+   .. figure:: images/battery-2.jpg
+        :alt: Battery
+        :width: 100%
 
 
-8. Arrange the two batteries in line, placing the spacer between them. (Use the
-   spacer with partly covered top and bottom).
-   Carefully straighten the wires  along the surface of the batteries,
-   making sure they do not cross.  Use electric tape to temporarily attach the wires to the batteries.
-   Make sure that the distance between each PDB and the
-   battery allows you to insert the remaining spacers.
-
-   .. figure:: images/battery-8.jpg
-      :alt: Battery
-      :width: 80%
-
-9. Take the piece of the large diameter shrink wrap and put it over the middle
-   section of battery assembly. Push the batteries and spacer tightly together,
-   being careful not to pinch any wires.
-   Use the heat gun at low temperature setting  to shrink the large shrink
-   wrap.
-
-   .. figure:: images/battery-9.jpg
-      :alt: Battery
-      :width: 80%
-
-10. This completes the battery assembly. The side with long 2-wire leads is
-    the **switch** side; the opposite side (with the bullet connector) is the
-    **controller** side.
+ 6. Use voltmeter to check the voltage difference between the positive terminals
+    of the two batteries. If it is more than 0.1V, find a low ommage resistor
+    (1 Ohm or about);  insert it into positive terminals of the two battery
+    connectors and leave for an hour to equalize the voltage.

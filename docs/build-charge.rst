@@ -31,7 +31,7 @@ Steps:
         :width: 60%
 
 4. Take the LED assemblies created previously. Select the one with PDB labeled
-   "CHARGE" (blue PDB).**Important**: make sure you got the correct assembly!
+   "CHARGE" (blue PDB). **Important**: make sure you got the correct assembly!
    Put the 3d printed spacer with charge connector onto the
    other end of the dowel, making sure that the opening in the spacer is on the
    same side of the dowel as the two holes in the PDB.

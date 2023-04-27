@@ -24,6 +24,7 @@ You will need the following materials:
    **unprotected** batteries from a reputable manufacturer such as Panasonic, Samsung,
    or Sanyo. Do not try to save money by buying no-name battery on eBay or Amazon;
    instead, use a specialized  store such as `18650batterystore.com <http://18650batterystore.com>`__.
+   Batteries must be **identical**, ideally from the same batch. 
 
 *  `Polycarbonate tube, 11F(55in/141cm) <https://flowtoys.com/long-tubes-5f-to-13f>`__,
    1 inch outer diameter, from flowtoys.com. Note: while the tube is listed as 55",
