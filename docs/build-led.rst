@@ -3,13 +3,12 @@ Step 2: LED assemblies
 
 Materials and tools:
 
-* Wood dowels (from step 1)
+* Wood dowels with attached PDBs (from step 1)
 
 * LED strips
 
 * 22AWG solid core wire (from bag A in kit of parts)
 
-* Soldering iron
 
 Steps:
 

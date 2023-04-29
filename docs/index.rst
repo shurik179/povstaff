@@ -76,7 +76,7 @@ Differences from  version 3
 
 * Many changes to wiring
 
-* New 3d printed spacers and other components, mostly printed in Nylon for impact resistance
+* New 3d printed spacers and other components, printed in black resin. 
 
 * Foam protectors at the ends of the staff, to protect the staff when dropped
 

@@ -31,7 +31,7 @@ Below is listing of parts included in the kit sold on Tindie.
 
    * 3d printed housing for the switch
 
-   * 2-pin wire (55cm, 22 AWG)
+   * 2-pin wire (55cm, 20 AWG)
 
 4. **Bag D**: battery assembly components
 
@@ -41,7 +41,7 @@ Below is listing of parts included in the kit sold on Tindie.
 
    * 4-pin wire (22cm, 22AWG)
 
-   * black wire, 5 cm, 22 AWG
+   * black wire, 5.5 cm, 22 AWG
 
 5. **Bag E**: electronics
 
