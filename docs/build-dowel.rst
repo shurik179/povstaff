@@ -38,7 +38,7 @@ Materials:
       :alt: PDB with header - trimming
       :width: 50%
 
-6. Press the  PDB with solderedheaders  into the end of the dowel. Use the
+6. Press the  PDB with soldered headers  into the end of the dowel. Use the
    square drawing on the back for alignment with the dowel. To avoid damaging the
    header pins, use the included 3d printed press tool: place it on the table,
    then the PDB on it (face down), then press the dowel into it. Make sure to

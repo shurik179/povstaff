@@ -39,8 +39,8 @@ connectors on the POV shield board and the switch board (doesn't matter which ba
      :alt: Connecting LED assemblies
      :width: 80%
 
- Turn the switch on (you will have to try both positions to figure out which of them is ON).
+Turn the switch on (you will have to try both positions to figure out which of them is ON).
 
- The staff should come to life and light up.
+The staff should come to life and light up.
 
- FIXME 
+FIXME

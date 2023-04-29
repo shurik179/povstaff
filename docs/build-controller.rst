@@ -19,9 +19,18 @@ Materials
    Type in the URL field of the browser the following address: `povstaff.local:8080`.
    You should see the webpage of the staff, which looks as follows:
 
+   .. figure:: images/upload.png
+       :alt: Upload web page
+       :width: 80%
+
+
+
    If you see the files `imagelist.txt`, `rg-lines.bmp` and `bg-triangles.bmp`,
    everything is good - you can disconnect the USB cable and proceed. Otherwise,
    check the troubleshooting section.
+
+
+
 
 2. Solder the headers to the custom  POV controller shield as shown below.
    **Make sure to solder it on the correct side of the board.**  The easiest way
