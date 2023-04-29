@@ -4,7 +4,7 @@ Materials
 
 * Bag E from the kit
 
-* soldering iron
+* 4-pin wire, left over from the previous step 
 
 1. Before doing any work, get  the  ESP32-S2 Qt Py
    microcontroller from the bag and  test it. To do that, connect it by USB
@@ -27,14 +27,14 @@ Materials
    **make sure to solder it on the correct side of the board.**  The easiest way
    to keep the headers straight while soldering is to plug them into a breadboard.
 
-   .. figure:: images/controller-1.jpg
-       :alt: Kit of parts
+   .. figure:: images/controller-2.jpg
+       :alt: Soldering headers to POV controller shield
        :width: 60%
 
 
 
-   .. figure:: images/controller-2.jpg
-       :alt: Kit of parts
+   .. figure:: images/controller-1.jpg
+       :alt: Soldering headers to POV controller shield
        :width: 60%
 
 3. Solder the ESP32-S2 QT Py  board to the headers, forming a "sandwich" of two boards
@@ -43,7 +43,7 @@ Materials
    the controller shield.
 
    .. figure:: images/controller-3.jpg
-      :alt: Controller
+      :alt: Controller with shield
       :width: 80%
 
 4. Take the 4-pin wire and solder it to the controller board on one side and to
@@ -51,5 +51,5 @@ Materials
    wire with white stripe should go into the hole labeled "VCC".
 
    .. figure:: images/controller-4.jpg
-      :alt: Controller
+      :alt: Controller, shield and wire
       :width: 80%

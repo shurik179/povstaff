@@ -1,4 +1,4 @@
-Step 5: finishing LED assemblies
+Step 5: Finishing LED assemblies
 ======================
 
 1. Mix some epoxy resin.
@@ -19,4 +19,4 @@ Step 5: finishing LED assemblies
 
 
 
-This completes the construction of two LED assemblies. 
+This completes the construction of two LED assemblies.

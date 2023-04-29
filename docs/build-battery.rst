@@ -1,5 +1,5 @@
-Step 5: Battery assembly
-==========================
+Step 5: Batteries
+=================
 **Warning**: In this step, you will be soldering leads to Li-Ion batteries.
 This could be dangerous if not done right! Please read all instructions
 carefully and wear eye protection. You are working at your own risk!
@@ -10,9 +10,7 @@ Materials and tools used:
 
 * Two 18650 Li-Ion batteries
 
-* wire strippers
 
-* Soldering Iron, solder, flux
 
 
 1. Find the two 2-pin wires with XH connectors. In each of them, cut the **red** wire to the
@@ -45,3 +43,5 @@ Materials and tools used:
     of the two batteries. If it is more than 0.1V, find a low ommage resistor
     (1 Ohm or about);  insert it into positive terminals of the two battery
     connectors and leave for an hour to equalize the voltage.
+
+Bag D also conatins a 4-pin wire; it will be used in the next step.S
