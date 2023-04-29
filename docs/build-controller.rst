@@ -4,7 +4,7 @@ Materials
 
 * Bag E from the kit
 
-* 4-pin wire, left over from the previous step 
+* 4-pin wire, left over from the previous step
 
 1. Before doing any work, get  the  ESP32-S2 Qt Py
    microcontroller from the bag and  test it. To do that, connect it by USB
@@ -24,7 +24,7 @@ Materials
    check the troubleshooting section.
 
 2. Solder the headers to the custom  POV controller shield as shown below.
-   **make sure to solder it on the correct side of the board.**  The easiest way
+   **Make sure to solder it on the correct side of the board.**  The easiest way
    to keep the headers straight while soldering is to plug them into a breadboard.
 
    .. figure:: images/controller-2.jpg

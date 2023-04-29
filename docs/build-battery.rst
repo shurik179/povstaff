@@ -44,4 +44,4 @@ Materials and tools used:
     (1 Ohm or about);  insert it into positive terminals of the two battery
     connectors and leave for an hour to equalize the voltage.
 
-Bag D also conatins a 4-pin wire; it will be used in the next step.S
+Bag D also contains a 4-pin wire; it will be used in the next step.S
