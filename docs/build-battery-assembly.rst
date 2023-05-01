@@ -35,7 +35,7 @@ Step 8: Battery and controller assembly
    tape or similar methods to keep the boards and plug in posiiton.  Put aside for one hour so
    that epoxy sets.
 
-6. Once the epoxy sets, put insert the batteries (positive terminal first)
+6. Once the epoxy sets,  insert the batteries (positive terminal first)
    into the spacers. Plug the
    battery leads into the connectros on boards. Carefully arrange the wires so
    that they run  along the battery through the openings in the spacers, with
@@ -63,5 +63,3 @@ Step 8: Battery and controller assembly
    with some friction, but it shouldn't require force. If it doesn't go in easily,
    try to locate  the offending place (usually some slack in the wires or kink
    in the electric tape) and fix it.
-
-   

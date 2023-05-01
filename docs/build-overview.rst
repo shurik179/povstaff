@@ -21,3 +21,19 @@ The staff consists of the following subassemblies:
 All of the above are inserted into the **polycarbonate tube** and protected at both ends
 by 3d printed endcaps wrapped in soft foam. The middle of the tube is wrapped
 in tennis racket  **grip tape** to provide secure grip.
+
+
+
+**Warning**:
+
+1. At some steps you will be using  epoxy. Please be careful that it
+   doesn't get on your skin - to be on the safe side, you can  put on thin
+   latex  gloves.
+
+2. You will be soldering leads to 18650 Li-Ion battery. It can be dangerous if
+   not done right. Make sure to **carefully read the instructions** before doing this. If you
+   are not sure you can do it, then this project is not for you.
+
+
+If you messed up, destroying one of the parts, or misplaced it, do not worry!
+Email me at irobotics.store@gmail.com and I can send you a replacement.

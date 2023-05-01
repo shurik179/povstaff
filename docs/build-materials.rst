@@ -60,14 +60,3 @@ You will need the usual tools and supplies:
 
 You will also need a computer with WiFi  to upload the images  and a charger
 (either 5v charger with 5.5mm/2.1mm barrel jack connector, or a USB  charger and USB C cable) to charge the batteries.
-
-
-**Warning**:
-
-1. At some steps you will be using  epoxy. Please be careful that it
-   doesn't get on your skin - to be on the safe side, you can  put on thin
-   latex  gloves.
-
-2. You will be soldering leads to 18650 Li-Ion battery. It can be dangerous if
-   not done right. Make sure to carefully read the instructions before doing this. If you 
-   are not sure you can do it, then this project is not for you.
