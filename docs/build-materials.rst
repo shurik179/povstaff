@@ -12,7 +12,7 @@ You will need the following materials:
    strips and cut them into 50cm pieces. The strips should not be waterproofed.
 
    **Important:** the order of signals on the LED  strip should be as shown below. If the order is different,
-   the staff will not work! The BTF-LIGHTING strip at the amazon link above matches that requirement.
+   the staff will not work! The BTF-LIGHTING strip at the amazon link above meets that requirement.
 
    .. figure:: images/signal_order.jpg
       :alt: Signal order
@@ -24,9 +24,9 @@ You will need the following materials:
    **unprotected** batteries from a reputable manufacturer such as Panasonic, Samsung,
    or Sanyo. Do not try to save money by buying no-name battery on eBay or Amazon;
    instead, use a specialized  store such as `18650batterystore.com <http://18650batterystore.com>`__.
-   Batteries must be **identical**, ideally from the same batch. 
+   Batteries must be **identical**, ideally from the same batch.
 
-*  `Polycarbonate tube, 11F(55in/141cm) <https://flowtoys.com/long-tubes-5f-to-13f>`__,
+*  `Polycarbonate tube, 11F (55in/141cm) <https://flowtoys.com/long-tubes-5f-to-13f>`__,
    1 inch outer diameter, from flowtoys.com. Note: while the tube is listed as 55",
    the actual length is 54.5".
 
@@ -58,4 +58,16 @@ You will need the usual tools and supplies:
 
 * black spray paint
 
-You will also need a computer with WiFi  to upload the images  and a charger (either 5v charger with 5.5mm/2.1mm barrel jack connector, or a USB  charger and USB C cable) to charge the batteries.
+You will also need a computer with WiFi  to upload the images  and a charger
+(either 5v charger with 5.5mm/2.1mm barrel jack connector, or a USB  charger and USB C cable) to charge the batteries.
+
+
+**Warning**:
+
+1. At some steps you will be using  epoxy. Please be careful that it
+   doesn't get on your skin - to be on the safe side, you can  put on thin
+   latex  gloves.
+
+2. You will be soldering leads to 18650 Li-Ion battery. It can be dangerous if
+   not done right. Make sure to carefully read the instructions before doing this. If you 
+   are not sure you can do it, then this project is not for you.

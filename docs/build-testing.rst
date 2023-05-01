@@ -10,9 +10,9 @@ into the LED assemblies as follows:
   labeled CHARGE.
 
 
-* The other board shoudl be plugged into the LED assembly labeled SWITCH
+* The switch connector  board should be plugged into the LED assembly labeled SWITCH
 
-The LED assemblies are not interchangeable!
+**The LED assemblies are not interchangeable!**
 
 In each case, the board must be plugged into PDB so that the label CHARGE (or SWITCH)
 should be above the plugged board:

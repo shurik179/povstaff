@@ -32,7 +32,7 @@ Materials and tools used:
 4. Repeat the previous steps with the second battery.
 
 5. Take the short black wire and solder  it to negative terminals of both
-   batteries as shown below
+   batteries as shown below. Take care not to desolder the previously soldered wires.
 
    .. figure:: images/battery-2.jpg
         :alt: Battery
@@ -44,4 +44,5 @@ Materials and tools used:
     (1 Ohm or about);  insert it into positive terminals of the two battery
     connectors and leave for an hour to equalize the voltage.
 
-Bag D also contains a 4-pin wire; it will be used in the next step.S
+Bag D also contains 3d printed spacers and 4-pin wire; they  will be used in
+the following  steps.
