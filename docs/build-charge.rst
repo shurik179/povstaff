@@ -4,9 +4,20 @@ Materials and tools:
 
 * Bag B from the kit
 
+  .. figure:: images/kit-bagB-annotated.png
+   :alt: Kit of parts, bag B
+   :width: 60%
+
+  1. 2-pin wire (55 cm, 24 AWG)
+
+  2. 3d printed housing for charge connector
+
+  3. Charge connector
+
+
 * flush cutters, soldering iron
 
-Steps:
+**Steps:**
 
 1. Take the two-pin wire from bag B. Insert the ends of the wire into holes
    in the charge connector as shown below and solder.
