@@ -20,7 +20,7 @@ Materials and tools:
 **Steps:**
 
 1. Take the two-pin wire from bag B. Insert the ends of the wire into holes
-   in the charge connector as shown below and solder.
+   in the charge connector as shown below.
    **Important**: the wire with white stripe should be soldered to the shorter
    pin (this goes to the center pin, which is the positive contact).
 
@@ -28,7 +28,7 @@ Materials and tools:
        :alt: Kit of parts
        :width: 60%
 
-2. Use flush cutters to trim the soldered wires.
+2. Solder the wires. Use flush cutters to trim the soldered wires.
 
    .. figure:: images/charge-2.jpg
         :alt: Kit of parts
@@ -42,7 +42,7 @@ Materials and tools:
         :width: 60%
 
 4. Take the LED assemblies created previously. Select the one with PDB labeled
-   "CHARGE" (blue PDB). **Important**: make sure you got the correct assembly!
+   "CHARGE" (blue PDB). **Important: make sure you got the correct assembly!**
    Put the 3d printed spacer with charge connector onto the
    other end of the dowel, making sure that the opening in the spacer is on the
    same side of the dowel as the two holes in the PDB.
