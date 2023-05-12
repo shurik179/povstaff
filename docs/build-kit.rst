@@ -23,7 +23,7 @@ Below is listing of parts included in the kit sold on Tindie.
 
 2. **Bag B**:
 
-   .. figure:: images/kit-bagB-annotated.jpg
+   .. figure:: images/kit-bagB-annotated.png
       :alt: Kit of parts, bag B
       :width: 60%
 
