@@ -61,9 +61,11 @@ Below is listing of parts included in the kit sold on Tindie.
 
   3. Two 3d printed spacers to go at the neds of batteries
 
-  4.  4-pin wire (22cm, 22AWG)
+  4. 3d printed "plugs"
 
-  5. black wire, 5.5 cm, 22 AWG
+  5. 4-pin wire (22cm, 22AWG)
+
+  6. Wire,  5.5 cm, 22 AWG
 
 * **Bag E**: electronics
 
@@ -73,14 +75,14 @@ Below is listing of parts included in the kit sold on Tindie.
       :width: 60%
 
 
-   1. QT Py ESP32-S2 MCU, preprogrammed
+  1. QT Py ESP32-S2 MCU, preprogrammed
 
-   2. Custom-made POV controller board, containing Inertial Motion Unit, battery
+  2. Custom-made POV controller board (blue), containing Inertial Motion Unit, battery
      charge circuit, and more.
 
-   3. Switch  connector board
+  3. Switch  connector board (black)
 
-   4. Two 7-pin  headers
+  4. Two 7-pin headers
 
 
 * **Bag F**:
@@ -89,10 +91,11 @@ Below is listing of parts included in the kit sold on Tindie.
       :alt: Kit of parts, bag F
       :width: 60%
 
-   * two 3d printed end protectors
+  1.  two shrink wrap sleeves
 
-   * two foam sleeves
+  2. two foam sleeves
 
-   * two shrink wrap sleeves
+  3-4.  two 3d printed end protectors
 
-   * tennis grip tape
+
+  5. tennis grip tape
