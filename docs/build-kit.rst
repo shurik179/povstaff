@@ -6,7 +6,7 @@ Below is listing of parts included in the kit sold on Tindie.
     :alt: Kit of parts
     :width: 80%
 
-1. **Bag A**: materials for LED assemblies
+* **Bag A**: materials for LED assemblies
 
    .. figure:: images/kit-full.jpg
       :alt: Kit of parts
@@ -21,7 +21,7 @@ Below is listing of parts included in the kit sold on Tindie.
    * 3d printed press tool, to be used for pressing hte PDBs into the dowels. Discard after use
 
 
-2. **Bag B**:
+* **Bag B**:
 
    .. figure:: images/kit-bagB-annotated.png
       :alt: Kit of parts, bag B
@@ -35,7 +35,7 @@ Below is listing of parts included in the kit sold on Tindie.
 
 
 
-3. **Bag C**:
+* **Bag C**:
 
    * Switch
 
@@ -43,7 +43,7 @@ Below is listing of parts included in the kit sold on Tindie.
 
    * 2-pin wire (55cm, 20 AWG)
 
-4. **Bag D**: battery assembly components
+* **Bag D**: battery assembly components
 
    * 3d printed spacers
 
@@ -53,7 +53,7 @@ Below is listing of parts included in the kit sold on Tindie.
 
    * black wire, 5.5 cm, 22 AWG
 
-5. **Bag E**: electronics
+* **Bag E**: electronics
 
    * QT Py ESP32-S2 MCU, preprogrammed
 
@@ -65,7 +65,7 @@ Below is listing of parts included in the kit sold on Tindie.
    * two 7-pin  headers
 
 
-6. **Bag F**:
+* **Bag F**:
 
    * two 3d printed end protectors
 
