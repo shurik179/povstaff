@@ -55,15 +55,15 @@ Below is listing of parts included in the kit sold on Tindie.
       :width: 60%
 
 
-   1. two 2-pin wires, with JST XH connector
+  1. two 2-pin wires, with JST XH connector
 
-   2.  3d printed spacer, to go between batteries
+  2.  3d printed spacer, to go between batteries
 
-   3. Two 3d printed spacers to go at the neds of batteries
+  3. Two 3d printed spacers to go at the neds of batteries
 
-   4.  4-pin wire (22cm, 22AWG)
+  4.  4-pin wire (22cm, 22AWG)
 
-   5. black wire, 5.5 cm, 22 AWG
+  5. black wire, 5.5 cm, 22 AWG
 
 * **Bag E**: electronics
 
