@@ -2,11 +2,15 @@ Kit of parts
 ============
 Below is listing of parts included in the kit sold on Tindie.
 
-.. figure:: images/kit-1.jpg
+.. figure:: images/kit-full.jpg
     :alt: Kit of parts
     :width: 80%
 
 1. **Bag A**: materials for LED assemblies
+
+   .. figure:: images/kit-full.jpg
+      :alt: Kit of parts
+      :width: 80%
 
    * two power distribution boards (PDB), one labeled "CHARGE", the other "SWITCH"
 
@@ -19,11 +23,17 @@ Below is listing of parts included in the kit sold on Tindie.
 
 2. **Bag B**:
 
-   * Charge connector
+   .. figure:: images/kit-bagB-annotated.jpg
+      :alt: Kit of parts, bag B
+      :width: 60%
 
-   * 3d printed housing for charge connector
+   1. 2-pin wire (55 cm, 24 AWG)
 
-   * 2-pin wire (55 cm, 24 AWG)
+   2. 3d printed housing for charge connector
+
+   3. Charge connector
+
+
 
 3. **Bag C**:
 
