@@ -41,11 +41,11 @@ Below is listing of parts included in the kit sold on Tindie.
       :alt: Kit of parts, bag C
       :width: 60%
 
-   * Switch
+  1. Switch
 
-   * 3d printed housing for the switch
+  2. 3d printed housing for the switch
 
-   * 2-pin wire (55cm, 20 AWG)
+  3. 2-pin wire (55cm, 20 AWG)
 
 * **Bag D**: battery assembly components
 
