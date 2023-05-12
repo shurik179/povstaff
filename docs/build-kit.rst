@@ -37,6 +37,10 @@ Below is listing of parts included in the kit sold on Tindie.
 
 * **Bag C**:
 
+  .. figure:: images/kit-bagC-annotated.png
+      :alt: Kit of parts, bag C
+      :width: 60%
+
    * Switch
 
    * 3d printed housing for the switch
@@ -45,27 +49,45 @@ Below is listing of parts included in the kit sold on Tindie.
 
 * **Bag D**: battery assembly components
 
-   * 3d printed spacers
 
-   * two 2-pin wires, with JST XH connector
+  .. figure:: images/kit-bagD-annotated.png
+      :alt: Kit of parts, bag D
+      :width: 60%
 
-   * 4-pin wire (22cm, 22AWG)
 
-   * black wire, 5.5 cm, 22 AWG
+   1. two 2-pin wires, with JST XH connector
+
+   2.  3d printed spacer, to go between batteries
+
+   3. Two 3d printed spacers to go at the neds of batteries
+
+   4.  4-pin wire (22cm, 22AWG)
+
+   5. black wire, 5.5 cm, 22 AWG
 
 * **Bag E**: electronics
 
-   * QT Py ESP32-S2 MCU, preprogrammed
 
-   * Custom-made POV controller board, containing Inertial Motion Unit, battery
+  .. figure:: images/kit-bagE-annotated.png
+      :alt: Kit of parts, bag E
+      :width: 60%
+
+
+   1. QT Py ESP32-S2 MCU, preprogrammed
+
+   2. Custom-made POV controller board, containing Inertial Motion Unit, battery
      charge circuit, and more.
 
-   * additional connector board
+   3. Switch  connector board
 
-   * two 7-pin  headers
+   4. Two 7-pin  headers
 
 
 * **Bag F**:
+
+  .. figure:: images/kit-bagF-annotated.png
+      :alt: Kit of parts, bag F
+      :width: 60%
 
    * two 3d printed end protectors
 
@@ -74,7 +96,3 @@ Below is listing of parts included in the kit sold on Tindie.
    * two shrink wrap sleeves
 
    * tennis grip tape
-
-.. figure:: images/kit-2.jpg
-   :alt: POV shield and PDB
-   :width: 80%
