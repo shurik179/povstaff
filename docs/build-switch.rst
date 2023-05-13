@@ -4,13 +4,26 @@ Materials and tools:
 
 * Bag C from the kit
 
+
+  .. figure:: images/kit-bagC-annotated.png
+      :alt: Kit of parts, bag C
+      :width: 60%
+
+  1. Switch
+
+  2. 3d printed housing for the switch
+
+  3. 2-pin wire (55cm, 20 AWG)
+
+
+
 * flush cutters, soldering iron
 
-Steps:
+**Steps:**
 
 
 1. Take the two-pin wire from bag C. Insert the ends of the wire into holes
-   in the switch terminals  as shown below Note: one of the wires
+   in the switch terminals  as shown below. Note: one of the wires
    must be soldered to the **middle** terminal, and the other,
    to one of the other terminals (doesn't matter which one). It doesn't matter
    which of the two wires is soldered to the middle terminal.
