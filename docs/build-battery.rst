@@ -8,6 +8,27 @@ Materials and tools used:
 
 * Bag D from the kit
 
+
+
+  .. figure:: images/kit-bagD-annotated.png
+      :alt: Kit of parts, bag D
+      :width: 60%
+
+
+  1. two 2-pin wires, with JST XH connector
+
+  2. 3d printed spacer, to go between batteries
+
+  3. Two 3d printed spacers to go at the ends of batteries
+
+  4. 3d printed "plugs"
+
+  5. 4-pin wire (22cm, 22AWG)
+
+  6. Wire,  5.5 cm, 22 AWG
+
+
+
 * Two 18650 Li-Ion batteries
 
 
