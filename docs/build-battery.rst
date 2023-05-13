@@ -1,4 +1,4 @@
-Step 5: Batteries
+Step 6: Batteries
 =================
 **Warning**: In this step, you will be soldering leads to Li-Ion batteries.
 This could be dangerous if not done right! Please read all instructions
