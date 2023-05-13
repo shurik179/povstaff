@@ -1,10 +1,29 @@
-Step 6: Controller assembly
+Step 7: Controller assembly
 ===========================
 Materials
 
 * Bag E from the kit
 
+
+  .. figure:: images/kit-bagE-annotated.png
+      :alt: Kit of parts, bag E
+      :width: 60%
+
+
+  1. QT Py ESP32-S2 MCU, preprogrammed
+
+  2. Custom-made POV controller board (blue), containing Inertial Motion Unit, battery
+     charge circuit, and more.
+
+  3. Switch  connector board (black)
+
+  4. Two 7-pin headers
+
+
+
 * 4-pin wire, left over from the previous step
+
+**Steps:**
 
 1. Before doing any work, get  the  ESP32-S2 Qt Py
    microcontroller from the bag and  test it. To do that, connect it by USB
