@@ -75,7 +75,7 @@ Below is listing of parts included in the kit sold on Tindie.
       :width: 60%
 
 
-  1. QT Py ESP32-S2 MCU, preprogrammed
+  1. QT Py ESP32-S3 MCU, preprogrammed
 
   2. Custom-made POV controller board (blue), containing Inertial Motion Unit, battery
      charge circuit, and more.

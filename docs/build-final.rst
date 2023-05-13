@@ -1,4 +1,4 @@
-Step 9: Final assembly
+Step 10: Final assembly
 ===============================
 
 Warning: inserting the whole assembly in the tube takes some time, and getting

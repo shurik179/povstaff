@@ -1,4 +1,4 @@
-Step 8: Battery and controller assembly
+Step 9: Battery and controller assembly
 =======================================
 
 1. Disconnect the batteries from the boards. Do not pull on the wires; instead, grab the
@@ -48,7 +48,7 @@ Step 8: Battery and controller assembly
       :width: 80%
 
 
-7. Finally, take mid-battery spacer. Insert the negative termianl of each battery
+7. Finally, take mid-battery spacer. Insert the negative terminal of each battery
    into this spacer. **Warning**: only insert batteries from the end; do not try
    to force the batteries from top/bottom - you can break the spacer. Hide the
    slack of the wires into the spacer between the batteries, so the wires on
