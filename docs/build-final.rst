@@ -62,6 +62,7 @@ Materials:
    If everything worked as expected, the charge connector should now be level with the
    opposite end of the tube or several millimeters inside the tube. In the
    latter case, use the included foam washers to fill the rest of the tube.
+   FIXME - NEED PHOTO
 
 5. Take the 3d printed switch end protector (item 3 in bag F, the one with larger
    opening). For shipping, it might have been placed inside the foam wrap;
@@ -89,7 +90,7 @@ Materials:
       :alt: Foam tape
       :width: 40%
 
-9. Use heat gun (on low setting) to tighten the shrink wrap.
+9. Use heat gun (on low setting) to shrink  the shrink wrap.
 
    .. figure:: images/final-3.jpg
       :alt: Foam tape
