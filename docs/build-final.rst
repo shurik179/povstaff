@@ -85,20 +85,19 @@ Materials:
    extend beyond the end of the foam wrap by another 5 mm
 
 
-    .. figure:: images/final-2.jpg
-       :alt: Foam tape
-       :width: 40%
+   .. figure:: images/final-2.jpg
+      :alt: Foam tape
+      :width: 40%
 
 9. Use heat gun (on low setting) to tighten the shrink wrap.
 
-    .. figure:: images/final-3.jpg
-       :alt: Foam tape
-       :width: 40%
+   .. figure:: images/final-3.jpg
+      :alt: Foam tape
+      :width: 40%
 
-
-    .. figure:: images/final-4.jpg
-       :alt: Foam tape
-       :width: 40%
+   .. figure:: images/final-4.jpg
+      :alt: Foam tape
+      :width: 40%
 
 
 
