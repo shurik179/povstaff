@@ -8,11 +8,14 @@ Step 3: Charge connector
    :alt: Kit of parts, bag B
    :width: 60%
 
-  1. 2-pin wire (55 cm, 24 AWG)
+  1. Charge connector
 
   2. 3d printed housing for charge connector
 
-  3. Charge connector
+  3. 2-pin wire (55 cm, 24 AWG)
+
+  4. Charging adapter (USB C to 5.5mm barrel jack)
+
 
 
 * flush cutters, soldering iron
@@ -53,3 +56,6 @@ Step 3: Charge connector
    tinned ends of the wire into the holes in the PDB. **The wire with white stripe
    should go into the hole labeled "5V".** Solder the wire and then trim the
    wire ends protruding on the other side.
+
+
+Bag B also contains the cahrge adapter - keep it ot use whne charging the staff.    
