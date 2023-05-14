@@ -8,7 +8,7 @@ Below is listing of parts included in the kit sold on Tindie.
 
 * **Bag A**: materials for LED assemblies
 
-  .. figure:: images/kit-bagA-annotated.jpg
+  .. figure:: images/kit-bagA-annotated.png
       :alt: Kit of parts
       :width: 80%
 
@@ -20,7 +20,7 @@ Below is listing of parts included in the kit sold on Tindie.
 
   4.  3d printed press tool, to be used for pressing hte PDBs into the dowels. Discard after use
 
-  Note: color of the wire and press tool may vary. 
+  Note: color of the wire and press tool may vary.
 
 * **Bag B**:
 

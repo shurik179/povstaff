@@ -7,7 +7,7 @@ Step 1: Dowels
 
 * Bag A from the kit
 
-  .. figure:: images/kit-bagA-annotated.jpg
+  .. figure:: images/kit-bagA-annotated.png
      :alt: Kit of parts
      :width: 80%
 
