@@ -17,8 +17,9 @@ Materials:
 
   2. two foam sleeves
 
-  3-4.  two 3d printed end protectors
+  3. Switch end protector
 
+  4.  Charge  end protector
 
   5. tennis grip tape
 
@@ -62,28 +63,47 @@ Materials:
    opposite end of the tube or several millimeters inside the tube. In the
    latter case, use the included foam washers to fill the rest of the tube.
 
-5. FIXME Cover the controller end of the tube with the PVC cap.
+5. Take the 3d printed switch end protector (item 3 in bag F, the one with larger
+   opening). For shipping, it might have been placed inside the foam wrap;
+   if so, remove it from the foam wrap.  Put it over the
+   switch end of tube. There are two small bumps inside the protector which
+   should go into the holes in hte tube; if necessary, turn the end protector
+   until you hear the click.
 
-6. Take the other PVC cap; use scissors or model knife to cut a circle (about
-   15mm) in it. Insert the switch spacer into the cap, with the angled side facing out.
-   Use this assembly to cover the switch end of the tube. (The spacer prevent
-   the switch from turning off  if you drop the staff.)
+6. Repeat the same with the charge switch protector (item 4 in the bag), putting it
+   on the opposite end of the tube. Test the whole staff once again, turning it
+   on and off.
+
+7. Put the two pieces of the foam tube over the end protectors so that the foam
+   tube extends beyond the protector by 2-3 mm.
+
+   .. figure:: images/final-1.jpg
+         :alt: Foam tape
+         :width: 40%
+
+8. Put the shirnk wrap over the foam as shown in the photo below. It should
+   extend beyond the end of the foam wrap by another 5 mm
 
 
-   .. figure:: images/cap-1.jpg
-      :alt: Switch cap and spacer
-      :width: 40%
+    .. figure:: images/final-2.jpg
+       :alt: Foam tape
+       :width: 40%
 
-   .. figure:: images/cap-2.jpg
-      :alt: Switch cap and spacer
-      :width: 40%
+9. Use heat gun (on low setting) to tighten the shrink wrap.
+
+    .. figure:: images/final-3.jpg
+       :alt: Foam tape
+       :width: 40%
 
 
-   .. figure:: images/cap-3.jpg
-      :alt: Switch cap and spacer
-      :width: 40%
+    .. figure:: images/final-4.jpg
+       :alt: Foam tape
+       :width: 40%
 
-7. Apply the tennis overgrip tape over the middle part of the tube,
+
+
+
+10. Apply the tennis overgrip tape over the middle part of the tube,
    containing the battery assembly and spacers -everything between the
    Power Distribution Boards. You can watch this video to see the proper
    way of applying the overgrip tape:
