@@ -57,7 +57,7 @@ Step 9: Battery and controller assembly
 
    .. figure:: images/battery-3.jpg
       :alt: Assembling the electronics and battery spacer
-      :width: 80%
+      :width: 100%
 
 8. Try inserting the whole assembly into the tube. It should go in, possibley
    with some friction, but it shouldn't require force. If it doesn't go in easily,

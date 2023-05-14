@@ -84,7 +84,7 @@ Wait for 20-30 seconds and open  the WiFi search dialog of your computer. You
 should see there a new WiFi network with the name `POVSTAFFXXXX`, where XXXX
 will be replaced by a 4-digit number, unique for each staff. Connect to this
 network, using the password. The password is included on the information sheet
-which was included with your kit' if you misplaced it,
+which was included with your kit; if you misplaced it,
 email `irobotics.store@gmail.com` for help.
 
 Type in the URL field of the browser the following address: `povstaff.local:8080`.

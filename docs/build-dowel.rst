@@ -40,9 +40,9 @@ Materials:
 
 6. Press the  PDB with soldered headers  into the end of the dowel. Use the
    square drawing on the back for alignment with the dowel. To avoid damaging the
-   header pins, use the included 3d printed press tool: place it on the table,
+   header pins, use the included 3d-printed press tool: place it on the table,
    then the PDB on it (face down), then press the dowel into it. Make sure to
-   press it all the way in: there shoudl be no gap between the dowel and the PDB.
+   press it all the way in: there should be no gap between the dowel and the PDB.
    Repeat  with the other dowel and power distribution board.
 
 
@@ -50,9 +50,6 @@ Materials:
    .. figure:: images/PDB-4.jpg
         :alt: Dowel with PDB
         :width: 50%
-
-
-
 
 
 7. Remove the PDB from the dowel. Mix some epoxy glue, apply it to the end of

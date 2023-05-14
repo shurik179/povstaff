@@ -1,7 +1,7 @@
 Step 2: LED assemblies
 ======================
 
-Materials and tools:
+**Materials and tools:**
 
 * Wood dowels with attached PDBs (from step 1)
 
@@ -10,7 +10,7 @@ Materials and tools:
 * 22AWG solid core wire (from bag A in kit of parts)
 
 
-Steps:
+**Steps:**
 
 1. Get the LED strip(s). If they have any wires soldered, de-solder them; remove
    excess solder using a braid wick. If you ordered 1m or 2m strips, cut them into

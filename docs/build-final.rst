@@ -56,9 +56,9 @@ Materials:
    slowly. If you meet with resistance, push gently; if it is not enough, do
    not use excessive force - try to locate the problem. If necessary, remove
    from the tube and fix the wiring or electric tape. Watch that the LED assembly
-   do not disconnect from the battery and elexctornics assembly.
+   does not get  disconnected from the battery and electronics assembly.
    Continue until everything is fully in. Push to fully insert the switch; make
-   sure the retaining tabs are inside the tube.
+   sure the switch retaining tabs are inside the tube.
    If everything worked as expected, the charge connector should now be level with the
    opposite end of the tube or several millimeters inside the tube. In the
    latter case, use the included foam washers to fill the rest of the tube.

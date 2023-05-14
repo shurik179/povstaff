@@ -1,6 +1,6 @@
 Step 3: Charge connector
 ========================
-Materials and tools:
+**Materials and tools:**
 
 * Bag B from the kit
 
@@ -20,9 +20,9 @@ Materials and tools:
 **Steps:**
 
 1. Take the two-pin wire from bag B. Insert the ends of the wire into holes
-   in the charge connector as shown below.
+   in the charge connector contacts as shown below.
    **Important**: the wire with white stripe should be soldered to the shorter
-   pin (this goes to the center pin, which is the positive contact).
+   contact  (this goes to the center pin, which is the positive contact).
 
    .. figure:: images/charge-1.jpg
        :alt: Kit of parts
@@ -47,9 +47,7 @@ Materials and tools:
    other end of the dowel, making sure that the opening in the spacer is on the
    same side of the dowel as the two holes in the PDB.
 
-   .. figure:: images/charge-4.jpg
-        :alt: Kit of parts
-        :width: 60%
+   FIXME: photo needed
 
 5. Run the wire along the wood dowel; straighten it to remove twists. Insert the
    tinned ends of the wire into the holes in the PDB. **The wire with white stripe
