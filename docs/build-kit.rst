@@ -8,19 +8,19 @@ Below is listing of parts included in the kit sold on Tindie.
 
 * **Bag A**: materials for LED assemblies
 
-   .. figure:: images/kit-bagA-annotated.jpg
+  .. figure:: images/kit-bagA-annotated.jpg
       :alt: Kit of parts
       :width: 80%
 
-   1. two power distribution boards (PDB),
+  1. two power distribution boards (PDB),
 
-   2. two  2x3 pin headers (to be soldered to the PDBs)
+  2. two  2x3 pin headers (to be soldered to the PDBs)
 
-   3. 22AWG solid core wire (to be soldered to LED strips)
+  3. 22AWG solid core wire (to be soldered to LED strips)
 
-   4.  3d printed press tool, to be used for pressing hte PDBs into the dowels. Discard after use
+  4.  3d printed press tool, to be used for pressing hte PDBs into the dowels. Discard after use
 
-   Note: color of the wire and press tool may vary. 
+  Note: color of the wire and press tool may vary. 
 
 * **Bag B**:
 
