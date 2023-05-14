@@ -1,15 +1,31 @@
 Step 1: Dowels
 ===============
 
-Materials:
+**Materials:**
 
 * two 1/2" square wood dowels
 
-* Bag A from the kit, containing the power distribution boards (PDB),
-  2x3 pin headers, 22AWG solid core wire,  and the 3d printed press tool
+* Bag A from the kit
+
+  .. figure:: images/kit-bagA-annotated.jpg
+     :alt: Kit of parts
+     :width: 80%
+
+  1. two power distribution boards (PDB),
+
+  2. two  2x3 pin headers (to be soldered to the PDBs)
+
+  3. 22AWG solid core wire (to be soldered to LED strips)
+
+  4.  3d printed press tool, to be used for pressing hte PDBs into the dowels. Discard after use
+
+  Note: color of the wire and press tool may vary.
+
 
 * Spray paint, epoxy resin.
 
+
+**Steps:**
 
 1. Take the two  1/2" square wood dowels. Use hacksaw to cut each of them to **52 cm**
    length; try to keep the cuts square.
