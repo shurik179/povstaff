@@ -1,26 +1,34 @@
 /*
-POV staff project by shurik179
+Persistence of vision  staff project by shurik179
+See https://github.com/shurik179/povstaff
+
+Distibuted under MIT license, see LICENSE file in this directory. 
+
+For required libraries and support files, check 
+https://github.com/shurik179/povstaff/code
 
 */
 //first, include all libraries
+
 //NeoPixel 
 #include <Adafruit_NeoPixel.h>
-
 
 //Filesystem-related
 #include <FS.h>
 #include <LittleFS.h>
+
 //WiFi and webserver
 #include <WiFi.h>
 #include <ESPmDNS.h>
 #include <WiFiClient.h>
 #include <WiFiAP.h>
 #include <WebServer.h>
-// getting access to the nice mime-type-table and getContentType()
+
+// Web file manager
 #include <detail/RequestHandlersImpl.h>
 #include <ESPxWebFlMgr.h>
 
-//finally, our own custom library
+//our own custom library
 #include <pov-esp32.h>
 #include "LSM6.h"
 
@@ -31,17 +39,19 @@ POV staff project by shurik179
 const word filemanagerport = 8080;
 const char *ssid = "POVSTAFF1267";
 const char *password = "LedsAreGreat";
-
+const char *FW_VERSION = "4.1";
 
 // POV Staff details
 #define PIN_VSENSE 9
 #define NUM_PIXELS 72
+
+
 // frame rate. Instead of using constant frame rate per second, we will adjust
 // depending on rotation speed
 
 // how many degrees of staff turn between successive lines?
 #define DEG_PER_LINE 1.0f
-// where is the lsit of images stored?
+// where is the list of images stored?
 #define IMAGELIST "/imagelist.txt"
 //Finally, some colors
 #define RED 0xFF0000
@@ -85,6 +95,7 @@ void setup() {
     float voltage = analogReadMilliVolts(PIN_VSENSE)*0.001*2.0;
     staff.showValue(voltage/3.7);
     delay(2000);
+    Serial.print("Firmware version: "); Serial.println(FW_VERSION);
     Serial.print("Voltage: "); Serial.println(voltage);
     //clear both the staff and neopixel 
     staff.blank();
@@ -132,13 +143,13 @@ void setup() {
         setupWebserver();
         filemgr.begin();
         Serial.println("Filemanager started");
-        //light up staff in light green
+        //light up staff in green
         staff.blank();
         for (int i=0; 4*i<NUM_PIXELS;i++){
-            staff.setPixel(4*i,0x004000); //set every 4th pixel light green
+            staff.setPixel(4*i,GREEN); //set every 4th pixel green
         }
         staff.show();
-        pixel.setPixelColor(0,0x004000); pixel.show();
+        pixel.setPixelColor(0,GREEN); pixel.show();
         // start webserver loop
         while(1){
             filemgr.handleClient();
@@ -177,7 +188,7 @@ void loop() {
             setNewImageChange();
             lastPause = now;
         } else if (!staff.paused && (now - lastPause>1000) && atRest){
-            //stopping
+            //staff has been active for more than a  second, and now is stopped  
             staff.paused = true;
             staff.blank();
             lastPause = now;
@@ -188,7 +199,7 @@ void loop() {
         }
     }
     if (!staff.paused){
-        float rotAngle = speed * staff.timeSinceUpdate() * 0.000001;
+        float rotAngle = speed * staff.timeSinceUpdate() * 0.000001; //total rotation angle since last loop 
         if (rotAngle>DEG_PER_LINE) staff.showNextLine();
         if (millis()>nextImageChange) {
             //time to switch to next image
