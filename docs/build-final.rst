@@ -104,17 +104,17 @@ Materials:
 
 
 10. Apply the tennis overgrip tape over the middle part of the tube,
-   containing the battery assembly and spacers -everything between the
-   Power Distribution Boards. You can watch this video to see the proper
-   way of applying the overgrip tape:
-   https://www.youtube.com/watch?v=HNc34XlUBww. Make sure to keep the overlaps
-   between tape turns small - if you make them too large, your tape will run out
-   before you reach the end of battery assembly.
+    containing the battery and electroncis assembly  - everything between the
+    ends of LED assemblies. You can watch this video to see the proper
+    way of applying the overgrip tape:
+    https://www.youtube.com/watch?v=HNc34XlUBww. Make sure to keep the overlaps
+    between tape turns small - if you make them too large, your tape will run out
+    before you reach the end of battery assembly.
 
 
-   .. figure:: images/griptape.jpg
-      :alt: Grip tape
-      :width: 60%
+    .. figure:: images/griptape.jpg
+       :alt: Grip tape
+       :width: 60%
 
 
 This completes your staff assembly - congratulations!!
