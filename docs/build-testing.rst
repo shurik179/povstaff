@@ -1,4 +1,4 @@
-Step 7: Testing
+Step 8: Testing
 ===============================
 Before continuing, let us do the final test. Make sure to clear large area on
 your desk or floor for this step.

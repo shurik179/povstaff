@@ -1,42 +1,68 @@
 Step 10: Final assembly
 ===============================
 
-Warning: inserting the whole assembly in the tube takes some time, and getting
-it out is even more time-consuming, so make sure you test the staff before
-going further!
+Materials:
+* LED assemblies, from previous steps
 
-1. Turn the staff off. Lay out the whole assembly (controller, LED assembly, battery assembly,
-   second LED assembly, switch) in line.
+* battery and controller assembly, from step 9
 
-2. Insert the spacers on both sides of the battery assembly fitting the wires
-   inside; the spacers should fit over the battery.  Make sure no wires are
-   pinched.  Use electric tape to attach the spacers to the batteries.
+* bag F:
 
 
-   .. figure:: images/final-spacer.jpg
-      :alt: Battery spacer
+  .. figure:: images/kit-bagF-annotated.png
+      :alt: Kit of parts, bag F
       :width: 60%
 
+  1.  two shrink wrap sleeves
 
-   Also, insert the switch spacer between the dowel and switch:
+  2. two foam sleeves
 
-   .. figure:: images/switch-3.jpg
-      :alt: Switch cap and spacer
-      :width: 60%
-
+  3-4.  two 3d printed end protectors
 
 
-3. Start inserting the whole assembly into the tube, controller end first. (The
-   switch spacer may fall out; reinsert it  just before the switch  goes
-   into the tube, paying attention to the wires).
+  5. tennis grip tape
 
-4. Continue until the  assembly is fully in. Push to fully insert the switch.
-   If everything worked as expected, the controller should now be level with the
+* Clear acrylic tube, from flowtoys.com
+
+1. Make sure you have a large area to work.
+   Lay out the LED assemblies, battery and electronics assembly. Make sure that
+   the switch at the end of SWITCH led assembly is in middle (OFF) position.
+
+2. Plug the battery assembly into the LED assemblies. As before, the side which
+   contains QT Py MCU shoudl be plugged into the CHARGE LED assembly, and the
+   other side, into the SWITCH LED assembly. In each case, the board must be
+   plugged into PDB so that the label CHARGE (or SWITCH) should be above the
+   plugged board:
+
+
+   .. figure:: images/testing-1.jpg
+        :alt: Connecting LED assemblies
+        :width: 80%
+
+
+
+   .. figure:: images/testing-2.jpg
+        :alt: Connecting LED assemblies
+        :width: 80%
+
+3. Double-check that everything is plugged correctly. Do the final test: turn
+   the switch on. The LEDs should briefly light up, showing the battery charge.
+   If they don't, check the troubleshooting section.
+   If everything is OK, turn the switch off and proceed.
+
+
+4. Start inserting the whole assembly into the tube, CHARGE side first. Do it
+   slowly. If you meet with resistance, push gently; if it is not enough, do
+   not use excessive force - try to locate the problem. If necessary, remove
+   from the tube and fix the wiring or electric tape. Watch that the LED assembly
+   do not disconnect from the battery and elexctornics assembly.
+   Continue until everything is fully in. Push to fully insert the switch; make
+   sure the retaining tabs are inside the tube.
+   If everything worked as expected, the charge connector should now be level with the
    opposite end of the tube or several millimeters inside the tube. In the
-   latter case, you can cut another 18mm foam circle and place in on top of the
-   controller cover.
+   latter case, use the included foam washers to fill the rest of the tube.
 
-5. Cover the controller end of the tube with the PVC cap.
+5. FIXME Cover the controller end of the tube with the PVC cap.
 
 6. Take the other PVC cap; use scissors or model knife to cut a circle (about
    15mm) in it. Insert the switch spacer into the cap, with the angled side facing out.
