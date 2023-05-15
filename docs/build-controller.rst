@@ -33,10 +33,10 @@ Materials
    connection dialog of your computer. You
    should see there a new WiFi network with the name `POVSTAFFXXXX`, where XXXX
    will be replaced by a 4-digit number, unique for each staff. Connect to this
-   network, using the password. The password is in the information sheet
+   network; the password is in the information sheet
    which was included with your kit -  if you misplaced it,
    email `irobotics.store@gmail.com` for help.
-   Type in the URL field of the browser the following address: `http://povstaff.local:8080`
+   Type the following address in the URL field of the browser: `http://povstaff.local:8080`
    (note: the staff doesn't support https protocol. If your browser gives you a
    warning about unsecure connection, click on "proceed anyway".)
    You should see the webpage of the staff, which looks as follows:

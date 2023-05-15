@@ -4,7 +4,7 @@ Step 6: Batteries
 This could be dangerous if not done right! Please read all instructions
 carefully and wear eye protection. You are working at your own risk!
 
-Materials and tools used:
+**Materials and tools:**
 
 * Bag D from the kit
 
@@ -33,6 +33,7 @@ Materials and tools used:
 
 
 
+**Steps:**
 
 1. Find the two 2-pin wires with XH connectors. In each of them, cut the **red** wire to the
    length of 3.5 cm (not including the connector). Strip about 5mm of the red wire and tin.
@@ -47,12 +48,11 @@ Materials and tools used:
       :width: 70%
 
 
-3. Turn the batteries over, with the negative  terminal up. Solder the black lead to negative
+3. Turn each of the batteries over, with the negative  terminal up. Solder the black lead to negative
    terminal.
 
-4. Repeat the previous steps with the second battery.
 
-5. Take the short black wire and solder  it to negative terminals of both
+4. Take the short black wire and solder  it to negative terminals of both
    batteries as shown below. Take care not to desolder the previously soldered wires.
 
    .. figure:: images/battery-2.jpg
@@ -60,7 +60,7 @@ Materials and tools used:
         :width: 100%
 
 
- 6. Use voltmeter to check the voltage difference between the positive terminals
+ 5. Use voltmeter to check the voltage difference between the positive terminals
     of the two batteries. If it is more than 0.1V, find a low ommage resistor
     (1 Ohm or about);  insert it into positive terminals of the two battery
     connectors and leave for an hour to equalize the voltage.

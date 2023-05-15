@@ -27,7 +27,7 @@ Step 1: Dowels
 
 **Steps:**
 
-1. Take the two  1/2" square wood dowels. Use hacksaw to cut each of them to **52.0 cm**
+1. Take the two  1/2" square wood dowels. Use hacksaw to cut each of them to **52.3 cm**
    length; try to keep the cuts square.
 
 2. Spray paint each of them black. Let dry (you can work on the other steps
