@@ -27,7 +27,7 @@ Step 1: Dowels
 
 **Steps:**
 
-1. Take the two  1/2" square wood dowels. Use hacksaw to cut each of them to **52 cm**
+1. Take the two  1/2" square wood dowels. Use hacksaw to cut each of them to **52.0 cm**
    length; try to keep the cuts square.
 
 2. Spray paint each of them black. Let dry (you can work on the other steps
@@ -40,7 +40,7 @@ Step 1: Dowels
       :alt: PDB with header
       :width: 50%
 
-4. Use flash cutters to trim the 4 corner metal pins on the back size of each PDB,
+4. Use flush cutters to trim the 4 corner metal pins on the back side of each PDB,
    leaving the two middle ones intact:
 
    .. figure:: images/PDB-2.jpg

@@ -18,7 +18,7 @@ Below is listing of parts included in the kit sold on Tindie.
 
   3. 22AWG solid core wire (to be soldered to LED strips)
 
-  4.  3d printed press tool, to be used for pressing hte PDBs into the dowels. Discard after use
+  4.  3d printed press tool, to be used for pressing the PDBs into the dowels. Discard after use
 
   Note: color of the wire and press tool may vary.
 
@@ -61,7 +61,7 @@ Below is listing of parts included in the kit sold on Tindie.
 
   2.  3d printed spacer, to go between batteries
 
-  3. Two 3d printed spacers to go at the neds of batteries
+  3. Two 3d printed spacers to go at the ends of batteries
 
   4. 3d printed "plugs"
 

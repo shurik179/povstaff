@@ -61,7 +61,7 @@ Key Features
   when the staff is in motion. The software uses it to adjust update frequency
   for images, so the images will not appear stretched or compressed regardless
   of how fast you are rotating it. You can also use it for controlling your
-  show: e.g. stopping the staff horizontally is used as a signal to move to the
+  show: e.g. stopping the staff vertically is used as a signal to move to the
   next image in the slideshow.
 
 * The software is based on Arduino IDE. It is available under an open source
@@ -76,7 +76,7 @@ Differences from  version 3
 
 * Many changes to wiring
 
-* New 3d printed spacers and other components, printed in black resin. 
+* New 3d printed spacers and other components, printed in black resin.
 
 * Foam protectors at the ends of the staff, to protect the staff when dropped
 
