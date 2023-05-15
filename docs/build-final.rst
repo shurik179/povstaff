@@ -1,7 +1,8 @@
 Step 10: Final assembly
 ===============================
 
-Materials:
+*Materials:*
+
 * LED assemblies, from previous steps
 
 * battery and controller assembly, from step 9
@@ -23,14 +24,16 @@ Materials:
 
   5. tennis grip tape
 
-* Clear acrylic tube, from flowtoys.com
+* Clear polycarbonate tube (11F/141 cm), from flowtoys.com
+
+*Steps:*
 
 1. Make sure you have a large area to work.
    Lay out the LED assemblies, battery and electronics assembly. Make sure that
-   the switch at the end of SWITCH led assembly is in middle (OFF) position.
+   the switch at the end of SWITCH LED assembly is in middle (OFF) position.
 
 2. Plug the battery assembly into the LED assemblies. As before, the side which
-   contains QT Py MCU shoudl be plugged into the CHARGE LED assembly, and the
+   contains QT Py MCU should be plugged into the CHARGE LED assembly, and the
    other side, into the SWITCH LED assembly. In each case, the board must be
    plugged into PDB so that the label CHARGE (or SWITCH) should be above the
    plugged board:
@@ -52,7 +55,7 @@ Materials:
    If everything is OK, turn the switch off and proceed.
 
 
-4. Start inserting the whole assembly into the tube, CHARGE side first. Do it
+4. Start inserting the whole assembly into the tube, CHARGE end  first. Do it
    slowly. If you meet with resistance, push gently; if it is not enough, do
    not use excessive force - try to locate the problem. If necessary, remove
    from the tube and fix the wiring or electric tape. Watch that the LED assembly
@@ -68,7 +71,7 @@ Materials:
    opening). For shipping, it might have been placed inside the foam wrap;
    if so, remove it from the foam wrap.  Put it over the
    switch end of tube. There are two small bumps inside the protector which
-   should go into the holes in hte tube; if necessary, turn the end protector
+   should go into the holes in the tube; if necessary, turn the end protector
    until you hear the click.
 
 6. Repeat the same with the charge switch protector (item 4 in the bag), putting it
