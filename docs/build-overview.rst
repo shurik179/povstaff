@@ -17,6 +17,11 @@ The staff consists of the following subassemblies:
   charging connector, and the other, a switch.
 
 
+  .. figure:: images/led-assemblies.jpg
+     :alt: LED assemblies
+     :width: 80%
+
+
 
 All of the above are inserted into the **polycarbonate tube** and protected at both ends
 by 3d printed endcaps wrapped in soft foam. The middle of the tube is wrapped

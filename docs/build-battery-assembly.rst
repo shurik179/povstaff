@@ -10,7 +10,7 @@ Step 9: Battery and controller assembly
    small "plugs". Make sure you have them all.
 
 3. Take QT Py microcontroller with the POV shield, a plug and one of end battery spacers.
-   Assemble the together, putting the "plug" onto the board and then pushing
+   Assemble them together, putting the "plug" onto the board and then pushing
    the whole assembly into the spacer as shown below. Note: the "shelf" on the
    plug should be facing the white battery connector. Make sure to push it all the way in.
 
@@ -31,13 +31,14 @@ Step 9: Battery and controller assembly
    and apply it to the outside of the plug (where it would be touching the inside
    of the spacer) and also on the bottom of the boards (again, where they would
    come in contact with the spacer). Assemble again; make sure the boards are
-   fully inserted into the spacer and sit straight. If necessary, use electric
-   tape or similar methods to keep the boards and plug in posiiton.  Put aside for one hour so
+   fully inserted into the spacers and sit straight. If necessary, use electric
+   tape or similar methods to keep the boards and plug in position.
+   Put aside for one hour so
    that epoxy sets.
 
 6. Once the epoxy sets,  insert the batteries (positive terminal first)
    into the spacers. Plug the
-   battery leads into the connectros on boards. Carefully arrange the wires so
+   battery leads into the connectors on boards. Carefully arrange the wires so
    that they run  along the battery through the openings in the spacers, with
    no wires crossing. Use 3/4" electric tape to attach the spacer to the battery,
    as shown below.  Make sure to apply the tape without any twists or kinks -

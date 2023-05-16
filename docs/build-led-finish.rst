@@ -20,3 +20,8 @@ Step 5: Finishing LED assemblies
 
 
 This completes the construction of two LED assemblies.
+
+
+.. figure:: images/led-assemblies.jpg
+   :alt: LED assemblies
+   :width: 80%

@@ -1,7 +1,7 @@
 Step 10: Final assembly
 ===============================
 
-*Materials:*
+**Materials:**
 
 * LED assemblies, from previous steps
 
@@ -26,7 +26,7 @@ Step 10: Final assembly
 
 * Clear polycarbonate tube (11F/141 cm), from flowtoys.com
 
-*Steps:*
+**Steps:**
 
 1. Make sure you have a large area to work.
    Lay out the LED assemblies, battery and electronics assembly. Make sure that
@@ -85,7 +85,7 @@ Step 10: Final assembly
          :alt: Foam tape
          :width: 40%
 
-8. Put the shirnk wrap over the foam as shown in the photo below. It should
+8. Put the shrink wrap over the foam as shown in the photo below. It should
    extend beyond the end of the foam wrap by another 5 mm
 
 
