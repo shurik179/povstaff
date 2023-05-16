@@ -107,7 +107,7 @@ Step 10: Final assembly
 
 
 10. Apply the tennis overgrip tape over the middle part of the tube,
-    containing the battery and electroncis assembly  - everything between the
+    containing the battery and electronics assembly  - everything between the
     ends of LED assemblies. You can watch this video to see the proper
     way of applying the overgrip tape:
     https://www.youtube.com/watch?v=HNc34XlUBww. Make sure to keep the overlaps

@@ -19,12 +19,13 @@ You will need the following materials:
       :width: 60%
 
 
-
 *  Two **18650 Li-Ion batteries**. Look for high-capacity (at least 3000mAh),
    **unprotected** batteries from a reputable manufacturer such as Panasonic, Samsung,
    or Sanyo. Do not try to save money by buying no-name battery on eBay or Amazon;
    instead, use a specialized  store such as `18650batterystore.com <http://18650batterystore.com>`__.
-   Batteries must be **identical**, ideally from the same batch.
+   Batteries must be **identical**, ideally from the same batch. Current rating
+   (5A/10A/20A) doesn't matter much for this project. I used
+   `these batteries <https://www.18650batterystore.com/products/sanyo-ncr18650ga>`__.
 
 *  `Polycarbonate tube, 11F (55in/141cm) <https://flowtoys.com/long-tubes-5f-to-13f>`__,
    1 inch outer diameter, from flowtoys.com. Note: while the tube is listed as 55",

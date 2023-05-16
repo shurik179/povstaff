@@ -50,7 +50,10 @@ Step 3: Charge connector
    other end of the dowel, making sure that the opening in the spacer is on the
    same side of the dowel as the two holes in the PDB.
 
-   FIXME: photo needed
+
+   .. figure:: images/charge-4.jpg
+      :alt: Kit of parts
+      :width: 60%
 
 5. Run the wire along the wood dowel; straighten it to remove twists. Insert the
    tinned ends of the wire into the holes in the PDB. **The wire with white stripe
@@ -58,4 +61,4 @@ Step 3: Charge connector
    wire ends protruding on the other side.
 
 
-Bag B also contains the charge adapter - keep it to use when charging the staff.    
+Bag B also contains the charge adapter - keep it to use when charging the staff.
