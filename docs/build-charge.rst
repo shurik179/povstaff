@@ -61,4 +61,10 @@ Step 3: Charge connector
    wire ends protruding on the other side.
 
 
+   .. figure:: images/charge-5.jpg
+      :alt: Kit of parts
+      :width: 60%
+
+
+
 Bag B also contains the charge adapter - keep it to use when charging the staff.
