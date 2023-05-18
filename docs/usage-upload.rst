@@ -41,8 +41,8 @@ below show the same image in BMP file and how it will look when using the POV st
 
 
 Directory `images` in the GitHub repository https://github.com/shurik179/povstaff
-contains some sample images and `imagelist.txt` file; to get started, you can
-just copy the contents  of that directory to root directory of your staff.
+contains some sample images and `imagelist.txt` file. These images have already been
+uploaded to the staff.
 
 
 Creating imagelist file
@@ -87,13 +87,22 @@ network, using the password. The password is included on the information sheet
 which was included with your kit; if you misplaced it,
 email `irobotics.store@gmail.com` for help.
 
-Type in the URL field of the browser the following address: `povstaff.local:8080`.
+
+Type the following address in the URL field of the browser: `http://povstaff.local:8080`
+(note: the staff doesn't support https protocol. If your browser gives you a
+warning about unsecure connection, click on "proceed anyway".)
 You should see the webpage of the staff, which looks as follows:
 
-Drag and drop the image files and the imagelist.txt file to the `drop files here`
+.. figure:: images/upload.png
+    :alt: Upload web page
+    :width: 80%
+
+
+
+Drag and drop the image files and the imagelist.txt file to the `file drop area`
 area of the webpage.
 
-You can delete files you no longer need by pressing on 'D' letter next to the
+You can delete files you no longer need by pressing on  letter 'D' next to the
 filename. You can also edit imagelist.txt file online by clicking on  'E'.
 
 
