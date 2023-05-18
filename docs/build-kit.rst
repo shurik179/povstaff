@@ -99,5 +99,6 @@ Below is listing of parts included in the kit sold on Tindie.
 
   3-4.  two 3d printed end protectors
 
-
   5. tennis grip tape
+
+  6. Foam washers
