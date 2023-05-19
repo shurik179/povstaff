@@ -38,7 +38,7 @@ Materials
    email `irobotics.store@gmail.com` for help.
    Type the following address in the URL field of the browser: `http://povstaff.local:8080`
    (note: the staff doesn't support https protocol. If your browser gives you a
-   warning about unsecure connection, click on "proceed anyway".)
+   warning about unsecure connection, click on "continue to site".)
    You should see the webpage of the staff, which looks as follows:
 
    .. figure:: images/upload.png

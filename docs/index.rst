@@ -70,7 +70,7 @@ Key Features
 Differences from  version 3
 ****************************
 
-* New MCU (ESP32-S2 QT Py)
+* New MCU (ESP32-S3 QT Py)
 
 * Wireless uploading of images
 
