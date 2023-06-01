@@ -6,6 +6,8 @@ Below is listing of parts included in the kit sold on Tindie.
     :alt: Kit of parts
     :width: 80%
 
+* LED strips (2m, 144 LED/m APA102 or compatible, black PCB)
+
 * **Bag A**: materials for LED assemblies
 
   .. figure:: images/kit-bagA-annotated.png

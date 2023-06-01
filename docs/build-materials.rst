@@ -6,19 +6,6 @@ You will need the following materials:
 * `Kit of parts <https://www.tindie.com/products/irobotics/pov-staff-kit/>`__ from
   my Tindie store, version 4.
 
-*  **APA102/SK6982 (DotStar) LED strip, 144 LED/meter, black PCB**, for example
-   this one `from Amazon <https://www.amazon.com/dp/B07BPX2KFD>`__. You need
-   4 strips of 50cm (72 LEDs); you can also buy longer
-   strips and cut them into 50cm pieces. The strips should not be waterproofed.
-
-   **Important:** the order of signals on the LED  strip should be as shown below. If the order is different,
-   the staff will not work! The BTF-LIGHTING strip at the amazon link above meets that requirement.
-
-   .. figure:: images/signal_order.jpg
-      :alt: Signal order
-      :width: 60%
-
-
 *  Two **18650 Li-Ion batteries**. Look for high-capacity (at least 3000mAh),
    **unprotected** batteries from a reputable manufacturer such as Panasonic, Samsung,
    or Sanyo. Do not try to save money by buying no-name battery on eBay or Amazon;
@@ -54,6 +41,8 @@ You will need the usual tools and supplies:
 * heat gun
 
 * hack saw
+
+* electric tape, black, 3/4"
 
 * fast-setting epoxy (I use `JB Weld Clearweld 5 minute epoxy <https://www.amazon.com/J-B-Weld-ClearWeld-Syringe-25mL/dp/B009EU5ZM0>`__)
 
