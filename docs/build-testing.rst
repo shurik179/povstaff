@@ -41,6 +41,7 @@ connectors on the POV shield board and the switch board (doesn't matter which ba
 
 Turn the switch on (you will have to try both positions to figure out which of them is ON).
 
-The staff should come to life and light up.
+The staff should come to life; it will show the battery voltage, by
+lighting part of the LED strips. The longer the strip, the higher the battery charge.
 
-FIXME
+If this works, you can turn the staff off and  proceed to the next step. 

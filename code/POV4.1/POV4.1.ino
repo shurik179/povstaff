@@ -2,15 +2,15 @@
 Persistence of vision  staff project by shurik179
 See https://github.com/shurik179/povstaff
 
-Distibuted under MIT license, see LICENSE file in this directory. 
+Distibuted under MIT license, see LICENSE file in this directory.
 
-For required libraries and support files, check 
+For required libraries and support files, check
 https://github.com/shurik179/povstaff/code
 
 */
 //first, include all libraries
 
-//NeoPixel 
+//NeoPixel
 #include <Adafruit_NeoPixel.h>
 
 //Filesystem-related
@@ -37,8 +37,8 @@ https://github.com/shurik179/povstaff/code
 // Now, various constants and defines
 
 const word filemanagerport = 8080;
-const char *ssid = "POVSTAFF1267";
-const char *password = "LedsAreGreat";
+const char *ssid = "POVSTAFFXXXX";
+const char *password = "XXXX";
 const char *FW_VERSION = "4.1";
 
 // POV Staff details
@@ -82,7 +82,7 @@ float speed=0.0;           //staff rotation speed, in deg/s
 void setup() {
     // the usual Serial stuff....
     Serial.begin(115200);
-    //deal with on-board neopixel 
+    //deal with on-board neopixel
     pixel.begin();
     pixel.setPixelColor(0,GREEN);
     pixel.show();
@@ -97,7 +97,7 @@ void setup() {
     delay(2000);
     Serial.print("Firmware version: "); Serial.println(FW_VERSION);
     Serial.print("Voltage: "); Serial.println(voltage);
-    //clear both the staff and neopixel 
+    //clear both the staff and neopixel
     staff.blank();
     pixel.clear();pixel.show();
     // Open LittleFS file system on the flash
@@ -109,7 +109,7 @@ void setup() {
         }
     }
     // start the imu
-    bool imu_found = imu.init(); 
+    bool imu_found = imu.init();
     if (!imu_found) {
         Serial.println("Failed to detect and initialize IMU!");
         pixel.setPixelColor(0,YELLOW);pixel.show();
@@ -117,7 +117,7 @@ void setup() {
     } else {
         imu.enableDefault();
         Serial.println("IMU Enabled");
-        staff.blink(GREEN);      
+        staff.blink(GREEN);
     }
     //now, let us check which mode are we in
     delay(1000);
@@ -188,7 +188,7 @@ void loop() {
             setNewImageChange();
             lastPause = now;
         } else if (!staff.paused && (now - lastPause>1000) && atRest){
-            //staff has been active for more than a  second, and now is stopped  
+            //staff has been active for more than a  second, and now is stopped
             staff.paused = true;
             staff.blank();
             lastPause = now;
@@ -199,7 +199,7 @@ void loop() {
         }
     }
     if (!staff.paused){
-        float rotAngle = speed * staff.timeSinceUpdate() * 0.000001; //total rotation angle since last loop 
+        float rotAngle = speed * staff.timeSinceUpdate() * 0.000001; //total rotation angle since last loop
         if (rotAngle>DEG_PER_LINE) staff.showNextLine();
         if (millis()>nextImageChange) {
             //time to switch to next image
