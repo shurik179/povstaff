@@ -1,50 +1,69 @@
-Step 4: Switch
-==============
-Materials:
+Step 4: Switch connector
+========================
+Materials and tools:
 
-* Switch
+* Bag C from the kit
 
-* Switch spacer
 
-* Zipties
+  .. figure:: images/kit-bagC-annotated.png
+      :alt: Kit of parts, bag C
+      :width: 60%
 
-Before starting, make sure that your switch is in middle position; this will
-guarantee that the power is off.
+  1. Switch
 
-1. Locate the switch leads (two black wires, about 55 cm length) leading from
-   the battery assembly. Lay them along the dowel, running the wire through the
-   rectangular cutout in the PDB. Solder the tinned end of one of the leads to
-   the PDB  as shown in the photo below. Use the flush cutters to trim  the
-   soldered wire. Make sure that there is enough wire length to insert a
-   spacer between the battery and PDB.
+  2. 3d printed housing for the switch
+
+  3. 2-pin wire (55cm, 20 AWG)
+
+
+
+* flush cutters, soldering iron
+
+**Steps:**
+
+
+1. Take the two-pin wire from bag C. Insert the ends of the wire into holes
+   in the switch terminals  as shown below. Note: one of the wires
+   must be soldered to the **middle** terminal, and the other,
+   to one of the other terminals (doesn't matter which one). It doesn't matter
+   which of the two wires is soldered to the middle terminal.
 
    .. figure:: images/switch-1.jpg
-      :alt: Switch
-      :width: 60%
+       :alt: Switch
+       :width: 80%
 
-2. Use the flush cutters to cut open the two retention plastic tabs on the
-   sides of the switch, as shown in the photo below.
+2.  Solder the wires. Use flush cutters to trim the protruding end of the wires.
 
-3. Run the wires along the length of the dowel. Solder the tinned ends of
-   the wires to the switch; as before, trim the soldered wires using flush cutters.
-   Note: one of the wires must be soldered to the **middle** contact, and the other,
-   to one of the other contacts (doesn't matter which one). It doesn't matter
-   which of the two wires is soldered to the middle contact.
+3. Using flush cutters, cut open the plastic retention tabs on both sides of
+   the switch as shown below. Note: it is recommended to cut it below the "joint".
 
-   .. figure:: images/switch-4.jpg
-      :alt: Switch
-      :width: 60%
 
-4. Use zipties  to fasten the LED strips and the wiring to the dowel.
-   The zipties should fit in the spaces between LEDs. The head of the
-   zipties should be in the middle of the empty side of the dowel (without LEDs
-   or wiring) - not at the corner! Place zipties every 7-8 cm or so.
-   Tighten them (but not too tight, to prevent them from breaking) and trim.
+   .. figure:: images/switch-2.jpg
+       :alt: Switch
+       :width: 80%
 
-   .. figure:: images/zipties-1.jpg
+
+4. Insert the switch in the 3d printed spacer as shown below.
+
+
+   .. figure:: images/switch-3.jpg
+       :alt: Switch
+       :width: 80%
+
+
+
+5. Take the remaining ("SWITCH") LED assembly, with black PDB.
+   Put the 3d printed spacer with the switch  onto the
+   other end of the dowel, making sure that the opening in the spacer is on the
+   same side of the dowel as the two holes in the PDB.
+
+
+  .. figure:: images/switch-4.jpg
       :alt: Switch
       :width: 80%
 
-   .. figure:: images/zipties-2.jpg
-      :alt: Switch
-      :width: 80%
+
+6. Run the wire along the wood dowel; straighten it to remove twists. Insert the
+   tinned ends of the wire into the holes in the PDB. It doesn't matter which
+   wire goes into which hole. Solder the wires and use flush cutters to trim the
+   wire ends protruding from  on the opposite side of the PDB.

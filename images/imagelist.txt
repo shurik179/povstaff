@@ -1,2 +1,2 @@
-rg-lines.bmp 15
-
+/rg-lines.bmp 15
+/by-triangles.bmp 10

@@ -13,4 +13,4 @@ Please check `LICENSE` file in that repository for details.
 Many thanks to users of the previous versions of this staff for their feedback
 and suggestions: Christopher Biernacki, Kevin Williams, and many others.
 
-Any comments/suggestions are apprecaited; please email irobotics.store@gmail.com.
+Any comments/suggestions are appreciated; please email irobotics.store@gmail.com.

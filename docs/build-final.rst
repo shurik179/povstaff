@@ -1,74 +1,125 @@
-Step 9: Final assembly
+Step 10: Final assembly
 ===============================
 
-Warning: inserting the whole assembly in the tube takes some time, and getting
-it out is even more time-consuming, so make sure you test the staff before
-going further!
+**Materials:**
 
-1. Turn the staff off. Lay out the whole assembly (controller, LED assembly, battery assembly,
-   second LED assembly, switch) in line.
+* LED assemblies, from previous steps
 
-2. Insert the spacers on both sides of the battery assembly fitting the wires
-   inside; the spacers should fit over the battery.  Make sure no wires are
-   pinched.  Use electric tape to attach the spacers to the batteries.
+* battery and controller assembly, from step 9
+
+* bag F:
 
 
-   .. figure:: images/final-spacer.jpg
-      :alt: Battery spacer
+  .. figure:: images/kit-bagF-annotated.png
+      :alt: Kit of parts, bag F
       :width: 60%
 
+  1.  two shrink wrap sleeves
 
-   Also, insert the switch spacer between the dowel and switch:
+  2. two foam sleeves
 
-   .. figure:: images/switch-3.jpg
-      :alt: Switch cap and spacer
-      :width: 60%
+  3. Switch end protector
+
+  4.  Charge  end protector
+
+  5. tennis grip tape
+
+  6. Foam washers
+
+* Clear polycarbonate tube (11F/141 cm), from flowtoys.com
+
+**Steps:**
+
+1. Make sure you have a large area to work.
+   Lay out the LED assemblies, battery and electronics assembly. Make sure that
+   the switch at the end of SWITCH LED assembly is in middle (OFF) position.
+
+2. Plug the battery assembly into the LED assemblies. As before, the side which
+   contains QT Py MCU should be plugged into the CHARGE LED assembly, and the
+   other side, into the SWITCH LED assembly. In each case, the board must be
+   plugged into PDB so that the label CHARGE (or SWITCH) should be above the
+   plugged board:
+
+
+   .. figure:: images/testing-1.jpg
+        :alt: Connecting LED assemblies
+        :width: 80%
 
 
 
-3. Start inserting the whole assembly into the tube, controller end first. (The
-   switch spacer may fall out; reinsert it  just before the switch  goes
-   into the tube, paying attention to the wires).
+   .. figure:: images/testing-2.jpg
+        :alt: Connecting LED assemblies
+        :width: 80%
 
-4. Continue until the  assembly is fully in. Push to fully insert the switch.
-   If everything worked as expected, the controller should now be level with the
+3. Double-check that everything is plugged correctly. Do the final test: turn
+   the switch on. The LEDs should briefly light up, showing the battery charge.
+   If they don't, check the troubleshooting section.
+   If everything is OK, turn the switch off and proceed.
+
+
+4. Start inserting the whole assembly into the tube, CHARGE end  first. Do it
+   slowly. If you meet with resistance, push gently; if it is not enough, do
+   not use excessive force - try to locate the problem. If necessary, remove
+   from the tube and fix the wiring or electric tape. Watch that the LED assembly
+   does not get  disconnected from the battery and electronics assembly.
+   Continue until everything is fully in. Push to fully insert the switch; make
+   sure the switch retaining tabs are inside the tube.
+   If everything worked as expected, the charge connector should now be level with the
    opposite end of the tube or several millimeters inside the tube. In the
-   latter case, you can cut another 18mm foam circle and place in on top of the
-   controller cover.
+   latter case, use the included foam washers to fill the rest of the tube.
+ 
 
-5. Cover the controller end of the tube with the PVC cap.
+5. Take the 3d printed switch end protector (item 3 in bag F, the one with larger
+   opening). For shipping, it might have been placed inside the foam wrap;
+   if so, remove it from the foam wrap.  Put it over the
+   switch end of tube. There are two small bumps inside the protector which
+   should go into the holes in the tube; if necessary, turn the end protector
+   until you hear the click.
 
-6. Take the other PVC cap; use scissors or model knife to cut a circle (about
-   15mm) in it. Insert the switch spacer into the cap, with the angled side facing out.
-   Use this assembly to cover the switch end of the tube. (The spacer prevent
-   the switch from turning off  if you drop the staff.)
+6. Repeat the same with the charge switch protector (item 4 in the bag), putting it
+   on the opposite end of the tube. Test the whole staff once again, turning it
+   on and off.
+
+7. Put the two pieces of the foam tube over the end protectors so that the foam
+   tube extends beyond the protector by 2-3 mm.
+
+   .. figure:: images/final-1.jpg
+         :alt: Foam tape
+         :width: 40%
+
+8. Put the shrink wrap over the foam as shown in the photo below. It should
+   extend beyond the end of the foam wrap by another 5 mm
 
 
-   .. figure:: images/cap-1.jpg
-      :alt: Switch cap and spacer
+   .. figure:: images/final-2.jpg
+      :alt: Foam tape
       :width: 40%
 
-   .. figure:: images/cap-2.jpg
-      :alt: Switch cap and spacer
+9. Use heat gun (on low setting) to shrink  the shrink wrap.
+
+   .. figure:: images/final-3.jpg
+      :alt: Foam tape
+      :width: 40%
+
+   .. figure:: images/final-4.jpg
+      :alt: Foam tape
       :width: 40%
 
 
-   .. figure:: images/cap-3.jpg
-      :alt: Switch cap and spacer
-      :width: 40%
-
-7. Apply the tennis overgrip tape over the middle part of the tube,
-   containing the battery assembly and spacers -everything between the
-   Power Distribution Boards. You can watch this video to see the proper
-   way of applying the overgrip tape:
-   https://www.youtube.com/watch?v=HNc34XlUBww. Make sure to keep the overlaps
-   between tape turns small - if you make them too large, your tape will run out
-   before you reach the end of battery assembly.
 
 
-   .. figure:: images/griptape.jpg
-      :alt: Grip tape
-      :width: 60%
+10. Apply the tennis overgrip tape over the middle part of the tube,
+    containing the battery and electronics assembly  - everything between the
+    ends of LED assemblies. You can watch this video to see the proper
+    way of applying the overgrip tape:
+    https://www.youtube.com/watch?v=HNc34XlUBww. Make sure to keep the overlaps
+    between tape turns small - if you make them too large, your tape will run out
+    before you reach the end of battery assembly.
+
+
+    .. figure:: images/griptape.jpg
+       :alt: Grip tape
+       :width: 60%
 
 
 This completes your staff assembly - congratulations!!

@@ -1,27 +1,47 @@
 Step 8: Testing
 ===============================
-Before continuing, remove the USB cable from the controller. Make sure the
-switch is in middle ("off") position.
+Before continuing, let us do the final test. Make sure to clear large area on
+your desk or floor for this step.
 
-1. Plug the 5-pin JST connector into the POV controller as shown below.
+Take the controller assembly you had created in the previous step and plug it
+into the LED assemblies as follows:
 
-
-   .. figure:: images/final-1.jpg
-      :alt: Connecting the controller
-      :width: 80%
-
-2. By now, all electric connections are complete. Before inserting the assembled
-   pieces into the tube, you need to  test it. Turn the switch on (it is a 3-position
-   switch; you will need to find out which of the 3 positions is "on".
-   The middle position is always "off" ). The staff must come to life, lighting
-   up some LEDs to indicate the battery charge - the more LEDs, the higher the
-   charge. If no LEDs come light up, either something is wrong with the wiring,
-   or the batteries are completely discharged. In the latter case, you will need
-   to charge the batteries as described in the user guide.
+* The POV controller shield with the QT Py should be plugged into the LED assembly
+  labeled CHARGE.
 
 
-3. If everything worked OK so far, try twisting the controller between your
-   fingers back and forth. You should see green and red lights travelling the
-   length of the staff --  the faster you move the controller, the quicker the
-   lights should move.  If this works, your staff is working as intended and
-   you can move to the final assembly.
+* The switch connector  board should be plugged into the LED assembly labeled SWITCH
+
+**The LED assemblies are not interchangeable!**
+
+In each case, the board must be plugged into PDB so that the label CHARGE (or SWITCH)
+should be above the plugged board:
+
+
+.. figure:: images/testing-1.jpg
+     :alt: Connecting LED assemblies
+     :width: 80%
+
+
+
+.. figure:: images/testing-2.jpg
+     :alt: Connecting LED assemblies
+     :width: 80%
+
+Double-check that everything is plugged correctly. Make sure that the switch at
+the end of SWITCH LED assembly is in the middle (Off) position.
+
+Now, take the batteries. Plug the battery connectors into the 2-pin JST XH
+connectors on the POV shield board and the switch board (doesn't matter which battery goes into which board).
+
+
+.. figure:: images/testing-3.jpg
+     :alt: Connecting LED assemblies
+     :width: 80%
+
+Turn the switch on (you will have to try both positions to figure out which of them is ON).
+
+The staff should come to life; it will show the battery voltage, by
+lighting part of the LED strips. The longer the strip, the higher the battery charge.
+
+If this works, you can turn the staff off and  proceed to the next step. 

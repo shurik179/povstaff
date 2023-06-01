@@ -1,15 +1,10 @@
 # POV staff
-This repository contains all files related to Persistence of Vision (POV) staff
-project. A detailed write-up of Version 1 of this project is available on  
-Instructables at [https://www.instructables.com/Persistence-of-Vision-LED-Staff/](https://www.instructables.com/Persistence-of-Vision-LED-Staff/); you can also find there photos  of the staff in action.
+This repository contains all files related to Persistence of Vision (POV) staff project. A detailed write-up of Version 1 of this project is available on  Instructables at [https://www.instructables.com/Persistence-of-Vision-LED-Staff/](https://www.instructables.com/Persistence-of-Vision-LED-Staff/); you can also find there photos  of the staff in action.
 
-The latest version (as of October 10, 2022) is 3.2. It is documented at
+The latest version (as of June 1, 2023) is 4.1. It is documented at
 https://povstaff.readthedocs.io
 
 
-
-**Warning**: if you are building the staff as described in the instructables guide,
-please use  [Release 1.0](https://github.com/shurik179/povstaff/releases/tag/v1.0).
 
 
 
@@ -18,7 +13,6 @@ This repository is organized as follows:
 
 * `docs`: documentation
 * `code`: this directory contains the source code for the staff software
-* `binaries`: pre-complied binaries
 * `hardware`:  design files for the custom PCBs used in
   the project, as well as STEP files for the 3d printed components.
 * `images`: sample image(s) and  `imagelist.txt` file

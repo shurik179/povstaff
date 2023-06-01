@@ -1,13 +1,9 @@
 Uploading new images
 ====================
 
-To upload images, **make sure the switch is OFF** and connect the staff to a
-computer. It should appear as an external USB drive - as if you had plugged
-in a USB flash drive. Just drag the images to the staff to upload. All images
-must be saved to the root directory of the staff drive - please do not create
-subdirectories.
-
-Technical requirements for images:
+Finding images
+--------------
+You can use any image satisfying the following requirements:
 
 * Images must be in bitmap (BMP) format, with 24 bit color depth. Use any
   software you like to convert images in other formats to bmp - e.g. you can use
@@ -29,28 +25,6 @@ Please note that the same color (i.e. the same RGB values) can look quite
 different on the screen of your computer and on LED strip. Experiment with
 colors to get some feel for it.
 
-Once you have uploaded the images, you need to create a list showing in which
-order these images should be played during the show. Create the file
-`imagelist.txt` in the root directory of the POV staff (or open the file if
-it already exists) and put there the list of image files in the order you want
-to use them in your show, one filename per line, including `.bmp` extension.
-Optionally, you can also add how long the image should be shown, in seconds
-(whole numbers only!), separated from  filename by one or more spaces
-
-
-.. code-block:: python
-
-   image1.bmp 20
-   image2.bmp 41
-   image5.bmp 10
-   image1.bmp
-
-
-You can include some image file more than once, or not at all - it is your
-choice. The name of your image list must be `imagelist.txt`, all lower case.
-
-Once you have saved the image list,  eject the POV staff as you would normally
-do a USB flash drive, and unplug the cable.
 
 To help you figure out correct rotation and orientation of images, the pictures
 below show the same image in BMP file and how it will look when using the POV staff.
@@ -67,5 +41,70 @@ below show the same image in BMP file and how it will look when using the POV st
 
 
 Directory `images` in the GitHub repository https://github.com/shurik179/povstaff
-contains some sample images and `imagelist.txt` file; to get started, you can
-just copy the contents  of that directory to root directory of your staff.
+contains some sample images and `imagelist.txt` file. These images have already been
+uploaded to the staff.
+
+
+Creating imagelist file
+-----------------------
+
+Once you have found or created your own images, move them all to the same folder
+on your computer.
+
+Now,  you need to create a list showing in which
+order these images should be played during the show. Create the file
+`imagelist.txt` in the same folder as the images  (or open the file if
+it already exists) and put there the list of image files in the order you want
+to use them in your show, one filename per line. Include the  `.bmp` extension
+in each filename, and put leading slash (/) before each filename, as shown below.
+Optionally, you can also add how long the image should be shown, in seconds
+(whole numbers only!), separated from  filename by one or more spaces:
+
+.. code-block:: python
+
+   /image1.bmp 20
+   /image2.bmp 41
+   /image5.bmp 10
+   /image1.bmp
+
+
+You can include some image file more than once, or not at all - it is your
+choice. The name of your image list must be `imagelist.txt`, all lower case.
+
+Uploading images
+-----------------
+
+
+To upload images, place the staff on a horizontal surface (e.g. on the floor)
+and turn it on. It will briefly light up to show the battery voltage and then
+go into upload mode; to indicate that, every 4th LED should be lighted in light
+green color.
+
+Wait for 20-30 seconds and open  the WiFi search dialog of your computer. You
+should see there a new WiFi network with the name `POVSTAFFXXXX`, where XXXX
+will be replaced by a 4-digit number, unique for each staff. Connect to this
+network, using the password which you can find in the information sheet
+included with your kit; if you misplaced it,
+email `irobotics.store@gmail.com` for help.
+
+
+Type the following address in the URL field of the browser: `http://povstaff.local:8080`
+(note: the staff doesn't support https protocol. If your browser gives you a
+warning about unsecure connection, click on "continue to site".)
+You should see the webpage of the staff, which looks as follows:
+
+.. figure:: images/upload.png
+    :alt: Upload web page
+    :width: 80%
+
+
+
+Drag and drop the image files and the imagelist.txt file to the `file drop area`
+area of the webpage.
+
+You can delete files you no longer need by pressing on  letter 'D' next to the
+filename. You can also edit imagelist.txt file online by clicking on  'E'.
+
+
+
+Once the files have been uploaded, just turn the staff off.

@@ -1,0 +1,5 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C1";"CP_Radial_D6.3mm_P2.50mm";1;"100uF";;;
+2;"J3";"PinSocket_2x03_P2.54mm_Horizontal";1;"Conn_02x03_Counter_Clockwise";;;
+3;"C2";"C_0805_2012Metric";1;"10uF";;;
+4;"J1";"JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical";1;"Conn_01x02";;;

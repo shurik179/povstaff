@@ -1,20 +1,18 @@
-Step 3: LED assemblies
-==============
+Step 2: LED assemblies
+======================
 
-Materials and tools:
+**Materials and tools:**
 
-* Wood dowels (from step 2)
+* Wood dowels with attached PDBs (from step 1)
 
 * LED strips
 
-* 22AWG solid core wire (from kit of parts)
+* 22AWG solid core wire (from bag A in kit of parts)
 
-* Soldering iron
 
-Steps:
+**Steps:**
 
-1. Get the LED strip(s). If they are inside waterproof sheaving, remove and
-   discard the sheaving. If they have any wires soldered, de-solder them; remove
+1. Get the LED strip(s). If they have any wires soldered, de-solder them; remove
    excess solder using a braid wick. If you ordered 1m or 2m strips, cut them into
    50 cm pieces, making sure to leave as large as possible soldering pads in the
    beginning of each strip (this should be easy, as usually longer strips are
@@ -43,23 +41,18 @@ Steps:
        :alt: Soldering wire to LED strip
        :width: 80%
 
-4.  Insert the soldered wires into the holes of the power distribution board you
-    had previously attached to the wood dowels (use the sides without cutouts).
-    Remove the backing paper from the adhesive strip on the back of the LED and
+4.  Remove  the  backing paper from the first 5-10 cm of adhesive strip on the back
+    of the LED. Insert the soldered wires into the holes of the power distribution
+    board you had previously attached to the wood dowels and
     attach the strip to the wood dowel, aligning it so that the
-    end of the strip is about 5mm away from the power distribution board.
+    beginning of the strip is about 5mm away from the power distribution board.
+    Remove the remaining backing paper and attach the strip to the dowel.
 
 5.  Solder the wires to the power distribution board. Trim them using flush cutters.
     Repeat the previous steps for all 4 LED strips, placing two LED strips on
-    each dowel, on opposite sides of the dowel. Try to position the two LED
-    strips on the same dowel so that they are aligned; this will be needed for
-    the next step when you use zipties.
+    each dowel, on opposite sides of the dowel.
 
    .. figure:: images/led-3.jpg
-      :alt: Soldering wire to LED strip
-      :width: 80%
-
-   .. figure:: images/led-4.jpg
       :alt: Soldering wire to LED strip
       :width: 80%
 
