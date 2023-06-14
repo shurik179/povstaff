@@ -1,0 +1,71 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[10pt,letter, landscape]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage[T1]{fontenc}
+\usepackage[scaled=1.0]{helvet}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+
+
+
+\usepackage[newdimens]{labels}
+\LabelCols=3% Number of columns of labels per page
+\LabelRows=2% Number of rows of labels per page
+\LeftPageMargin=8mm% These four parameters give the
+\RightPageMargin=8mm% page gutter sizes. The outer edges of
+\TopPageMargin=8mm% the outer labels are the specified
+\BottomPageMargin=8mm% distances from the edge of the paper.
+\InterLabelColumn=0mm% Gap between columns of labels
+\InterLabelRow=0mm% Gap between rows of labels
+\LeftLabelBorder=6mm% These four parameters give the extra
+\RightLabelBorder=6mm% space used around the text on each
+\TopLabelBorder=6mm% actual label.
+\BottomLabelBorder=6mm%
+\numberoflabels=6
+\LabelInfotrue
+\LabelGridtrue
+
+
+%\renewcommand{\baselinestretch}{1.2}
+
+\begin{document}%
+\genericlabel{%
+\noindent\begin{minipage}{70mm}
+    %\vspace*{-15mm}
+\centerline{\includegraphics[width=30mm]{islandrobotics_color_crop.pdf}}
+\medskip
+\centerline{\Large\bf POV staff  kit V4}
+
+\centerline{\tt{tindie.com/products/21633/}}
+
+\medskip
+
+
+Thank you for your order of POV staff kit! \\ Please visit \quad
+{\tt povstaff.readthedocs.io}
+
+for detailed instructions.
+
+If you have any questions or comments, or need replacement for a part you have misplaced or damaged,  please email us at
+
+\centerline{\tt{irobotics.store@gmail.com}}
+
+%\medskip
+
+To connect to the staff use WiFi network name and password below:
+
+\vspace*{1.1cm}
+
+Best, \\Island Robotics
+
+\end{minipage}
+}
+
+
+\end{document}

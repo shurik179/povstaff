@@ -67,7 +67,7 @@ Step 10: Final assembly
    If everything worked as expected, the charge connector should now be level with the
    opposite end of the tube or several millimeters inside the tube. In the
    latter case, use the included foam washers to fill the rest of the tube.
- 
+
 
 5. Take the 3d printed switch end protector (item 3 in bag F, the one with larger
    opening). For shipping, it might have been placed inside the foam wrap;
@@ -81,7 +81,8 @@ Step 10: Final assembly
    on and off.
 
 7. Put the two pieces of the foam tube over the end protectors so that the foam
-   tube extends beyond the protector by 2-3 mm.
+   tube extends beyond the protector by 2-3 mm. In 2-3 places, put some epoxy (or crazy glue)
+   between the foam and the 3d-printed  end protector. 
 
    .. figure:: images/final-1.jpg
          :alt: Foam tape
