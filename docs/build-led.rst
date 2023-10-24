@@ -10,6 +10,7 @@ Step 2: LED assemblies
 * 22AWG solid core wire (from bag A in kit of parts)
 
 
+
 **Steps:**
 
 1. Get the LED strip(s). If they have any wires soldered, de-solder them; remove
@@ -19,7 +20,13 @@ Step 2: LED assemblies
    created by soldering together 50cm ones, so you will be just undoing someone
    else's work).
 
+
 2. Tin the pads in the beginning of each LED strip.
+   **Warning: LED strips are directed!! in each strip, the signal goes in one
+   direction only, as indicated by the arrows. You should tin the pads in the
+   beginning of the strip, so that arrows go from tinned pads to the opposite
+   end - see photos below.** 
+
 
 3. Solder 2cm long pieces of 22AWG wire to each of the pads. The easiest way to
    do it is as follows:

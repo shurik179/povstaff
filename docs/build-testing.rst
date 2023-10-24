@@ -44,4 +44,10 @@ Turn the switch on (you will have to try both positions to figure out which of t
 The staff should come to life; it will show the battery voltage, by
 lighting part of the LED strips. The longer the strip, the higher the battery charge.
 
+Note: the software uses the motion sensor (IMU). If you turn the staff on while the
+staff (to be precise, the electronics board containing the motion sensor) is horizonal,
+the staff goes into charging mode, so it will show the battery voltage but will not
+show any images. If you want to test images, make switch the staff on holding
+the sensor board vertical. See User guide for details.
+
 If this works, you can turn the staff off and  proceed to the next step. 
