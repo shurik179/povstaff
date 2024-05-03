@@ -38,7 +38,8 @@ https://github.com/shurik179/povstaff/code
 
 const word filemanagerport = 8080;
 const char *ssid = "POVSTAFFXXXX";
-const char *password = "XXXX";
+//when choosing a password, you must use at least 8 symbols
+const char *password = "XXXXXXXX";
 const char *FW_VERSION = "4.1";
 
 // POV Staff details
